@@ -56,7 +56,9 @@ temp_text*.txt
 
 # Reports with potential internal data
 reports/
+!projects/*/reports/
 screenshots/
+!projects/*/screenshots/
 
 # Excel/Word binary files (unless they are templates)
 *.xlsx

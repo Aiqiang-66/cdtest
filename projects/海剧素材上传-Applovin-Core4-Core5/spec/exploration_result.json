@@ -1,0 +1,33 @@
+{
+  "exploration_time": "2026-06-24",
+  "page_url": "https://sc-test.changdu.ltd/task/batch-upload-video",
+  "tool": "agent-browser 0.27.0",
+  "login_status": "success",
+  "login_user": "艾强 (240017)",
+  "environment": "dev (test1)",
+  "page_loaded": true,
+  "elements_discovered": {
+    "project": {"type": "combobox", "value": "海剧", "editable": false, "status": "disabled"},
+    "fission_is_free": {"type": "radio", "value": "否", "editable": false, "status": "disabled"},
+    "fission_45": {"type": "checkbox", "name": "裂变45", "checked": true},
+    "media": {"type": "combobox", "default": "Facebook", "options": ["Facebook","TikTok","Google","Moloco","Applovin","Snapchat","Mintegral"], "status": "required,default=Facebook", "note": "需要先点击清除按钮取消Facebook后才能选择其他媒体"},
+    "core": {"type": "radio_group", "options": ["Core1","Core4","Core5","Core18","Core23"], "default": "Core1"},
+    "type": {"type": "combobox", "default": "视频", "status": "disabled(联动媒体)", "options_note": "选择Applovin后变为enabled,可选'图片'"},
+    "drama_code": {"type": "combobox", "placeholder": "支持搜索", "status": "required"},
+    "tag_l1": {"type": "combobox", "placeholder": "请选择类型", "status": "required"},
+    "tag_l2": {"type": "combobox", "placeholder": "请选择类型", "status": "disabled(联动一级标签)"},
+    "upload_zone": {"type": "upload", "current_mode": "视频", "restriction": "仅支持 video/mp4, 尺寸:916/45", "note": "切换图片模式后限制变化"}
+  },
+  "pending_discovery": {
+    "gif_png_selector": "未发现 — 需要先切换 Applovin+图片 后才能暴露",
+    "get_h5_button": "未发现 — 需要 GIF/PNG选择器可见后出现",
+    "drawer_component": "未触发 — 需要生成完成后出现"
+  },
+  "key_findings": [
+    "Core Radio: Core1/Core4/Core5/Core18/Core23 五个选项全部就绪",
+    "媒体: Facebook默认选中，需先清除再选其他",
+    "类型联动: 当前disabled，切换Applovin后应变为enabled",
+    "Ant Design Select 交互: agent-browser click 无法正确触发 rc-select 的 onChange，需用 fill+Enter 组合",
+    "会话保持: Chrome Profile 未持久化，close 后需重新登录"
+  ]
+}
