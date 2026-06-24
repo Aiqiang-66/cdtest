@@ -1,0 +1,11 @@
+======================================================================
+  错误片段对比 #05  |  3
+  时间轴: 00:00:33,598 --> 00:00:38,309
+======================================================================
+
+【翻译文本(参考)】
+  He had once broken a man's fingers, just for looking at me the wrong way in a club.
+
+【SRT文本(ASR识别)】
+  He had once broken a man's fingers just for looking at me the wrong way in a club.
+

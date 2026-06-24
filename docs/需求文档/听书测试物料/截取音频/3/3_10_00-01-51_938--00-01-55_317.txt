@@ -1,0 +1,11 @@
+======================================================================
+  错误片段对比 #10  |  3
+  时间轴: 00:01:51,938 --> 00:01:55,317
+======================================================================
+
+【翻译文本(参考)】
+  I waited until Ethan left for a sit down with the Russians.
+
+【SRT文本(ASR识别)】
+  I waited until Ethan left for a sit-down with the Russians.
+

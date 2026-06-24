@@ -1,0 +1,21 @@
+{
+  "page_url": "https://login-test.changdu.ltd/net?callback=https%3A%2F%2Fsc-test.changdu.ltd%2Flogin&project=sc",
+  "page_title": "畅读统一登录",
+  "inputs": [
+    {
+      "type": "radio",
+      "name": ":r1:",
+      "placeholder": null
+    },
+    {
+      "type": "radio",
+      "name": ":r1:",
+      "placeholder": null
+    }
+  ],
+  "buttons": [],
+  "labels": [
+    "工号登录",
+    "钉钉登录"
+  ]
+}

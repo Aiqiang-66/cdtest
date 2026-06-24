@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TC-VM-026",
+    "name": "视频混剪-确认并上传按钮(未选媒体时disabled)",
+    "module": "视频混剪",
+    "type": "功能",
+    "priority": "P1",
+    "precondition": "已登录",
+    "steps": "1.不勾选任何媒体 2.查看确认并上传按钮状态 3.勾选一个媒体 4.查看按钮状态",
+    "expected": "未选媒体时按钮disabled，勾选后变为可用",
+    "test_data": "",
+    "verification": "UI✅"
+  },
+  {
+    "id": "TC-VM-027",
+    "name": "视频混剪-三级标签字数限制(100字)",
+    "module": "视频混剪",
+    "type": "边界值",
+    "priority": "P2",
+    "precondition": "已登录",
+    "steps": "1.输入100个字符 2.尝试输入第101个字符",
+    "expected": "最多输入100字符，超出限制",
+    "test_data": "100字符文本",
+    "verification": "UI✅"
+  },
+  {
+    "id": "TC-VM-028",
+    "name": "视频混剪-集数范围校验(开始>结束)",
+    "module": "视频混剪",
+    "type": "异常流程",
+    "priority": "P2",
+    "precondition": "已登录",
+    "steps": "1.输入开始集数=10 2.输入结束集数=1 3.点击确认生成",
+    "expected": "提示集数范围不合法",
+    "test_data": "开始=10, 结束=1",
+    "verification": "UI✅"
+  },
+  {
+    "id": "TC-VM-029",
+    "name": "视频混剪-混剪类型切换验证",
+    "module": "视频混剪",
+    "type": "功能",
+    "priority": "P2",
+    "precondition": "已登录",
+    "steps": "1.默认拼接 2.切换到高光前置混剪 3.切换到高光顺拼混剪 4.切回拼接",
+    "expected": "三种类型可正常切换",
+    "test_data": "",
+    "verification": "UI✅"
+  },
+  {
+    "id": "TC-VM-030",
+    "name": "左侧菜单-导航到自动化任务和审核列表",
+    "module": "导航",
+    "type": "功能",
+    "priority": "P1",
+    "precondition": "已登录",
+    "steps": "1.点击自动化任务菜单 2.确认页面跳转 3.点击审核列表菜单 4.确认页面跳转",
+    "expected": "菜单导航正常",
+    "test_data": "",
+    "verification": "UI✅"
+  }
+]

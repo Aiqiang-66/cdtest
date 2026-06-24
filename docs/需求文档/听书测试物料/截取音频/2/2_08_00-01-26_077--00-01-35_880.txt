@@ -1,0 +1,11 @@
+======================================================================
+  错误片段对比 #08  |  2
+  时间轴: 00:01:26,077 --> 00:01:35,880
+======================================================================
+
+【翻译文本(参考)】
+  The shipment from the docks is secure, Capo Rossi said, his voice trembling slightly. Profits are up twelve percent this quarter. I didn't grant him the dignity of eye contact.
+
+【SRT文本(ASR识别)】
+  "The shipment from the docks is secure," Capo Rossi said, his voice trembling slightly. "Profits are up twelve percent this quarter. " I didn't grant him the dignity of eye contact.
+

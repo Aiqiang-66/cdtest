@@ -1,0 +1,21 @@
+{
+  "test_suite": "口播混剪UI全功能测试",
+  "version": "1.0",
+  "created": "2026-05-25",
+  "platform": "Web",
+  "environment": "test1",
+  "test_account": "240017",
+  "test_cases": [
+    {"id": "TC-OM-001", "name": "Core1+男声+手动BGM+FB媒体+确认生成", "module": "口播混剪", "type": "功能", "priority": "P0", "steps": "1.选择剧集代号 2.选Core1 3.填集数1-10 4.选男声 5.选手动BGM 6.选FB媒体 7.点确认生成", "expected": "任务提交成功", "verification": "UI"},
+    {"id": "TC-OM-002", "name": "Core4+女声+随机BGM+TT媒体+确认生成", "module": "口播混剪", "type": "功能", "priority": "P0", "steps": "1.选剧集代号 2.选Core4 3.填集数1-8 4.选女声 5.选随机BGM 6.选TT媒体 7.点确认生成", "expected": "任务提交成功", "verification": "UI"},
+    {"id": "TC-OM-003", "name": "Core5+全媒体选择+确认生成", "module": "口播混剪", "type": "功能", "priority": "P0", "steps": "1.选剧集代号 2.选Core5 3.配置参数 4.选全部6个媒体 5.点确认生成", "expected": "全媒体任务提交成功", "verification": "UI"},
+    {"id": "TC-OM-004", "name": "Core18+Snapchat+确认生成", "module": "口播混剪", "type": "功能", "priority": "P0", "steps": "1.选剧集代号 2.选Core18 3.配置参数 4.选Snapchat 5.点确认生成", "expected": "任务提交成功", "verification": "UI"},
+    {"id": "TC-OM-005", "name": "生成文案按钮功能", "module": "口播混剪", "type": "功能", "priority": "P1", "steps": "1.选Core1 2.点击生成文案", "expected": "文案区域生成内容", "verification": "UI"},
+    {"id": "TC-OM-006", "name": "媒体全选/反选/取消操作", "module": "口播混剪", "type": "功能", "priority": "P1", "steps": "1.点击全选 2.点击反选 3.点击取消", "expected": "三个操作均正常响应", "verification": "UI"},
+    {"id": "TC-OM-007", "name": "Core切换联动-集数范围状态", "module": "口播混剪", "type": "功能", "priority": "P1", "steps": "1.检查未选Core时集数范围状态 2.选Core1 3.检查集数范围状态", "expected": "选Core后集数范围变为可编辑", "verification": "UI"},
+    {"id": "TC-OM-008", "name": "口播音频切换(男声/女声)", "module": "口播混剪", "type": "功能", "priority": "P1", "steps": "1.点击男声 2.点击女声", "expected": "切换正常", "verification": "UI"},
+    {"id": "TC-OM-009", "name": "BGM切换(手动选择/随机匹配通用)", "module": "口播混剪", "type": "功能", "priority": "P2", "steps": "1.选手动BGM 2.选随机BGM", "expected": "切换正常", "verification": "UI"},
+    {"id": "TC-OM-010", "name": "必填项校验-未选剧集直接提交", "module": "口播混剪", "type": "异常流程", "priority": "P2", "steps": "1.不选任何字段 2.点确认生成", "expected": "前端校验提示", "verification": "UI"},
+    {"id": "TC-OM-011", "name": "生成数量边界值-大数值", "module": "口播混剪", "type": "边界值", "priority": "P2", "steps": "1.选Core1 2.输入生成数量999", "expected": "接受输入或限制提示", "verification": "UI"}
+  ]
+}

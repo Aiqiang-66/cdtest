@@ -1,0 +1,18 @@
+======================================================================
+  错误片段对比 #12  |  2
+  时间轴: 00:02:06,017 --> 00:02:12,581
+======================================================================
+
+【翻译文本(参考)】
+  Her clothes were still missing, but I kept her art studio exactly as she left it.
+
+【SRT文本(ASR识别)】
+  Her clothes were still missing, but I kept her art studio exactly as she left it.White.Empty.Sterile.
+
+【差异词详情】(共 3 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  white               
+  多余     (空)                  empty               
+  多余     (空)                  sterile             

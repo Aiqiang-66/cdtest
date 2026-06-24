@@ -1,0 +1,23 @@
+======================================================================
+  错误片段对比 #11  |  2
+  时间轴: 00:01:55,463 --> 00:02:03,453
+======================================================================
+
+【翻译文本(参考)】
+  The city sprawled out below me, a grid of glittering lights and concrete. I owned this city, yet every night I went home to a mausoleum.
+
+【SRT文本(ASR识别)】
+  The city sprawled out below me, a grid of glittering lights and concrete.I owned this city. Yet, every night, I went home to a mausoleum.
+
+【差异词详情】(共 8 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  i                   
+  多余     (空)                  owned               
+  多余     (空)                  this                
+  多余     (空)                  city                
+  缺少     i                    (空)                 
+  缺少     owned                (空)                 
+  缺少     this                 (空)                 
+  缺少     city                 (空)                 

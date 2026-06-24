@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TC-OM-025",
+    "status": "PASS",
+    "msg": "确认生成disabled=False, 确认并上传disabled=True",
+    "time": "2026-06-02T14:27:29.299116"
+  },
+  {
+    "id": "TC-OM-026",
+    "status": "PASS",
+    "msg": "口播最小时长=30",
+    "time": "2026-06-02T14:27:29.302693"
+  },
+  {
+    "id": "TC-OM-027",
+    "status": "PASS",
+    "msg": "生成数量默认值=1",
+    "time": "2026-06-02T14:27:29.306375"
+  },
+  {
+    "id": "TC-OM-010",
+    "status": "PASS",
+    "msg": "校验提示=True",
+    "time": "2026-06-02T14:27:31.363454"
+  },
+  {
+    "id": "TC-OM-007",
+    "status": "PASS",
+    "msg": "初始disabled=True, 选Core后=True, 取消后=True",
+    "time": "2026-06-02T14:27:33.464684"
+  },
+  {
+    "id": "TC-OM-008",
+    "status": "SKIP",
+    "msg": "男声/女声radio未找到",
+    "time": "2026-06-02T14:27:33.466249"
+  },
+  {
+    "id": "TC-OM-009",
+    "status": "PASS",
+    "msg": "BGM切换完成",
+    "time": "2026-06-02T14:27:34.569710"
+  },
+  {
+    "id": "TC-OM-006",
+    "status": "PASS",
+    "msg": "全选/反选/取消操作完成",
+    "time": "2026-06-02T14:27:36.201171"
+  },
+  {
+    "id": "TC-OM-016",
+    "status": "PASS",
+    "msg": "开关切换完成",
+    "time": "2026-06-02T14:27:37.331135"
+  },
+  {
+    "id": "TC-OM-011",
+    "status": "PASS",
+    "msg": "边界值输入测试完成",
+    "time": "2026-06-02T14:27:39.056349"
+  },
+  {
+    "id": "TC-OM-005",
+    "status": "PASS",
+    "msg": "文案区域有内容=True",
+    "time": "2026-06-02T14:27:42.644209"
+  },
+  {
+    "id": "TC-OM-018",
+    "status": "PASS",
+    "msg": "任务列表数据行=3, 分页存在=False",
+    "time": "2026-06-02T14:27:45.935164"
+  },
+  {
+    "id": "TC-OM-019",
+    "status": "SKIP",
+    "msg": "下一页按钮不存在",
+    "time": "2026-06-02T14:27:45.936931"
+  },
+  {
+    "id": "TC-OM-022",
+    "status": "PASS",
+    "msg": "审核列表数据行=0",
+    "time": "2026-06-02T14:27:49.209582"
+  },
+  {
+    "id": "TC-OM-001",
+    "status": "FAIL",
+    "msg": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".el-select__input, .ant-s",
+    "time": "2026-06-02T14:28:22.816337"
+  }
+]

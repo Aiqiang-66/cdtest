@@ -1,0 +1,27 @@
+======================================================================
+  错误片段对比 #04  |  2
+  时间轴: 00:00:43,310 --> 00:00:48,944
+======================================================================
+
+【翻译文本(参考)】
+  For the first time in twenty years, I pulled the pillow over my face and screamed.
+
+【SRT文本(ASR识别)】
+  For the first time in twenty years, I pulled the pillow over my face and screamed.Chapter 18 Ethan Bruce POV Two years.Seven hundred and thirty days.
+
+【差异词详情】(共 12 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  chapter             
+  多余     (空)                  18                  
+  多余     (空)                  ethan               
+  多余     (空)                  bruce               
+  多余     (空)                  pov                 
+  多余     (空)                  two                 
+  多余     (空)                  years               
+  多余     (空)                  seven               
+  多余     (空)                  hundred             
+  多余     (空)                  and                 
+  多余     (空)                  thirty              
+  多余     (空)                  days                

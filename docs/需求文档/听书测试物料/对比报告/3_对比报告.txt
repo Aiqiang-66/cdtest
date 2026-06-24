@@ -1,0 +1,746 @@
+================================================================================
+  逐段对比报告: 3
+  SRT(ASR识别) vs 翻译文本(人工参考)
+================================================================================
+
+【整体统计】
+  翻译文本词数: 517
+  SRT词数:      516
+  错误总数:     11
+  替换: 8  删除: 2  插入: 1
+  词准确率:     97.87%
+  WER:          2.13%
+
+================================================================================
+  逐段对比详情
+================================================================================
+
+图例: [=] 一致  [~] 有差异  [+] 仅翻译文本有  [-] 仅SRT有
+
+--- 段落 1 [~] 有差异 | 00:00:00,000 --> 00:00:01,183 | 本段准确率: 0.0% ---
+  【翻译文本】: Cross check eight.
+  【SRT文本】  : CrossCheck 8.
+  差异词:
+    [缺少] 翻译文本='cross' -> SRT=''
+    [替换] 翻译文本='check' -> SRT='crosscheck'
+    [替换] 翻译文本='eight' -> SRT='8'
+
+--- 段落 2 [~] 有差异 | 00:00:01,183 --> 00:00:05,812 | 本段准确率: 70.0% ---
+  【翻译文本】: If the cops get involved, they will dig into everything.
+  【SRT文本】  : "If the cops get involved, they will dig into everything, Aurora.The business.
+  差异词:
+    [多余] 翻译文本='' -> SRT='aurora'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='business'
+
+--- 段落 3 [~] 有差异 | 00:00:05,812 --> 00:00:07,202 | 本段准确率: 50.0% ---
+  【翻译文本】: Aurora, the business, the offshore accounts.
+  【SRT文本】  : The offshore accounts.
+  差异词:
+    [缺少] 翻译文本='aurora' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='business' -> SRT=''
+
+--- 段落 4 [=] 一致 | 00:00:07,202 --> 00:00:10,693 ---
+  翻译文本: You would bring down the entire empire over a domestic accident.
+  SRT文本:   You would bring down the entire empire over a domestic accident.
+
+--- 段落 5 [~] 有差异 | 00:00:10,693 --> 00:00:15,619 | 本段准确率: -550.0% ---
+  【翻译文本】: Domestic accident.
+  【SRT文本】  : " Domestic accident.That's what I was to him now.An inconvenience.A loose end.
+  差异词:
+    [多余] 翻译文本='' -> SRT='that'
+    [多余] 翻译文本='' -> SRT='s'
+    [多余] 翻译文本='' -> SRT='what'
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='was'
+    [多余] 翻译文本='' -> SRT='to'
+    [多余] 翻译文本='' -> SRT='him'
+    [多余] 翻译文本='' -> SRT='now'
+    [多余] 翻译文本='' -> SRT='an'
+    [多余] 翻译文本='' -> SRT='inconvenience'
+    [多余] 翻译文本='' -> SRT='a'
+    [多余] 翻译文本='' -> SRT='loose'
+    [多余] 翻译文本='' -> SRT='end'
+
+--- 段落 6 [~] 有差异 | 00:00:15,619 --> 00:00:17,158 | 本段准确率: 0.0% ---
+  【翻译文本】: That's what I was to him now, an inconvenience, a loose end.
+  【SRT文本】  : "Give me the phone, Ethan.
+  差异词:
+    [缺少] 翻译文本='that' -> SRT=''
+    [缺少] 翻译文本='s' -> SRT=''
+    [缺少] 翻译文本='what' -> SRT=''
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='was' -> SRT=''
+    [缺少] 翻译文本='to' -> SRT=''
+    [缺少] 翻译文本='him' -> SRT=''
+    [缺少] 翻译文本='now' -> SRT=''
+    [替换] 翻译文本='an' -> SRT='give'
+    [替换] 翻译文本='inconvenience' -> SRT='me'
+    [替换] 翻译文本='a' -> SRT='the'
+    [替换] 翻译文本='loose' -> SRT='phone'
+    [替换] 翻译文本='end' -> SRT='ethan'
+
+--- 段落 7 [~] 有差异 | 00:00:17,158 --> 00:00:18,567 | 本段准确率: -20.0% ---
+  【翻译文本】: Give me the phone, Ethan.
+  【SRT文本】  : " He didn't hand it over.
+  差异词:
+    [多余] 翻译文本='' -> SRT='he'
+    [替换] 翻译文本='give' -> SRT='didn'
+    [替换] 翻译文本='me' -> SRT='t'
+    [替换] 翻译文本='the' -> SRT='hand'
+    [替换] 翻译文本='phone' -> SRT='it'
+    [替换] 翻译文本='ethan' -> SRT='over'
+
+--- 段落 8 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: He didn't hand it over.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='he' -> SRT=''
+    [缺少] 翻译文本='didn' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='hand' -> SRT=''
+    [缺少] 翻译文本='it' -> SRT=''
+    [替换] 翻译文本='over' -> SRT='无对应'
+
+--- 段落 9 [=] 一致 | 00:00:18,567 --> 00:00:23,041 ---
+  翻译文本: Instead, he yanked the cord out of the wall, plaster dust falling to the floor.
+  SRT文本:   Instead, he yanked the cord out of the wall, plaster dust falling to the floor.
+
+--- 段落 10 [~] 有差异 | 00:00:23,041 --> 00:00:24,293 | 本段准确率: 100.0% ---
+  【翻译文本】: You are hysterical.
+  【SRT文本】  : "You are hysterical.
+
+--- 段落 11 [=] 一致 | 00:00:24,293 --> 00:00:25,933 ---
+  翻译文本: It's the concussion talking.
+  SRT文本:   It's the concussion talking.
+
+--- 段落 12 [~] 有差异 | 00:00:25,933 --> 00:00:28,614 | 本段准确率: 100.0% ---
+  【翻译文本】: He shoved the disconnected phone into his pocket.
+  【SRT文本】  : " He shoved the disconnected phone into his pocket.
+
+--- 段落 13 [=] 一致 | 00:00:28,614 --> 00:00:31,468 ---
+  翻译文本: I stared at him, trying to find the man I married.
+  SRT文本:   I stared at him, trying to find the man I married.
+
+--- 段落 14 [=] 一致 | 00:00:31,468 --> 00:00:33,598 ---
+  翻译文本: This man had killed for me before.
+  SRT文本:   This man had killed for me before.
+
+--- 段落 15 [~] 有差异 | 00:00:33,598 --> 00:00:38,309 | 本段准确率: 100.0% ---
+  【翻译文本】: He had once broken a man's fingers, just for looking at me the wrong way in a club.
+  【SRT文本】  : He had once broken a man's fingers just for looking at me the wrong way in a club.
+
+--- 段落 16 [=] 一致 | 00:00:38,309 --> 00:00:43,592 ---
+  翻译文本: But when the threat came from inside his own house, born of his own sins, he was paralyzed.
+  SRT文本:   But when the threat came from inside his own house, born of his own sins, he was paralyzed.
+
+--- 段落 17 [~] 有差异 | 00:00:43,592 --> 00:00:47,314 | 本段准确率: -75.0% ---
+  【翻译文本】: You are my husband.
+  【SRT文本】  : "You are my husband," I whispered, the word tasting like ash.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='whispered'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='word'
+    [多余] 翻译文本='' -> SRT='tasting'
+    [多余] 翻译文本='' -> SRT='like'
+    [多余] 翻译文本='' -> SRT='ash'
+
+--- 段落 18 [~] 有差异 | 00:00:47,314 --> 00:00:48,804 | 本段准确率: 0.0% ---
+  【翻译文本】: I whispered, the word tasting like ash.
+  【SRT文本】  : "You swore to protect me.
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='whispered' -> SRT=''
+    [替换] 翻译文本='the' -> SRT='you'
+    [替换] 翻译文本='word' -> SRT='swore'
+    [替换] 翻译文本='tasting' -> SRT='to'
+    [替换] 翻译文本='like' -> SRT='protect'
+    [替换] 翻译文本='ash' -> SRT='me'
+
+--- 段落 19 [~] 有差异 | 00:00:48,804 --> 00:00:52,842 | 本段准确率: -120.0% ---
+  【翻译文本】: You swore to protect me.
+  【SRT文本】  : " "I am protecting you," he said, his voice flat, devoid of warmth.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='am'
+    [多余] 翻译文本='' -> SRT='protecting'
+    [多余] 翻译文本='' -> SRT='he'
+    [多余] 翻译文本='' -> SRT='said'
+    [多余] 翻译文本='' -> SRT='his'
+    [多余] 翻译文本='' -> SRT='voice'
+    [替换] 翻译文本='swore' -> SRT='flat'
+    [替换] 翻译文本='to' -> SRT='devoid'
+    [替换] 翻译文本='protect' -> SRT='of'
+    [替换] 翻译文本='me' -> SRT='warmth'
+
+--- 段落 20 [~] 有差异 | 00:00:52,842 --> 00:00:55,967 | 本段准确率: -100.0% ---
+  【翻译文本】: I am protecting you, Ethan.
+  【SRT文本】  : "I have guards posted outside the door.No one gets in.
+  差异词:
+    [多余] 翻译文本='' -> SRT='have'
+    [多余] 翻译文本='' -> SRT='guards'
+    [多余] 翻译文本='' -> SRT='posted'
+    [多余] 翻译文本='' -> SRT='outside'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='door'
+    [替换] 翻译文本='am' -> SRT='no'
+    [替换] 翻译文本='protecting' -> SRT='one'
+    [替换] 翻译文本='you' -> SRT='gets'
+    [替换] 翻译文本='ethan' -> SRT='in'
+
+--- 段落 21 [~] 有差异 | 00:00:55,967 --> 00:00:57,590 | 本段准确率: 0.0% ---
+  【翻译文本】: His voice flat, devoid of warmth.
+  【SRT文本】  : " "Except you," I said.
+  差异词:
+    [缺少] 翻译文本='his' -> SRT=''
+    [缺少] 翻译文本='voice' -> SRT=''
+    [替换] 翻译文本='flat' -> SRT='except'
+    [替换] 翻译文本='devoid' -> SRT='you'
+    [替换] 翻译文本='of' -> SRT='i'
+    [替换] 翻译文本='warmth' -> SRT='said'
+
+--- 段落 22 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I have guards posted outside the door.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='have' -> SRT=''
+    [缺少] 翻译文本='guards' -> SRT=''
+    [缺少] 翻译文本='posted' -> SRT=''
+    [缺少] 翻译文本='outside' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [替换] 翻译文本='door' -> SRT='无对应'
+
+--- 段落 23 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: No one gets in, except you.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='no' -> SRT=''
+    [缺少] 翻译文本='one' -> SRT=''
+    [缺少] 翻译文本='gets' -> SRT=''
+    [缺少] 翻译文本='in' -> SRT=''
+    [缺少] 翻译文本='except' -> SRT=''
+    [替换] 翻译文本='you' -> SRT='无对应'
+
+--- 段落 24 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I said.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [替换] 翻译文本='said' -> SRT='无对应'
+
+--- 段落 25 [=] 一致 | 00:00:57,590 --> 00:00:59,479 ---
+  翻译文本: A muscle feathered in his jaw.
+  SRT文本:   A muscle feathered in his jaw.
+
+--- 段落 26 [=] 一致 | 00:00:59,479 --> 00:01:01,261 ---
+  翻译文本: He flinched, just barely.
+  SRT文本:   He flinched, just barely.
+
+--- 段落 27 [~] 有差异 | 00:01:01,261 --> 00:01:07,337 | 本段准确率: -275.0% ---
+  【翻译文本】: I need to go.
+  【SRT文本】  : "I need to go," he said, straightening his jacket, adjusting his cuffs as if this were a business transaction.
+  差异词:
+    [多余] 翻译文本='' -> SRT='he'
+    [多余] 翻译文本='' -> SRT='said'
+    [多余] 翻译文本='' -> SRT='straightening'
+    [多余] 翻译文本='' -> SRT='his'
+    [多余] 翻译文本='' -> SRT='jacket'
+    [多余] 翻译文本='' -> SRT='adjusting'
+    [多余] 翻译文本='' -> SRT='his'
+    [多余] 翻译文本='' -> SRT='cuffs'
+    [多余] 翻译文本='' -> SRT='as'
+    [多余] 翻译文本='' -> SRT='if'
+    [多余] 翻译文本='' -> SRT='this'
+    [多余] 翻译文本='' -> SRT='were'
+    [多余] 翻译文本='' -> SRT='a'
+    [多余] 翻译文本='' -> SRT='business'
+    [多余] 翻译文本='' -> SRT='transaction'
+
+--- 段落 28 [~] 有差异 | 00:01:07,337 --> 00:01:11,015 | 本段准确率: 0.0% ---
+  【翻译文本】: He said, straightening his jacket, adjusting his cuffs, as if this were a business transaction.
+  【SRT文本】  : "The Commission is asking questions about the ambulance dispatch.
+  差异词:
+    [缺少] 翻译文本='he' -> SRT=''
+    [缺少] 翻译文本='said' -> SRT=''
+    [缺少] 翻译文本='straightening' -> SRT=''
+    [缺少] 翻译文本='his' -> SRT=''
+    [缺少] 翻译文本='jacket' -> SRT=''
+    [缺少] 翻译文本='adjusting' -> SRT=''
+    [替换] 翻译文本='his' -> SRT='the'
+    [替换] 翻译文本='cuffs' -> SRT='commission'
+    [替换] 翻译文本='as' -> SRT='is'
+    [替换] 翻译文本='if' -> SRT='asking'
+    [替换] 翻译文本='this' -> SRT='questions'
+    [替换] 翻译文本='were' -> SRT='about'
+    [替换] 翻译文本='a' -> SRT='the'
+    [替换] 翻译文本='business' -> SRT='ambulance'
+    [替换] 翻译文本='transaction' -> SRT='dispatch'
+
+--- 段落 29 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: The commission is asking questions about the ambulance dispatch.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='commission' -> SRT=''
+    [缺少] 翻译文本='is' -> SRT=''
+    [缺少] 翻译文本='asking' -> SRT=''
+    [缺少] 翻译文本='questions' -> SRT=''
+    [缺少] 翻译文本='about' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='ambulance' -> SRT=''
+    [替换] 翻译文本='dispatch' -> SRT='无对应'
+
+--- 段落 30 [=] 一致 | 00:01:11,015 --> 00:01:13,383 ---
+  翻译文本: I have to spin this before it gets out of hand.
+  SRT文本:   I have to spin this before it gets out of hand.
+
+--- 段落 31 [~] 有差异 | 00:01:13,383 --> 00:01:15,793 | 本段准确率: 85.71% ---
+  【翻译文本】: He turned and walked to the door.
+  【SRT文本】  : " He turned and walked to the door."Ethan.
+  差异词:
+    [多余] 翻译文本='' -> SRT='ethan'
+
+--- 段落 32 [~] 有差异 | 00:01:15,793 --> 00:01:18,665 | 本段准确率: -800.0% ---
+  【翻译文本】: Ethan.
+  【SRT文本】  : " He stopped, his hand hovering over the brass knob.
+  差异词:
+    [多余] 翻译文本='' -> SRT='he'
+    [多余] 翻译文本='' -> SRT='stopped'
+    [多余] 翻译文本='' -> SRT='his'
+    [多余] 翻译文本='' -> SRT='hand'
+    [多余] 翻译文本='' -> SRT='hovering'
+    [多余] 翻译文本='' -> SRT='over'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='brass'
+    [替换] 翻译文本='ethan' -> SRT='knob'
+
+--- 段落 33 [~] 有差异 | 00:01:18,665 --> 00:01:21,218 | 本段准确率: -400.0% ---
+  【翻译文本】: He stopped.
+  【SRT文本】  : "If you walk out that door, don't come back.
+  差异词:
+    [多余] 翻译文本='' -> SRT='if'
+    [多余] 翻译文本='' -> SRT='you'
+    [多余] 翻译文本='' -> SRT='walk'
+    [多余] 翻译文本='' -> SRT='out'
+    [多余] 翻译文本='' -> SRT='that'
+    [多余] 翻译文本='' -> SRT='door'
+    [多余] 翻译文本='' -> SRT='don'
+    [多余] 翻译文本='' -> SRT='t'
+    [替换] 翻译文本='he' -> SRT='come'
+    [替换] 翻译文本='stopped' -> SRT='back'
+
+--- 段落 34 [~] 有差异 | 00:01:21,218 --> 00:01:23,269 | 本段准确率: 0.0% ---
+  【翻译文本】: His hand hovering over the brass knob.
+  【SRT文本】  : " He didn't turn around."Rest, Aurora.
+  差异词:
+    [替换] 翻译文本='his' -> SRT='he'
+    [替换] 翻译文本='hand' -> SRT='didn'
+    [替换] 翻译文本='hovering' -> SRT='t'
+    [替换] 翻译文本='over' -> SRT='turn'
+    [替换] 翻译文本='the' -> SRT='around'
+    [替换] 翻译文本='brass' -> SRT='rest'
+    [替换] 翻译文本='knob' -> SRT='aurora'
+
+--- 段落 35 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: If you walk out that door, don't come back.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='if' -> SRT=''
+    [缺少] 翻译文本='you' -> SRT=''
+    [缺少] 翻译文本='walk' -> SRT=''
+    [缺少] 翻译文本='out' -> SRT=''
+    [缺少] 翻译文本='that' -> SRT=''
+    [缺少] 翻译文本='door' -> SRT=''
+    [缺少] 翻译文本='don' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='come' -> SRT=''
+    [替换] 翻译文本='back' -> SRT='无对应'
+
+--- 段落 36 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: He didn't turn around.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='he' -> SRT=''
+    [缺少] 翻译文本='didn' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='turn' -> SRT=''
+    [替换] 翻译文本='around' -> SRT='无对应'
+
+--- 段落 37 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: He asked.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='he' -> SRT=''
+    [替换] 翻译文本='asked' -> SRT='无对应'
+
+--- 段落 38 [=] 一致 | 00:01:23,269 --> 00:01:25,064 ---
+  翻译文本: We will talk when you are rational.
+  SRT文本:   We will talk when you are rational.
+
+--- 段落 39 [~] 有差异 | 00:01:25,064 --> 00:01:26,322 | 本段准确率: 100.0% ---
+  【翻译文本】: The door clicked shut.
+  【SRT文本】  : " The door clicked shut.
+
+--- 段落 40 [~] 有差异 | 00:01:26,322 --> 00:01:32,623 | 本段准确率: 46.15% ---
+  【翻译文本】: The silence that followed was heavier than the plaster cast on my leg.
+  【SRT文本】  : The silence that followed was heavier than the plaster cast on my leg.It was suffocating.He chose her.Again.
+  差异词:
+    [多余] 翻译文本='' -> SRT='it'
+    [多余] 翻译文本='' -> SRT='was'
+    [多余] 翻译文本='' -> SRT='suffocating'
+    [多余] 翻译文本='' -> SRT='he'
+    [多余] 翻译文本='' -> SRT='chose'
+    [多余] 翻译文本='' -> SRT='her'
+    [多余] 翻译文本='' -> SRT='again'
+
+--- 段落 41 [~] 有差异 | 00:01:32,623 --> 00:01:40,619 | 本段准确率: -700.0% ---
+  【翻译文本】: It was suffocating.
+  【SRT文本】  : And in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died.I didn't cry.
+  差异词:
+    [多余] 翻译文本='' -> SRT='and'
+    [多余] 翻译文本='' -> SRT='in'
+    [多余] 翻译文本='' -> SRT='that'
+    [多余] 翻译文本='' -> SRT='crushing'
+    [多余] 翻译文本='' -> SRT='silence'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='last'
+    [多余] 翻译文本='' -> SRT='flickering'
+    [多余] 翻译文本='' -> SRT='ember'
+    [多余] 翻译文本='' -> SRT='of'
+    [多余] 翻译文本='' -> SRT='love'
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='held'
+    [多余] 翻译文本='' -> SRT='for'
+    [多余] 翻译文本='' -> SRT='ethan'
+    [多余] 翻译文本='' -> SRT='bruce'
+    [多余] 翻译文本='' -> SRT='finally'
+    [多余] 翻译文本='' -> SRT='sputtered'
+    [多余] 翻译文本='' -> SRT='and'
+    [多余] 翻译文本='' -> SRT='died'
+    [多余] 翻译文本='' -> SRT='i'
+    [替换] 翻译文本='it' -> SRT='didn'
+    [替换] 翻译文本='was' -> SRT='t'
+    [替换] 翻译文本='suffocating' -> SRT='cry'
+
+--- 段落 42 [~] 有差异 | 00:01:40,619 --> 00:01:44,877 | 本段准确率: 4.17% ---
+  【翻译文本】: He chose her again, and in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died.
+  【SRT文本】  : Soldiers don't weep on the battlefield.And I was at war.Chapter 6 I waited three days.
+  差异词:
+    [缺少] 翻译文本='he' -> SRT=''
+    [缺少] 翻译文本='chose' -> SRT=''
+    [缺少] 翻译文本='her' -> SRT=''
+    [缺少] 翻译文本='again' -> SRT=''
+    [替换] 翻译文本='and' -> SRT='soldiers'
+    [替换] 翻译文本='in' -> SRT='don'
+    [替换] 翻译文本='that' -> SRT='t'
+    [替换] 翻译文本='crushing' -> SRT='weep'
+    [替换] 翻译文本='silence' -> SRT='on'
+    [缺少] 翻译文本='last' -> SRT=''
+    [缺少] 翻译文本='flickering' -> SRT=''
+    [替换] 翻译文本='ember' -> SRT='battlefield'
+    [替换] 翻译文本='of' -> SRT='and'
+    [替换] 翻译文本='love' -> SRT='i'
+    [替换] 翻译文本='i' -> SRT='was'
+    [替换] 翻译文本='held' -> SRT='at'
+    [替换] 翻译文本='for' -> SRT='war'
+    [替换] 翻译文本='ethan' -> SRT='chapter'
+    [替换] 翻译文本='bruce' -> SRT='6'
+    [替换] 翻译文本='finally' -> SRT='i'
+    [替换] 翻译文本='sputtered' -> SRT='waited'
+    [替换] 翻译文本='and' -> SRT='three'
+    [替换] 翻译文本='died' -> SRT='days'
+
+--- 段落 43 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I didn't cry.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='didn' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [替换] 翻译文本='cry' -> SRT='无对应'
+
+--- 段落 44 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Soldiers don't weep on the battlefield, and I was at war.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='soldiers' -> SRT=''
+    [缺少] 翻译文本='don' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='weep' -> SRT=''
+    [缺少] 翻译文本='on' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='battlefield' -> SRT=''
+    [缺少] 翻译文本='and' -> SRT=''
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='was' -> SRT=''
+    [缺少] 翻译文本='at' -> SRT=''
+    [替换] 翻译文本='war' -> SRT='无对应'
+
+--- 段落 45 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Chapter six.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='chapter' -> SRT=''
+    [替换] 翻译文本='six' -> SRT='无对应'
+
+--- 段落 46 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I waited three days.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='waited' -> SRT=''
+    [缺少] 翻译文本='three' -> SRT=''
+    [替换] 翻译文本='days' -> SRT='无对应'
+
+--- 段落 47 [=] 一致 | 00:01:46,350 --> 00:01:51,938 ---
+  翻译文本: I waited until the fog of the pain meds lifted just enough for me to manage the crutches without falling.
+  SRT文本:   I waited until the fog of the pain meds lifted just enough for me to manage the crutches without falling.
+
+--- 段落 48 [~] 有差异 | 00:01:51,938 --> 00:01:55,317 | 本段准确率: 100.0% ---
+  【翻译文本】: I waited until Ethan left for a sit down with the Russians.
+  【SRT文本】  : I waited until Ethan left for a sit-down with the Russians.
+
+--- 段落 49 [=] 一致 | 00:01:55,317 --> 00:01:59,851 ---
+  翻译文本: Once the house was silent, I pulled a burner phone from the lining of my purse.
+  SRT文本:   Once the house was silent, I pulled a burner phone from the lining of my purse.
+
+--- 段落 50 [=] 一致 | 00:01:59,851 --> 00:02:03,818 ---
+  翻译文本: Ethan had searched my bag, of course, but he hadn't checked the lining.
+  SRT文本:   Ethan had searched my bag, of course, but he hadn't checked the lining.
+
+--- 段落 51 [=] 一致 | 00:02:03,818 --> 00:02:05,272 ---
+  翻译文本: He underestimated me.
+  SRT文本:   He underestimated me.
+
+--- 段落 52 [=] 一致 | 00:02:05,272 --> 00:02:10,110 ---
+  翻译文本: He thought I was just a socialite who knew how to host galas and smile for the cameras.
+  SRT文本:   He thought I was just a socialite who knew how to host galas and smile for the cameras.
+
+--- 段落 53 [~] 有差异 | 00:02:10,110 --> 00:02:12,898 | 本段准确率: 42.86% ---
+  【翻译文本】: He forgot my father was a capo.
+  【SRT文本】  : He forgot my father was a Capo.I knew the life.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='knew'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='life'
+
+--- 段落 54 [~] 有差异 | 00:02:12,898 --> 00:02:14,275 | 本段准确率: 75.0% ---
+  【翻译文本】: I knew the life.
+  【SRT文本】  : I knew the tradecraft.
+  差异词:
+    [替换] 翻译文本='life' -> SRT='tradecraft'
+
+--- 段落 55 [~] 有差异 | 00:02:14,275 --> 00:02:18,388 | 本段准确率: -140.0% ---
+  【翻译文本】: I knew the trade craft.
+  【SRT文本】  : I dialed a number I had memorized ten years ago.It rang twice.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='dialed'
+    [多余] 翻译文本='' -> SRT='a'
+    [多余] 翻译文本='' -> SRT='number'
+    [多余] 翻译文本='' -> SRT='had'
+    [多余] 翻译文本='' -> SRT='memorized'
+    [多余] 翻译文本='' -> SRT='ten'
+    [多余] 翻译文本='' -> SRT='years'
+    [替换] 翻译文本='knew' -> SRT='ago'
+    [替换] 翻译文本='the' -> SRT='it'
+    [替换] 翻译文本='trade' -> SRT='rang'
+    [替换] 翻译文本='craft' -> SRT='twice'
+
+--- 段落 56 [~] 有差异 | 00:02:18,388 --> 00:02:20,015 | 本段准确率: 30.0% ---
+  【翻译文本】: I dialed a number I had memorized ten years ago.
+  【SRT文本】  : "I need a cleaning," I said.
+  差异词:
+    [替换] 翻译文本='dialed' -> SRT='need'
+    [替换] 翻译文本='number' -> SRT='cleaning'
+    [缺少] 翻译文本='had' -> SRT=''
+    [缺少] 翻译文本='memorized' -> SRT=''
+    [缺少] 翻译文本='ten' -> SRT=''
+    [缺少] 翻译文本='years' -> SRT=''
+    [替换] 翻译文本='ago' -> SRT='said'
+
+--- 段落 57 [~] 有差异 | 00:02:20,015 --> 00:02:23,571 | 本段准确率: -233.33% ---
+  【翻译文本】: It rang twice.
+  【SRT文本】  : The voice on the other end was distorted, mechanical."Color.
+  差异词:
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='voice'
+    [多余] 翻译文本='' -> SRT='on'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='other'
+    [多余] 翻译文本='' -> SRT='end'
+    [多余] 翻译文本='' -> SRT='was'
+    [替换] 翻译文本='it' -> SRT='distorted'
+    [替换] 翻译文本='rang' -> SRT='mechanical'
+    [替换] 翻译文本='twice' -> SRT='color'
+
+--- 段落 58 [~] 有差异 | 00:02:23,571 --> 00:02:25,809 | 本段准确率: 0.0% ---
+  【翻译文本】: I need a cleaning.
+  【SRT文本】  : " "Red," I said."Total erasure.
+  差异词:
+    [多余] 翻译文本='' -> SRT='red'
+    [替换] 翻译文本='need' -> SRT='said'
+    [替换] 翻译文本='a' -> SRT='total'
+    [替换] 翻译文本='cleaning' -> SRT='erasure'
+
+--- 段落 59 [~] 有差异 | 00:02:25,809 --> 00:02:26,805 | 本段准确率: 0.0% ---
+  【翻译文本】: I said.
+  【SRT文本】  : " "Location.
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [替换] 翻译文本='said' -> SRT='location'
+
+--- 段落 60 [~] 有差异 | 00:02:26,805 --> 00:02:29,335 | 本段准确率: 9.09% ---
+  【翻译文本】: The voice on the other end was distorted, mechanical, color, red.
+  【SRT文本】  : " "The Estate.Service entrance.Midnight.
+  差异词:
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='voice' -> SRT=''
+    [缺少] 翻译文本='on' -> SRT=''
+    [缺少] 翻译文本='other' -> SRT=''
+    [缺少] 翻译文本='end' -> SRT=''
+    [缺少] 翻译文本='was' -> SRT=''
+    [替换] 翻译文本='distorted' -> SRT='estate'
+    [替换] 翻译文本='mechanical' -> SRT='service'
+    [替换] 翻译文本='color' -> SRT='entrance'
+    [替换] 翻译文本='red' -> SRT='midnight'
+
+--- 段落 61 [~] 有差异 | 00:02:29,335 --> 00:02:33,041 | 本段准确率: -600.0% ---
+  【翻译文本】: I said.
+  【SRT文本】  : " Click.I hung up and crushed the phone under the heel of my good shoe.
+  差异词:
+    [多余] 翻译文本='' -> SRT='click'
+    [多余] 翻译文本='' -> SRT='hung'
+    [多余] 翻译文本='' -> SRT='up'
+    [多余] 翻译文本='' -> SRT='and'
+    [多余] 翻译文本='' -> SRT='crushed'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='phone'
+    [多余] 翻译文本='' -> SRT='under'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='heel'
+    [多余] 翻译文本='' -> SRT='of'
+    [多余] 翻译文本='' -> SRT='my'
+    [多余] 翻译文本='' -> SRT='good'
+    [替换] 翻译文本='said' -> SRT='shoe'
+
+--- 段落 62 [~] 有差异 | 00:02:33,041 --> 00:02:35,269 | 本段准确率: -350.0% ---
+  【翻译文本】: Total erasure.
+  【SRT文本】  : I didn't pack a bag.Bags were heavy.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='didn'
+    [多余] 翻译文本='' -> SRT='t'
+    [多余] 翻译文本='' -> SRT='pack'
+    [多余] 翻译文本='' -> SRT='a'
+    [多余] 翻译文本='' -> SRT='bag'
+    [多余] 翻译文本='' -> SRT='bags'
+    [替换] 翻译文本='total' -> SRT='were'
+    [替换] 翻译文本='erasure' -> SRT='heavy'
+
+--- 段落 63 [~] 有差异 | 00:02:35,269 --> 00:02:39,062 | 本段准确率: -900.0% ---
+  【翻译文本】: Location.
+  【SRT文本】  : Bags implied you were going somewhere specific.Bags were evidence.
+  差异词:
+    [多余] 翻译文本='' -> SRT='bags'
+    [多余] 翻译文本='' -> SRT='implied'
+    [多余] 翻译文本='' -> SRT='you'
+    [多余] 翻译文本='' -> SRT='were'
+    [多余] 翻译文本='' -> SRT='going'
+    [多余] 翻译文本='' -> SRT='somewhere'
+    [多余] 翻译文本='' -> SRT='specific'
+    [多余] 翻译文本='' -> SRT='bags'
+    [多余] 翻译文本='' -> SRT='were'
+    [替换] 翻译文本='location' -> SRT='evidence'
+
+--- 段落 64 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: The estate service entrance.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='estate' -> SRT=''
+    [缺少] 翻译文本='service' -> SRT=''
+    [替换] 翻译文本='entrance' -> SRT='无对应'
+
+--- 段落 65 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Midnight.
+  【SRT文本】  : (无对应)
+  差异词:
+    [替换] 翻译文本='midnight' -> SRT='无对应'
+
+--- 段落 66 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Clicked.
+  【SRT文本】  : (无对应)
+  差异词:
+    [替换] 翻译文本='clicked' -> SRT='无对应'
+
+--- 段落 67 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I hung up and crushed the phone under the heel of my good shoe.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='hung' -> SRT=''
+    [缺少] 翻译文本='up' -> SRT=''
+    [缺少] 翻译文本='and' -> SRT=''
+    [缺少] 翻译文本='crushed' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='phone' -> SRT=''
+    [缺少] 翻译文本='under' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='heel' -> SRT=''
+    [缺少] 翻译文本='of' -> SRT=''
+    [缺少] 翻译文本='my' -> SRT=''
+    [缺少] 翻译文本='good' -> SRT=''
+    [替换] 翻译文本='shoe' -> SRT='无对应'
+
+--- 段落 68 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: I didn't pack a bag.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='didn' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='pack' -> SRT=''
+    [缺少] 翻译文本='a' -> SRT=''
+    [替换] 翻译文本='bag' -> SRT='无对应'
+
+--- 段落 69 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Bags were heavy.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='bags' -> SRT=''
+    [缺少] 翻译文本='were' -> SRT=''
+    [替换] 翻译文本='heavy' -> SRT='无对应'
+
+--- 段落 70 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Bags implied you were going somewhere specific.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='bags' -> SRT=''
+    [缺少] 翻译文本='implied' -> SRT=''
+    [缺少] 翻译文本='you' -> SRT=''
+    [缺少] 翻译文本='were' -> SRT=''
+    [缺少] 翻译文本='going' -> SRT=''
+    [缺少] 翻译文本='somewhere' -> SRT=''
+    [替换] 翻译文本='specific' -> SRT='无对应'
+
+--- 段落 71 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Bags were evidence.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='bags' -> SRT=''
+    [缺少] 翻译文本='were' -> SRT=''
+    [替换] 翻译文本='evidence' -> SRT='无对应'
+
+--- 段落 72 [=] 一致 | 00:02:39,062 --> 00:02:40,369 ---
+  翻译文本: I was going nowhere.
+  SRT文本:   I was going nowhere.
+
+================================================================================
+  汇总: 共 72 段, 一致 16 段, 有差异 56 段
+  整体词准确率: 97.87%
+================================================================================

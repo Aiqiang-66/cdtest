@@ -1,0 +1,778 @@
+{
+  "inputs": [
+    {
+      "i": 0,
+      "type": "search",
+      "placeholder": "",
+      "name": "",
+      "value": "",
+      "readonly": true,
+      "disabled": false,
+      "cls": "ant-select-selection-search-input",
+      "parentCls": "ant-select-selection-search",
+      "visible": true
+    },
+    {
+      "i": 1,
+      "type": "text",
+      "placeholder": "",
+      "name": "",
+      "value": "12",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": false
+    },
+    {
+      "i": 2,
+      "type": "search",
+      "placeholder": "",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-select-selection-search-input",
+      "parentCls": "ant-select-selection-search",
+      "visible": true
+    },
+    {
+      "i": 3,
+      "type": "text",
+      "placeholder": "请输入三级标签",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input css-1j8imix",
+      "parentCls": "ant-input-affix-wrapper css-1j8imix ant-input-outlined",
+      "visible": true
+    },
+    {
+      "i": 4,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r6:",
+      "value": "1",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target ant-radio-checked",
+      "visible": true
+    },
+    {
+      "i": 5,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r6:",
+      "value": "4",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target",
+      "visible": true
+    },
+    {
+      "i": 6,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r6:",
+      "value": "5",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target",
+      "visible": true
+    },
+    {
+      "i": 7,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r6:",
+      "value": "18",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target",
+      "visible": true
+    },
+    {
+      "i": 8,
+      "type": "text",
+      "placeholder": "开始集数",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": true,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 9,
+      "type": "text",
+      "placeholder": "结束集数",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": true,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 10,
+      "type": "text",
+      "placeholder": "最小时长",
+      "name": "",
+      "value": "30",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 11,
+      "type": "text",
+      "placeholder": "最大时长",
+      "name": "",
+      "value": "60",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 12,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r7:",
+      "value": "1",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target ant-radio-checked",
+      "visible": true
+    },
+    {
+      "i": 13,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r7:",
+      "value": "2",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target",
+      "visible": true
+    },
+    {
+      "i": 14,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r8:",
+      "value": "1",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target",
+      "visible": true
+    },
+    {
+      "i": 15,
+      "type": "radio",
+      "placeholder": "",
+      "name": ":r8:",
+      "value": "2",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-radio-input",
+      "parentCls": "ant-radio ant-wave-target ant-radio-checked",
+      "visible": true
+    },
+    {
+      "i": 16,
+      "type": "text",
+      "placeholder": "开始集数",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 17,
+      "type": "text",
+      "placeholder": "结束集数",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 18,
+      "type": "text",
+      "placeholder": "最小时长",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 19,
+      "type": "text",
+      "placeholder": "最大时长",
+      "name": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 20,
+      "type": "text",
+      "placeholder": "请输入生成数量",
+      "name": "",
+      "value": "1",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-input-number-input",
+      "parentCls": "ant-input-number-input-wrap",
+      "visible": true
+    },
+    {
+      "i": 21,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "1",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    },
+    {
+      "i": 22,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "2",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    },
+    {
+      "i": 23,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "3",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    },
+    {
+      "i": 24,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "5",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    },
+    {
+      "i": 25,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "6",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    },
+    {
+      "i": 26,
+      "type": "checkbox",
+      "placeholder": "",
+      "name": "",
+      "value": "7",
+      "readonly": false,
+      "disabled": false,
+      "cls": "ant-checkbox-input",
+      "parentCls": "ant-checkbox ant-wave-target css-1j8imix",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-icon-only collapsed-L_uInzbn"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-tabs-tab-remove"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-tabs-nav-more"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-input-clear-icon ant-input-clear-icon-hidden ant-input-clear-icon-has-suffix"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-switch css-1j8imix ant-switch-checked"
+    },
+    {
+      "text": "生成文案",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    },
+    {
+      "text": "确认生成",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    },
+    {
+      "text": "全 选",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    },
+    {
+      "text": "反 选",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    },
+    {
+      "text": "取 消",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    },
+    {
+      "text": "删除所选",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    },
+    {
+      "text": "重新生成",
+      "disabled": false,
+      "cls": "ant-btn css-1j8imix ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "cls": "ant-switch css-1j8imix"
+    },
+    {
+      "text": "确认并上传",
+      "disabled": true,
+      "cls": "ant-btn css-1j8imix ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    }
+  ],
+  "labels": [
+    "剧集代号",
+    "三级标签",
+    "Core",
+    "Core1",
+    "Core4",
+    "Core5",
+    "Core18",
+    "口播集数范围",
+    "口播时长范围",
+    "口播音频",
+    "男声",
+    "女声",
+    "BGM",
+    "手动选择",
+    "随机匹配通用",
+    "混剪集数范围",
+    "素材时长",
+    "生成数量",
+    "口播文案",
+    "文案展示",
+    "选择媒体",
+    "FB-45/916",
+    "TT-916",
+    "UAC-11/169/916",
+    "Moloco-916",
+    "Applovin-916",
+    "Snapchat-916",
+    "免审核直接上传"
+  ],
+  "selects": [
+    {
+      "tag": "LI",
+      "cls": "ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child",
+      "placeholder": "",
+      "value": "",
+      "text": "海剧自动化"
+    },
+    {
+      "tag": "DIV",
+      "cls": "ant-select ant-select-outlined env-Q1FUsowv css-1j8imix ant-select-single ant-select-show-arrow",
+      "placeholder": "",
+      "value": "",
+      "text": "dev"
+    },
+    {
+      "tag": "DIV",
+      "cls": "ant-select-selector",
+      "placeholder": "",
+      "value": "",
+      "text": "dev"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-wrap",
+      "placeholder": "",
+      "value": "",
+      "text": "dev"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-search",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "cls": "ant-select-selection-search-input",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-item",
+      "placeholder": "",
+      "value": "",
+      "text": "dev"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-arrow",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "SPAN",
+      "cls": "anticon anticon-down ant-select-suffix",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "LI",
+      "cls": "ant-menu-item ant-menu-item-selected ant-menu-item-only-child",
+      "placeholder": "",
+      "value": "",
+      "text": "口播混剪"
+    },
+    {
+      "tag": "DIV",
+      "cls": "ant-select ant-select-outlined ant-select-in-form-item css-1j8imix ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search",
+      "placeholder": "",
+      "value": "",
+      "text": "支持搜索"
+    },
+    {
+      "tag": "DIV",
+      "cls": "ant-select-selector",
+      "placeholder": "",
+      "value": "",
+      "text": "支持搜索"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-wrap",
+      "placeholder": "",
+      "value": "",
+      "text": "支持搜索"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-search",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "cls": "ant-select-selection-search-input",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-selection-placeholder",
+      "placeholder": "",
+      "value": "",
+      "text": "支持搜索"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "ant-select-arrow",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    },
+    {
+      "tag": "SPAN",
+      "cls": "anticon anticon-down ant-select-suffix",
+      "placeholder": "",
+      "value": "",
+      "text": ""
+    }
+  ],
+  "radios": [
+    {
+      "text": "Core1Core4Core5Core18",
+      "checked": false,
+      "cls": "ant-radio-group ant-radio-group-outline css-1j8imix"
+    },
+    {
+      "text": "Core1",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target ant-radio-checked"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "Core1",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "Core4",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "Core4",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "Core5",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "Core5",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "Core18",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "Core18",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "男声女声",
+      "checked": false,
+      "cls": "ant-radio-group ant-radio-group-outline css-1j8imix"
+    },
+    {
+      "text": "男声",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target ant-radio-checked"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "男声",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "女声",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "女声",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "手动选择随机匹配通用",
+      "checked": false,
+      "cls": "ant-radio-group ant-radio-group-outline css-1j8imix"
+    },
+    {
+      "text": "手动选择",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "手动选择",
+      "checked": false,
+      "cls": "ant-radio-label"
+    },
+    {
+      "text": "随机匹配通用",
+      "checked": false,
+      "cls": "ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-in-form-item css-1j8imix"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio ant-wave-target ant-radio-checked"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-input"
+    },
+    {
+      "text": "",
+      "checked": false,
+      "cls": "ant-radio-inner"
+    },
+    {
+      "text": "随机匹配通用",
+      "checked": false,
+      "cls": "ant-radio-label"
+    }
+  ],
+  "tabs": [],
+  "breadcrumb": [],
+  "formItems": []
+}

@@ -1,0 +1,56 @@
+======================================================================
+  错误片段对比 #06  |  3
+  时间轴: 00:00:43,592 --> 00:00:57,590
+======================================================================
+
+【翻译文本(参考)】
+  You are my husband. I whispered, the word tasting like ash. You swore to protect me. I am protecting you, Ethan. His voice flat, devoid of warmth.
+
+【SRT文本(ASR识别)】
+  "You are my husband," I whispered, the word tasting like ash. "You swore to protect me. " "I am protecting you," he said, his voice flat, devoid of warmth. "I have guards posted outside the door.No one gets in. " "Except you," I said.
+
+【差异词详情】(共 41 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  i                   
+  多余     (空)                  whispered           
+  多余     (空)                  the                 
+  多余     (空)                  word                
+  多余     (空)                  tasting             
+  多余     (空)                  like                
+  多余     (空)                  ash                 
+  缺少     i                    (空)                 
+  缺少     whispered            (空)                 
+  替换     the                  you                 
+  替换     word                 swore               
+  替换     tasting              to                  
+  替换     like                 protect             
+  替换     ash                  me                  
+  多余     (空)                  i                   
+  多余     (空)                  am                  
+  多余     (空)                  protecting          
+  多余     (空)                  he                  
+  多余     (空)                  said                
+  多余     (空)                  his                 
+  多余     (空)                  voice               
+  替换     swore                flat                
+  替换     to                   devoid              
+  替换     protect              of                  
+  替换     me                   warmth              
+  多余     (空)                  have                
+  多余     (空)                  guards              
+  多余     (空)                  posted              
+  多余     (空)                  outside             
+  多余     (空)                  the                 
+  多余     (空)                  door                
+  替换     am                   no                  
+  替换     protecting           one                 
+  替换     you                  gets                
+  替换     ethan                in                  
+  缺少     his                  (空)                 
+  缺少     voice                (空)                 
+  替换     flat                 except              
+  替换     devoid               you                 
+  替换     of                   i                   
+  替换     warmth               said                

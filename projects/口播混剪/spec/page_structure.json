@@ -1,0 +1,307 @@
+{
+  "title": "雷霆素材系统",
+  "url": "https://sc-test.changdu.ltd/automation-video/oral-montage",
+  "inputs": [
+    {
+      "type": "search",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "disabled": false,
+      "readonly": true
+    },
+    {
+      "type": "search",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "请输入三级标签",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r6:",
+      "placeholder": "",
+      "value": "1",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r6:",
+      "placeholder": "",
+      "value": "4",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r6:",
+      "placeholder": "",
+      "value": "5",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r6:",
+      "placeholder": "",
+      "value": "18",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "开始集数",
+      "value": "",
+      "disabled": true,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "结束集数",
+      "value": "",
+      "disabled": true,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "最小时长",
+      "value": "30",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "最大时长",
+      "value": "60",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r7:",
+      "placeholder": "",
+      "value": "1",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r7:",
+      "placeholder": "",
+      "value": "2",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r8:",
+      "placeholder": "",
+      "value": "1",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "radio",
+      "name": ":r8:",
+      "placeholder": "",
+      "value": "2",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "开始集数",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "结束集数",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "最小时长",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "最大时长",
+      "value": "",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "请输入生成数量",
+      "value": "1",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "1",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "2",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "3",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "5",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "6",
+      "disabled": false,
+      "readonly": false
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "7",
+      "disabled": false,
+      "readonly": false
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "生成文案",
+      "disabled": false
+    },
+    {
+      "text": "确认生成",
+      "disabled": false
+    },
+    {
+      "text": "全 选",
+      "disabled": false
+    },
+    {
+      "text": "反 选",
+      "disabled": false
+    },
+    {
+      "text": "取 消",
+      "disabled": false
+    },
+    {
+      "text": "删除所选",
+      "disabled": false
+    },
+    {
+      "text": "重新生成",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "disabled": false
+    },
+    {
+      "text": "确认并上传",
+      "disabled": true
+    }
+  ],
+  "labels": [
+    "剧集代号",
+    "三级标签",
+    "Core",
+    "Core1",
+    "Core4",
+    "Core5",
+    "Core18",
+    "口播集数范围",
+    "口播时长范围",
+    "口播音频",
+    "男声",
+    "女声",
+    "BGM",
+    "手动选择",
+    "随机匹配通用",
+    "混剪集数范围",
+    "素材时长",
+    "生成数量",
+    "口播文案",
+    "文案展示",
+    "选择媒体",
+    "FB-45/916",
+    "TT-916",
+    "UAC-11/169/916",
+    "Moloco-916",
+    "Applovin-916",
+    "Snapchat-916",
+    "免审核直接上传"
+  ],
+  "radios": [],
+  "selects": [],
+  "switches": [],
+  "breadcrumb": [],
+  "formItems": []
+}

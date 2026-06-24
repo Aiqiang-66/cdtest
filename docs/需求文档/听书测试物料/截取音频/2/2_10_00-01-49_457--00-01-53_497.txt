@@ -1,0 +1,11 @@
+======================================================================
+  错误片段对比 #10  |  2
+  时间轴: 00:01:49,457 --> 00:01:53,497
+======================================================================
+
+【翻译文本(参考)】
+  I had become a machine cold, efficient, and utterly hollow.
+
+【SRT文本(ASR识别)】
+  I had become a machine-cold, efficient, and utterly hollow.
+

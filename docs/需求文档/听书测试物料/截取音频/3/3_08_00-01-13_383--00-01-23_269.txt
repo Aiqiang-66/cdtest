@@ -1,0 +1,42 @@
+======================================================================
+  错误片段对比 #08  |  3
+  时间轴: 00:01:13,383 --> 00:01:23,269
+======================================================================
+
+【翻译文本(参考)】
+  He turned and walked to the door. Ethan. He stopped. His hand hovering over the brass knob.
+
+【SRT文本(ASR识别)】
+  " He turned and walked to the door."Ethan. " He stopped, his hand hovering over the brass knob. "If you walk out that door, don't come back. " He didn't turn around."Rest, Aurora.
+
+【差异词详情】(共 27 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  ethan               
+  多余     (空)                  he                  
+  多余     (空)                  stopped             
+  多余     (空)                  his                 
+  多余     (空)                  hand                
+  多余     (空)                  hovering            
+  多余     (空)                  over                
+  多余     (空)                  the                 
+  多余     (空)                  brass               
+  替换     ethan                knob                
+  多余     (空)                  if                  
+  多余     (空)                  you                 
+  多余     (空)                  walk                
+  多余     (空)                  out                 
+  多余     (空)                  that                
+  多余     (空)                  door                
+  多余     (空)                  don                 
+  多余     (空)                  t                   
+  替换     he                   come                
+  替换     stopped              back                
+  替换     his                  he                  
+  替换     hand                 didn                
+  替换     hovering             t                   
+  替换     over                 turn                
+  替换     the                  around              
+  替换     brass                rest                
+  替换     knob                 aurora              

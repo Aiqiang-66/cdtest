@@ -1,0 +1,219 @@
+================================================================================
+  逐段对比报告: 1
+  SRT(ASR识别) vs 翻译文本(人工参考)
+================================================================================
+
+【整体统计】
+  翻译文本词数: 0
+  SRT词数:      524
+  错误总数:     524
+  替换: 0  删除: 0  插入: 524
+  词准确率:     0%
+  WER:          100%
+
+================================================================================
+  逐段对比详情
+================================================================================
+
+图例: [=] 一致  [~] 有差异  [+] 仅翻译文本有  [-] 仅SRT有
+
+--- 段落 1 [-] 仅SRT有 | 00:00:00,000 --> 00:00:01,461 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : CrossCheck 13.
+
+--- 段落 2 [-] 仅SRT有 | 00:00:01,461 --> 00:00:04,419 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He saw his wife being shoved into a black void.
+
+--- 段落 3 [-] 仅SRT有 | 00:00:04,419 --> 00:00:06,518 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : His hand flew to the holster at his hip.
+
+--- 段落 4 [-] 仅SRT有 | 00:00:06,518 --> 00:00:11,168 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : But then, a piercing shriek shattered the moment."Ethan.Help.I can't breathe.
+
+--- 段落 5 [-] 仅SRT有 | 00:00:11,168 --> 00:00:12,997 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " Ilene.She had followed him out.
+
+--- 段落 6 [-] 仅SRT有 | 00:00:12,997 --> 00:00:18,099 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She was collapsed on the sidewalk, clutching her chest, staging her performance perfectly.Ethan froze.
+
+--- 段落 7 [-] 仅SRT有 | 00:00:18,099 --> 00:00:20,550 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He looked at me, his eyes wide with horror.
+
+--- 段落 8 [-] 仅SRT有 | 00:00:20,550 --> 00:00:23,803 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Then, he looked back at Ilene, crumpled on the concrete.
+
+--- 段落 9 [-] 仅SRT有 | 00:00:23,803 --> 00:00:27,062 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The van door slammed shut, severing the world outside.
+
+--- 段落 10 [-] 仅SRT有 | 00:00:27,062 --> 00:00:35,427 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The last thing I saw through the tinted glass was my husband holstering his weapon and turning his back on me to save the woman who had destroyed us.Chapter 10 The van smelled of stale bleach and old blood.
+
+--- 段落 11 [-] 仅SRT有 | 00:00:38,195 --> 00:00:40,937 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : They hadn't tied my hands yet.Arrogance.
+
+--- 段落 12 [-] 仅SRT有 | 00:00:40,937 --> 00:00:43,837 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : They thought I was too broken to fight.They were wrong.
+
+--- 段落 13 [-] 仅SRT有 | 00:00:43,837 --> 00:00:46,760 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I was a soldier's daughter before I was a Don's wife.
+
+--- 段落 14 [-] 仅SRT有 | 00:00:46,760 --> 00:00:51,577 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Slowly, carefully, I reached into the hidden pocket of my dress.The burner phone.
+
+--- 段落 15 [-] 仅SRT有 | 00:00:51,577 --> 00:00:53,236 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The one I hadn't thrown away.
+
+--- 段落 16 [-] 仅SRT有 | 00:00:53,236 --> 00:00:54,639 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I didn't call the police.
+
+--- 段落 17 [-] 仅SRT有 | 00:00:54,639 --> 00:00:59,814 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Calling 911 wasn't an option; half the precinct was on Leo Vance's payroll.
+
+--- 段落 18 [-] 仅SRT有 | 00:00:59,814 --> 00:01:04,932 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I pressed the speed dial for the one number that was supposed to be my lifeline.The "Red Phone.
+
+--- 段落 19 [-] 仅SRT有 | 00:01:04,932 --> 00:01:12,617 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " The emergency line that bypassed all of Ethan's secretaries and went straight to the earpiece he wore during operations.It rang.
+
+--- 段落 20 [-] 仅SRT有 | 00:01:12,617 --> 00:01:14,369 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Pick up, I prayed silently.
+
+--- 段落 21 [-] 仅SRT有 | 00:01:14,369 --> 00:01:16,199 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Please, God, just pick up.
+
+--- 段落 22 [-] 仅SRT有 | 00:01:16,199 --> 00:01:20,113 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Through the partition, I heard the driver talking."Yeah, we have her.
+
+--- 段落 23 [-] 仅SRT有 | 00:01:20,113 --> 00:01:22,111 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Vance says bring her to the meat locker.
+
+--- 段落 24 [-] 仅SRT有 | 00:01:22,111 --> 00:01:26,180 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He wants to send a piece of her back to Bruce every hour on the hour.
+
+--- 段落 25 [-] 仅SRT有 | 00:01:26,180 --> 00:01:28,649 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " My blood ran cold.The line clicked.
+
+--- 段落 26 [-] 仅SRT有 | 00:00:06,518 --> 00:00:11,168 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Ethan.
+
+--- 段落 27 [-] 仅SRT有 | 00:01:28,649 --> 00:01:32,092 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I whispered, my voice trembling.Silence.
+
+--- 段落 28 [-] 仅SRT有 | 00:01:32,092 --> 00:01:35,138 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Then, the sound of a call being declined.He hung up.
+
+--- 段落 29 [-] 仅SRT有 | 00:01:35,138 --> 00:01:36,961 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He saw the emergency number.
+
+--- 段落 30 [-] 仅SRT有 | 00:01:36,961 --> 00:01:40,071 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He knew it was the panic signal.And he hung up.Why.
+
+--- 段落 31 [-] 仅SRT有 | 00:01:40,071 --> 00:01:42,657 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Because Ilene was probably holding his hand.
+
+--- 段落 32 [-] 仅SRT有 | 00:01:42,657 --> 00:01:44,454 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Something inside me snapped.
+
+--- 段落 33 [-] 仅SRT有 | 00:01:44,454 --> 00:01:47,728 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : It wasn't my heart-that was already dust.It was the chain.
+
+--- 段落 34 [-] 仅SRT有 | 00:01:47,728 --> 00:01:51,586 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The invisible chain that had tethered me to him for five years.
+
+--- 段落 35 [-] 仅SRT有 | 00:01:51,586 --> 00:01:53,279 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I looked at the rear door handle.
+
+--- 段落 36 [-] 仅SRT有 | 00:01:53,279 --> 00:01:56,224 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : We were moving fast, hitting the highway on-ramp.
+
+--- 段落 37 [-] 仅SRT有 | 00:01:56,224 --> 00:01:58,445 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I looked at the guard sitting opposite me.
+
+--- 段落 38 [-] 仅SRT有 | 00:01:58,445 --> 00:02:04,896 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He was distracted, his eyes glued to his phone as he texted.I didn't think.I reacted.I swung my cast.
+
+--- 段落 39 [-] 仅SRT有 | 00:02:04,896 --> 00:02:07,312 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : It was heavy plaster, hard as a rock.
+
+--- 段落 40 [-] 仅SRT有 | 00:02:07,312 --> 00:02:10,594 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I smashed it into his face with everything I had left.
+
+--- 段落 41 [-] 仅SRT有 | 00:02:10,594 --> 00:02:13,417 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : He howled, blood spurting from his nose.
+
+--- 段落 42 [-] 仅SRT有 | 00:02:13,417 --> 00:02:18,776 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I lunged for the handle."She's loose." he yelled.I yanked the lever.The door flew open.
+
+--- 段落 43 [-] 仅SRT有 | 00:02:18,776 --> 00:02:23,059 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The asphalt blurred beneath me, a gray river of death.I didn't hesitate.
+
+--- 段落 44 [-] 仅SRT有 | 00:02:23,059 --> 00:02:29,167 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I would rather die on the pavement as a free woman than die in pieces as Ethan's failure.I jumped.
+
+--- 段落 45 [-] 仅SRT有 | 00:02:29,167 --> 00:02:30,901 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The impact was a thunderclap.
+
+--- 段落 46 [-] 仅SRT有 | 00:02:30,901 --> 00:02:33,432 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : My shoulder dislocated with a sickening pop.
+
+--- 段落 47 [-] 仅SRT有 | 00:02:33,432 --> 00:02:35,683 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : My skin shredded against the road.
+
+--- 段落 48 [-] 仅SRT有 | 00:02:35,683 --> 00:02:40,029 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I tumbled, rolling, rolling, until I slammed into the metal guardrail.
+
+--- 段落 49 [-] 仅SRT有 | 00:02:40,029 --> 00:02:41,996 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The world went black for a second.
+
+================================================================================
+  汇总: 共 49 段, 一致 0 段, 有差异 49 段
+  整体词准确率: 0%
+================================================================================

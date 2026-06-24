@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TC-OM-007",
+    "status": "PASS",
+    "msg": "置disabled=True,选Core后=True,取消后=True"
+  },
+  {
+    "id": "TC-OM-001",
+    "status": "FAIL",
+    "msg": "剧集代号选择失败"
+  },
+  {
+    "id": "TC-OM-002",
+    "status": "FAIL",
+    "msg": "剧集代号选择失败"
+  },
+  {
+    "id": "TC-OM-003",
+    "status": "FAIL",
+    "msg": "剧集代号选择失败"
+  },
+  {
+    "id": "TC-OM-004",
+    "status": "FAIL",
+    "msg": "剧集代号选择失败"
+  },
+  {
+    "id": "TC-OM-018",
+    "status": "PASS",
+    "msg": "任务列表行数=22"
+  }
+]

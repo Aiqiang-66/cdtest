@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TC-C5C18-001",
+    "title": "展开高级选项后查询",
+    "module": "素材报表",
+    "priority": "P1",
+    "precondition": "已登录test1环境",
+    "steps": [
+      {"step": 1, "action": "选择业务「海剧」", "expected": "海剧选项高亮选中"},
+      {"step": 2, "action": "选择代号「[海剧]XY14」", "expected": "代号下拉选中XY14"},
+      {"step": 3, "action": "设置制作日期 2026-06-15 ~ 2026-06-17", "expected": "日期正确填入"},
+      {"step": 4, "action": "展开「高级选项」", "expected": "高级选项面板展开"},
+      {"step": 5, "action": "点击「查询」", "expected": "表格返回数据列表"}
+    ],
+    "result": "PASS",
+    "note": "返回150条数据，URL参数正确携带筛选条件"
+  },
+  {
+    "id": "TC-C5C18-002",
+    "title": "不展开高级选项直接查询（约束验证）",
+    "module": "素材报表",
+    "priority": "P2",
+    "precondition": "已登录test1环境",
+    "steps": [
+      {"step": 1, "action": "不展开高级选项，设置筛选条件后直接查询", "expected": "显示暂无数据或提示"}
+    ],
+    "result": "PASS",
+    "note": "页面显示「暂无数据」，符合需求文档的约束说明"
+  },
+  {
+    "id": "TC-C5C18-003",
+    "title": "转Core素材下拉菜单选项完整性",
+    "module": "素材报表",
+    "priority": "P1",
+    "precondition": "已勾选至少1条素材",
+    "steps": [
+      {"step": 1, "action": "勾选任意1条素材", "expected": "复选框选中"},
+      {"step": 2, "action": "点击「转Core素材」按钮", "expected": "弹出下拉菜单"},
+      {"step": 3, "action": "查看菜单选项", "expected": "包含转为C4/C5/C18/C23素材四个选项"}
+    ],
+    "result": "PASS",
+    "note": "下拉菜单完整展示4个选项，转为C18素材为本期新增"
+  },
+  {
+    "id": "TC-C5C18-004",
+    "title": "C5素材转C18 - 正向流程（弹窗确认）",
+    "module": "素材报表",
+    "priority": "P0",
+    "precondition": "已查询到C5素材，同步状态为「-」",
+    "steps": [
+      {"step": 1, "action": "勾选C5素材「260616-...C5...测试C5-C18...」", "expected": "素材选中"},
+      {"step": 2, "action": "点击「转Core素材」→「转为C18素材」", "expected": "弹出确认弹窗"},
+      {"step": 3, "action": "查看弹窗内容", "expected": "标题「提示」，显示媒体「Tiktok」，按钮「取消」「确认」"}
+    ],
+    "result": "PASS",
+    "note": "弹窗正常弹出，Tiktok已默认选中，交互符合预期"
+  },
+  {
+    "id": "TC-C5C18-005",
+    "title": "已转C18素材重复转换（约束验证）",
+    "module": "素材报表",
+    "priority": "P1",
+    "precondition": "已查询到同步状态为C18-TT的素材",
+    "steps": [
+      {"step": 1, "action": "勾选已转C18-TT的素材", "expected": "素材选中"},
+      {"step": 2, "action": "点击「转Core素材」→「转为C18素材」", "expected": "应提示「素材已转换过C18」或禁止操作"},
+      {"step": 3, "action": "观察页面反馈", "expected": "友好的错误提示"}
+    ],
+    "result": "FAIL",
+    "note": "【BUG-01】弹窗仍然出现，前端未拦截。弹窗显示「媒体不能为空」提示，用户操作困惑"
+  },
+  {
+    "id": "TC-C5C18-006",
+    "title": "同步状态列展示验证",
+    "module": "素材报表",
+    "priority": "P1",
+    "precondition": "已查询到包含多种同步状态的数据",
+    "steps": [
+      {"step": 1, "action": "查询数据后，查看「同步状态」列", "expected": "正确展示TT、C18-TT、C18-FB等状态"},
+      {"step": 2, "action": "对比不同素材的同步状态", "expected": "未转C18的C5素材显示「-」，已转C18-TT的显示「C18-TT」"}
+    ],
+    "result": "PASS",
+    "note": "同步状态展示正确，C5素材转换后显示C18-TT"
+  },
+  {
+    "id": "TC-C5C18-007",
+    "title": "素材裂变语言和媒体ID展示验证",
+    "module": "素材报表",
+    "priority": "P2",
+    "precondition": "已查询到数据",
+    "steps": [
+      {"step": 1, "action": "查看每行的「裂变语言」列", "expected": "正常显示"},
+      {"step": 2, "action": "查看每行的「媒体素材ID」列", "expected": "正常显示有效ID"}
+    ],
+    "result": "PASS",
+    "note": "全列正常显示"
+  },
+  {
+    "id": "TC-C5C18-008",
+    "title": "素材名称搜索C5过滤",
+    "module": "素材报表",
+    "priority": "P1",
+    "precondition": "已设置海剧+XY14+制作日期+展开高级选项",
+    "steps": [
+      {"step": 1, "action": "在「素材」文本框输入「C5」", "expected": "搜索框显示C5"},
+      {"step": 2, "action": "点击「查询」", "expected": "仅返回名称含C5的素材"},
+      {"step": 3, "action": "检查URL参数", "expected": "URL包含title=C5"}
+    ],
+    "result": "PASS",
+    "note": "搜索结果150→30条，URL参数title=C5，过滤准确"
+  },
+  {
+    "id": "TC-C5C18-009",
+    "title": "弹窗取消按钮功能",
+    "module": "素材报表",
+    "priority": "P2",
+    "precondition": "弹窗已弹出",
+    "steps": [
+      {"step": 1, "action": "在转Core弹窗中点击「取消」", "expected": "弹窗关闭"},
+      {"step": 2, "action": "观察页面状态", "expected": "不执行转换，素材勾选状态保持"}
+    ],
+    "result": "PASS",
+    "note": "弹窗正常关闭，页面无变化"
+  },
+  {
+    "id": "TC-C5C18-010",
+    "title": "test1环境验证",
+    "module": "素材报表",
+    "priority": "P2",
+    "precondition": "已登录",
+    "steps": [
+      {"step": 1, "action": "查看页面顶部header", "expected": "显示test1和用户名"}
+    ],
+    "result": "PASS",
+    "note": "header显示「test1 艾强」"
+  }
+]

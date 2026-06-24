@@ -1,0 +1,98 @@
+======================================================================
+  错误片段对比 #11  |  3
+  时间轴: 00:02:10,110 --> 00:02:39,062
+======================================================================
+
+【翻译文本(参考)】
+  He forgot my father was a capo. I knew the life. I knew the trade craft. I dialed a number I had memorized ten years ago. It rang twice. I need a cleaning. I said. The voice on the other end was distorted, mechanical, color, red. I said. Total erasure. Location.
+
+【SRT文本(ASR识别)】
+  He forgot my father was a Capo.I knew the life. I knew the tradecraft. I dialed a number I had memorized ten years ago.It rang twice. "I need a cleaning," I said. The voice on the other end was distorted, mechanical."Color. " "Red," I said."Total erasure. " "Location. " "The Estate.Service entrance.Midnight. " Click.I hung up and crushed the phone under the heel of my good shoe. I didn't pack a bag.Bags were heavy. Bags implied you were going somewhere specific.Bags were evidence.
+
+【差异词详情】(共 83 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  i                   
+  多余     (空)                  knew                
+  多余     (空)                  the                 
+  多余     (空)                  life                
+  替换     life                 tradecraft          
+  多余     (空)                  i                   
+  多余     (空)                  dialed              
+  多余     (空)                  a                   
+  多余     (空)                  number              
+  多余     (空)                  had                 
+  多余     (空)                  memorized           
+  多余     (空)                  ten                 
+  多余     (空)                  years               
+  替换     knew                 ago                 
+  替换     the                  it                  
+  替换     trade                rang                
+  替换     craft                twice               
+  替换     dialed               need                
+  替换     number               cleaning            
+  缺少     had                  (空)                 
+  缺少     memorized            (空)                 
+  缺少     ten                  (空)                 
+  缺少     years                (空)                 
+  替换     ago                  said                
+  多余     (空)                  the                 
+  多余     (空)                  voice               
+  多余     (空)                  on                  
+  多余     (空)                  the                 
+  多余     (空)                  other               
+  多余     (空)                  end                 
+  多余     (空)                  was                 
+  替换     it                   distorted           
+  替换     rang                 mechanical          
+  替换     twice                color               
+  多余     (空)                  red                 
+  替换     need                 said                
+  替换     a                    total               
+  替换     cleaning             erasure             
+  缺少     i                    (空)                 
+  替换     said                 location            
+  缺少     the                  (空)                 
+  缺少     voice                (空)                 
+  缺少     on                   (空)                 
+  缺少     other                (空)                 
+  缺少     end                  (空)                 
+  缺少     was                  (空)                 
+  替换     distorted            estate              
+  替换     mechanical           service             
+  替换     color                entrance            
+  替换     red                  midnight            
+  多余     (空)                  click               
+  多余     (空)                  hung                
+  多余     (空)                  up                  
+  多余     (空)                  and                 
+  多余     (空)                  crushed             
+  多余     (空)                  the                 
+  多余     (空)                  phone               
+  多余     (空)                  under               
+  多余     (空)                  the                 
+  多余     (空)                  heel                
+  多余     (空)                  of                  
+  多余     (空)                  my                  
+  多余     (空)                  good                
+  替换     said                 shoe                
+  多余     (空)                  i                   
+  多余     (空)                  didn                
+  多余     (空)                  t                   
+  多余     (空)                  pack                
+  多余     (空)                  a                   
+  多余     (空)                  bag                 
+  多余     (空)                  bags                
+  替换     total                were                
+  替换     erasure              heavy               
+  多余     (空)                  bags                
+  多余     (空)                  implied             
+  多余     (空)                  you                 
+  多余     (空)                  were                
+  多余     (空)                  going               
+  多余     (空)                  somewhere           
+  多余     (空)                  specific            
+  多余     (空)                  bags                
+  多余     (空)                  were                
+  替换     location             evidence            

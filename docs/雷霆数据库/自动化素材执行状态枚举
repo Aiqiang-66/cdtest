@@ -1,0 +1,144 @@
+/// <summary>
+/// 自动化素材执行状态枚举
+/// </summary>
+public enum AutoCreationMaterialStatusEnum
+{
+    /// <summary>
+    /// 已创建
+    /// </summary>
+    [Text("已创建")]
+    已创建 = 1,
+
+    /// <summary>
+    /// 制作中
+    /// </summary>
+    [Text("制作中")]
+    制作中 = 2,
+
+    /// <summary>
+    /// 制作完成
+    /// </summary>
+    [Text("制作完成")]
+    制作完成 = 3,
+
+    /// <summary>
+    /// 制作失败
+    /// </summary>
+    [Text("制作失败")]
+    制作失败 = 4,
+
+    /// <summary>
+    /// 取消制作
+    /// </summary>
+    [Text("取消制作")]
+    取消制作 = 5,
+
+    /// <summary>
+    /// 失败重制
+    /// </summary>
+    [Text("失败重制")]
+    失败重制 = 6,
+
+    /// <summary>
+    /// 已取消制作
+    /// </summary>
+    [Text("已取消制作")]
+    已取消制作 = 7,
+
+
+    /// <summary>
+    /// 免费标签制作中
+    /// </summary>
+    [Text("免费标签制作中")]
+    免费标签制作中 =8,
+
+    /// <summary>
+    /// 免费标签制作完成
+    /// </summary>
+    [Text("免费标签制作完成")] 
+    免费标签制作完成 = 9, 
+
+    /// <summary>
+    /// 待审核
+    /// </summary>
+    [Text("待审核")]
+    待审核 = 10,
+
+    /// <summary>
+    /// 驳回重制
+    /// </summary>
+    [Text("驳回重制")]
+    驳回重制 = 11,
+
+    /// <summary>
+    /// 审核通过
+    /// </summary>
+    [Text("审核通过")]
+    审核通过 = 12,
+
+    /// <summary>
+    /// 审核删除
+    /// </summary>
+    [Text("审核删除")]
+    审核删除 = 13,
+
+    /// <summary>
+    /// 驳回重制
+    /// </summary>
+    [Text("已驳回重制")]
+    驳回重制结束 = 14,
+
+    /// <summary>
+    /// 审核删除结束
+    /// </summary>
+    [Text("已审核删除")]
+    审核删除结束 = 15,
+
+    /// <summary>
+    /// 待发布
+    /// </summary>
+    [Text("待发布")]
+    待发布 = 20,
+
+    /// <summary>
+    /// 待发布
+    /// </summary>
+    [Text("发布成功")]
+    发布成功 = 21,
+
+    /// <summary>
+    /// 发布失败
+    /// </summary>
+    [Text("发布失败")]
+    发布失败 = 22,
+
+    /// <summary>
+    /// 待上传
+    /// </summary>
+    [Text("待上传")]
+    待上传 = 30,
+
+    /// <summary>
+    /// 上传中
+    /// </summary>
+    [Text("上传中")]
+    上传中 = 31,
+
+    /// <summary>
+    /// 上传成功
+    /// </summary>
+    [Text("上传成功")]
+    上传成功 = 32,
+
+    /// <summary>
+    /// 上传失败
+    /// </summary>
+    [Text("上传失败")]
+    上传失败 = 33,
+
+    /// <summary>
+    /// 异常错误
+    /// </summary>
+    [Text("异常错误")]
+    异常错误 = 999
+}

@@ -1,0 +1,35 @@
+语言名称	语言代号	siteid	充值产品Id	API域名	RES域名	备注
+繁体	ft	-	33332	ftapi.cdreader.com	ftres.cdreader.com	
+英语	en	3223	3663	api.cdreader.com	res.cdreader.com	
+西语	sp	3753	3884	api.manobook.net	res.manobook.net	
+葡语	pt	4093	3225	ptapi.cdreader.com	ptres.cdreader.com	
+法语	fr	4103	3116	frapi.cdreader.com	frres.cdreader.com	
+俄语	ru	4183	3717	ruapi.cdreader.com	rures.cdreader.com	
+日语	jp	4193	3999	jaapi.cdreader.com	jares.cdreader.com	
+印尼	id	4143	50111	idapi.cdreader.com	idres.cdreader.com	
+泰语	th	4333	51112	thapi.cdreader.com	thres.cdreader.com	
+越南语	vi	4353	52113	-	-	连英语服务器
+韩语	ko	4363	53114	-	-	连英语服务器
+菲律宾语	tl	4453	54115	-	-	连英语服务器
+德语	de	4123	56116	-	-	连英语服务器
+意大利语	it	4133	5718	-	-	连英语服务器
+阿拉伯语	ar	4153	58110	-	-	连英语服务器
+印地语	hi	4473	59117	-	-	未使用
+孟加拉语	bn	4483	61118	-	-	未使用
+海外简体	ncn	4913	36619	-	-	连英语服务器
+海外繁体	nft	4923	36620	-	-	未使用
+马来西亚语	my	4953	63121	-	-	连英语服务器
+土耳其语	tr	4973	62122	-	-	连英语服务器
+海剧简体	-	499?	-	-	-	圣经2311（原始内容）
+波兰语     pl   501    3651       连英语服务器
+
+
+
+tgtIds:代号id
+ratios：下发任务尺寸
+core：下发core的类型，一般类型有1,4,5,18
+现在做个接口自动化测试，我需要下一批任务，接口的代号id从数据库94里面取
+SELECT * FROM sharpengine_ads_global.VideoInfo WHERE VideoId = 14583322  
+LanguageCode = 语言
+VideoId = 剧id
+ft, en, sp, pt, fr, ru, jp, id, th, vi, ko, tl, de, it, ar, hi, bn, ncn, nft, my, tr, pl 检索数据库这些语言代号书籍在查到对应剧id填充到接口自动化下发任务

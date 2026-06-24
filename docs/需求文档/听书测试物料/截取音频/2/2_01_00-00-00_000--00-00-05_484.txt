@@ -1,0 +1,18 @@
+======================================================================
+  错误片段对比 #01  |  2
+  时间轴: 00:00:00,000 --> 00:00:05,484
+======================================================================
+
+【翻译文本(参考)】
+  Crosscheck twenty-three. She had used the chaos I created with Eileen as a smokescreen.
+
+【SRT文本(ASR识别)】
+  CrossCheck 23. She had used the chaos I created with Ilene as a smokescreen.
+
+【差异词详情】(共 3 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  缺少     twenty               (空)                 
+  替换     three                23                  
+  替换     eileen               ilene               

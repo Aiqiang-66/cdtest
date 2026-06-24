@@ -1,0 +1,11 @@
+
+# Database Connection Info (example — use env vars for real credentials)
+
+sharpengine_ads_asset_prod
+$DB_HOST:$DB_PORT
+user=$DB_USER, password=$DB_PASSWORD
+
+海外短剧：ai_center
+$DB_HOST_AI:$DB_PORT_AI
+username: $DB_USER
+password: $DB_PASSWORD

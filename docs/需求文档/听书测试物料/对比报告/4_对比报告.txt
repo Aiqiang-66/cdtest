@@ -1,0 +1,311 @@
+================================================================================
+  逐段对比报告: 4
+  SRT(ASR识别) vs 翻译文本(人工参考)
+================================================================================
+
+【整体统计】
+  翻译文本词数: 0
+  SRT词数:      536
+  错误总数:     536
+  替换: 0  删除: 0  插入: 536
+  词准确率:     0%
+  WER:          100%
+
+================================================================================
+  逐段对比详情
+================================================================================
+
+图例: [=] 一致  [~] 有差异  [+] 仅翻译文本有  [-] 仅SRT有
+
+--- 段落 1 [-] 仅SRT有 | 00:00:00,000 --> 00:00:01,535 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : CrossCheck 16.
+
+--- 段落 2 [-] 仅SRT有 | 00:00:01,535 --> 00:00:04,856 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The room was white.Stark, blinding, clinical white.
+
+--- 段落 3 [-] 仅SRT有 | 00:00:04,856 --> 00:00:06,449 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The canvases were gone.
+
+--- 段落 4 [-] 仅SRT有 | 00:00:06,449 --> 00:00:10,055 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The easels were dismantled and stacked in the corner like firewood.
+
+--- 段落 5 [-] 仅SRT有 | 00:00:10,055 --> 00:00:11,818 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : The floor had been scrubbed raw.
+
+--- 段落 6 [-] 仅SRT有 | 00:00:11,818 --> 00:00:13,090 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : There was nothing here.
+
+--- 段落 7 [-] 仅SRT有 | 00:00:13,090 --> 00:00:15,515 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : It looked like a room waiting for a tenant.
+
+--- 段落 8 [-] 仅SRT有 | 00:00:15,515 --> 00:00:19,694 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Not a room where my wife had spent five years pouring her soul onto fabric.
+
+--- 段落 9 [-] 仅SRT有 | 00:00:19,694 --> 00:00:21,574 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She hadn't just left, Ethan.
+
+--- 段落 10 [-] 仅SRT有 | 00:00:21,574 --> 00:00:23,006 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She had erased herself.
+
+--- 段落 11 [-] 仅SRT有 | 00:00:23,006 --> 00:00:24,832 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I walked to the center of the room.
+
+--- 段落 12 [-] 仅SRT有 | 00:00:24,832 --> 00:00:28,593 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : My footsteps echoed, sharp and lonely against the bare walls.
+
+--- 段落 13 [-] 仅SRT有 | 00:00:28,593 --> 00:00:30,054 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She had planned this.
+
+--- 段落 14 [-] 仅SRT有 | 00:00:30,054 --> 00:00:32,758 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : You don't exorcise a room like this in an hour.
+
+--- 段落 15 [-] 仅SRT有 | 00:00:32,758 --> 00:00:38,008 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She had been packing, scrubbing, and erasing while I was busy holding Ilene's hand.
+
+--- 段落 16 [-] 仅SRT有 | 00:00:38,008 --> 00:00:40,483 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : A soft scuffle behind me made me turn.
+
+--- 段落 17 [-] 仅SRT有 | 00:00:40,483 --> 00:00:42,643 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : It was Maria, the head housekeeper.
+
+--- 段落 18 [-] 仅SRT有 | 00:00:42,643 --> 00:00:47,456 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She stood in the doorway, twisting her apron in her hands until her knuckles turned white.
+
+--- 段落 19 [-] 仅SRT有 | 00:00:47,456 --> 00:00:49,688 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Her eyes were red and swollen.
+
+--- 段落 20 [-] 仅SRT有 | 00:00:49,688 --> 00:00:51,502 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Mr.
+
+--- 段落 21 [-] 仅SRT有 | 00:00:49,688 --> 00:00:51,502 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Bruce," she whispered.
+
+--- 段落 22 [-] 仅SRT有 | 00:00:51,502 --> 00:00:53,018 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Where is it.
+
+--- 段落 23 [-] 仅SRT有 | 00:00:51,502 --> 00:00:53,018 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I asked.
+
+--- 段落 24 [-] 仅SRT有 | 00:00:53,018 --> 00:00:55,805 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : My voice sounded like gravel grinding together.
+
+--- 段落 25 [-] 仅SRT有 | 00:00:55,805 --> 00:00:57,005 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Where is her art.
+
+--- 段落 26 [-] 仅SRT有 | 00:00:57,005 --> 00:00:58,481 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "She burned it, Sir.
+
+--- 段落 27 [-] 仅SRT有 | 00:00:58,481 --> 00:00:59,785 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I froze."What.
+
+--- 段落 28 [-] 仅SRT有 | 00:00:59,785 --> 00:01:03,092 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "Two days ago.In the incinerator out back.She said.
+
+--- 段落 29 [-] 仅SRT有 | 00:01:03,092 --> 00:01:04,703 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " Maria choked on a sob.
+
+--- 段落 30 [-] 仅SRT有 | 00:01:04,703 --> 00:01:07,501 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "She said that trash doesn't belong in a palace.
+
+--- 段落 31 [-] 仅SRT有 | 00:01:07,501 --> 00:01:08,960 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " My chest constricted.
+
+--- 段落 32 [-] 仅SRT有 | 00:01:08,960 --> 00:01:11,919 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : That was something Ilene had said to her at dinner last week.
+
+--- 段落 33 [-] 仅SRT有 | 00:01:11,919 --> 00:01:13,417 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Why didn't you stop her.
+
+--- 段落 34 [-] 仅SRT有 | 00:01:13,417 --> 00:01:17,241 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I snapped, the anger flaring hot and fast."I tried.
+
+--- 段落 35 [-] 仅SRT有 | 00:01:17,241 --> 00:01:18,853 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She told me it was an order.
+
+--- 段落 36 [-] 仅SRT有 | 00:01:18,853 --> 00:01:24,070 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " Maria looked up at me, and for the first time in ten years, I saw open judgment in her eyes.
+
+--- 段落 37 [-] 仅SRT有 | 00:01:24,070 --> 00:01:26,545 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "She came back from the Gala tonight, Sir.
+
+--- 段落 38 [-] 仅SRT有 | 00:01:26,545 --> 00:01:28,230 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She came back to get her bag.
+
+--- 段落 39 [-] 仅SRT有 | 00:01:28,230 --> 00:01:29,173 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "You saw her.
+
+--- 段落 40 [-] 仅SRT有 | 00:01:29,173 --> 00:01:30,935 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "Yes.She was crying.
+
+--- 段落 41 [-] 仅SRT有 | 00:01:30,935 --> 00:01:32,517 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She didn't have her crutches.
+
+--- 段落 42 [-] 仅SRT有 | 00:01:32,517 --> 00:01:35,290 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She was limping so bad I thought she would fall.
+
+--- 段落 43 [-] 仅SRT有 | 00:01:35,290 --> 00:01:36,612 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "Why didn't you call me.
+
+--- 段落 44 [-] 仅SRT有 | 00:01:36,612 --> 00:01:41,146 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "I tried to help her," Maria said, her voice gaining a sudden, sharp edge.
+
+--- 段落 45 [-] 仅SRT有 | 00:01:41,146 --> 00:01:42,617 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "I asked her to wait for you.
+
+--- 段落 46 [-] 仅SRT有 | 00:01:42,617 --> 00:01:44,113 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I told her you would fix it.
+
+--- 段落 47 [-] 仅SRT有 | 00:01:44,113 --> 00:01:46,607 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I took a threatening step toward her."And.
+
+--- 段落 48 [-] 仅SRT有 | 00:01:46,607 --> 00:01:49,927 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "She laughed, Sir.It was a terrible, broken sound.
+
+--- 段落 49 [-] 仅SRT有 | 00:01:49,927 --> 00:01:51,820 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She said there was nothing to fix.
+
+--- 段落 50 [-] 仅SRT有 | 00:01:51,820 --> 00:01:53,223 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She said she saw you.
+
+--- 段落 51 [-] 仅SRT有 | 00:01:53,223 --> 00:01:55,180 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I stopped dead."Saw me what.
+
+--- 段落 52 [-] 仅SRT有 | 00:01:51,820 --> 00:01:53,223 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "She said she saw you kiss Miss Wolf.
+
+--- 段落 53 [-] 仅SRT有 | 00:01:57,267 --> 00:01:58,718 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She said you looked happy.
+
+--- 段落 54 [-] 仅SRT有 | 00:01:58,718 --> 00:02:01,608 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " The air left my lungs as if I'd been gutted.
+
+--- 段落 55 [-] 仅SRT有 | 00:02:01,608 --> 00:02:04,168 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I didn't kiss Ilene because I wanted to.
+
+--- 段落 56 [-] 仅SRT有 | 00:02:04,168 --> 00:02:06,841 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I kissed her to shut her up.To stop the scene.
+
+--- 段落 57 [-] 仅SRT有 | 00:02:06,841 --> 00:02:11,606 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : To protect the Family's image in front of the Commission.It was a tactic.A strategy.
+
+--- 段落 58 [-] 仅SRT有 | 00:02:11,606 --> 00:02:13,650 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : But Aurora didn't see a strategy.
+
+--- 段落 59 [-] 仅SRT有 | 00:02:13,650 --> 00:02:16,073 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She saw her husband choosing his mistress.
+
+--- 段落 60 [-] 仅SRT有 | 00:02:16,073 --> 00:02:18,541 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "Get out," I whispered.Maria didn't move.
+
+--- 段落 61 [-] 仅SRT有 | 00:02:18,541 --> 00:02:20,804 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : "She left her wedding ring, Mr.
+
+--- 段落 62 [-] 仅SRT有 | 00:00:49,688 --> 00:00:51,502 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Bruce.
+
+--- 段落 63 [-] 仅SRT有 | 00:02:20,804 --> 00:02:23,189 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : She said it was too heavy to carry anymore.
+
+--- 段落 64 [-] 仅SRT有 | 00:02:16,073 --> 00:02:18,541 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " "Get out.
+
+--- 段落 65 [-] 仅SRT有 | 00:02:23,189 --> 00:02:24,562 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : " I roared.
+
+--- 段落 66 [-] 仅SRT有 | 00:02:24,562 --> 00:02:29,617 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : Maria flinched and hurried away, leaving the echo of my shout to bounce off the empty walls.
+
+--- 段落 67 [-] 仅SRT有 | 00:02:29,617 --> 00:02:31,441 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I was alone in the white room.
+
+--- 段落 68 [-] 仅SRT有 | 00:02:31,441 --> 00:02:33,237 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I looked at the sterile walls.
+
+--- 段落 69 [-] 仅SRT有 | 00:02:33,237 --> 00:02:35,287 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I had built a fortress to keep her safe.
+
+--- 段落 70 [-] 仅SRT有 | 00:02:35,287 --> 00:02:37,536 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I had killed men who looked at her wrong.
+
+--- 段落 71 [-] 仅SRT有 | 00:02:37,536 --> 00:02:38,999 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I was the Underboss.
+
+--- 段落 72 [-] 仅SRT有 | 00:02:38,999 --> 00:02:42,047 ---
+  【翻译文本】: (缺失)
+  【SRT文本】  : I was the monster in the dark who protected the innocent.
+
+================================================================================
+  汇总: 共 72 段, 一致 0 段, 有差异 72 段
+  整体词准确率: 0%
+================================================================================

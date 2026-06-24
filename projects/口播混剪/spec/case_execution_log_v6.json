@@ -1,0 +1,94 @@
+{
+  "test_suite": "口播混剪 v6",
+  "test_date": "2026-05-26 10:15",
+  "total": 14,
+  "passed": 12,
+  "failed": 1,
+  "warned": 1,
+  "results": [
+    {
+      "id": "TC-01",
+      "status": "PASS",
+      "detail": "触发6个校验错误",
+      "time": "10:14:03"
+    },
+    {
+      "id": "TC-02",
+      "status": "PASS",
+      "detail": "剧集代号选择",
+      "time": "10:14:12"
+    },
+    {
+      "id": "TC-03",
+      "status": "PASS",
+      "detail": "Core1+FB提交, 消息: 无消息",
+      "time": "10:14:30"
+    },
+    {
+      "id": "TC-04",
+      "status": "PASS",
+      "detail": "Core4+TT提交",
+      "time": "10:14:48"
+    },
+    {
+      "id": "TC-05",
+      "status": "PASS",
+      "detail": "Core5全媒体提交",
+      "time": "10:15:07"
+    },
+    {
+      "id": "TC-06",
+      "status": "PASS",
+      "detail": "Core18+Snapchat提交",
+      "time": "10:15:25"
+    },
+    {
+      "id": "TC-07",
+      "status": "PASS",
+      "detail": "初始disabled=True → Core1后disabled=True",
+      "time": "10:15:28"
+    },
+    {
+      "id": "TC-08",
+      "status": "PASS",
+      "detail": "男声/女声切换",
+      "time": "10:15:30"
+    },
+    {
+      "id": "TC-09",
+      "status": "PASS",
+      "detail": "BGM切换",
+      "time": "10:15:32"
+    },
+    {
+      "id": "TC-10",
+      "status": "PASS",
+      "detail": "全选/反选/取消",
+      "time": "10:15:35"
+    },
+    {
+      "id": "TC-11",
+      "status": "PASS",
+      "detail": "边界值999",
+      "time": "10:15:36"
+    },
+    {
+      "id": "VERIFY-TASK",
+      "status": "PASS",
+      "detail": "任务行数=31",
+      "time": "10:15:42"
+    },
+    {
+      "id": "VERIFY-DB-TASK",
+      "status": "WARN",
+      "detail": "今天新增=0条",
+      "time": "10:15:42"
+    },
+    {
+      "id": "VERIFY-DB",
+      "status": "FAIL",
+      "detail": "(1054, \"Unknown column 'taskid' in 'field list'\")",
+      "time": "10:15:42"
+    }
+  ]
+}

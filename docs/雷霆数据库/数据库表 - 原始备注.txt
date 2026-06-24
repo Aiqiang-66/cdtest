@@ -1,0 +1,223 @@
+data->https://adassetserver-cd.changdu.vip/asset
+
+aigc->https://adassetserver-cd.changdu.vip/aigc
+线上视频查看
+
+https://adassetserver-cd.changdu.vip/aigc/fileDownload/2025/12/22/srt/Y95_srt_3_12_86978336194041558.srt
+
+https://adassetserver-cd.changdu.vip/asset/
+
+https://adassetserver-cn-new-dev.changdu.ltd/asset/upload_asset/shortvideo/14583322/英语/240017/20251105/XY14$EN$5二及标签$三及标签$11$burn-8935141660703094133$.mp4
+192.168.100.189-sharpengine_ads_asset_prod（业务库）-AIMixedClipSubTask（业务表）所有的任务id发起方给到-AI_Center-TaskInfo
+（所有发起给ai模型那边的表，模型生成jobid数据给到这张表），这张表在给到数据同步给到业务表-AIMixedClipSubTask
+
+
+
+图生图表-库sharpengine_ads_asset_prod
+MaterialConvertCoreTask  素材转码核心任务表
+GeneratePictureSubTask 生成图片子任务表
+GeneratePictureMaterial 生成图片素材表
+
+
+
+
+
+海剧批量上传：
+TaskInfo 开始创建任务列表
+
+SubTaskInfo 拆单列表（123级）
+
+MaterialInfo 存储素材列表，记录视频地址和子任务
+
+MaterialStatus =9 开始烧录 ,等于10 是代表烧录已完成到待审核了
+
+SELECT MaterialStatus FROM MaterialInfo WHERE id = 3746994889973213225
+MaterialBurnJob  烧录任务完成表-审核列表烧录完成数据存储表-可查询到大模型的jobid
+AI_Center-TaskInfo 任务表
+
+海剧
+sharpengine ads asset prod 库
+AIMixedClipAssetGuid  Al混剪素材 下发给模型表入参数据
+AIMixedClipMaterial Al混剪素材表  （海剧自动化任务）
+AIMixedClipMaterialExamine Al混剪生成素材审核
+AIMixedClipOcrTask Al裂变ocr任务
+AIMixedClipRes Al混剪资源表-剧集
+AIMixedClipSubTask Al混剪子任务表 （海剧自动化任务）
+AIMixedClipTask AI混剪任务表
+AIMixedSubtitleRemovalTask Al混剪字幕抹除任务
+AI_Center.file_download_task 海剧内容后台，视频文件下载任务表 
+sharpengine_ads_global.VideoInfo -海剧剧表
+AIMixedClipBurnJob 海剧烧录表
+AI_Center.tencent_subtitle_removal_task 抹除表
+TaskInfo - 任务列表
+video_generation_stats -查线上服务
+
+线上环境数据库
+idc-tidb - ai_center  
+ai_agent - -video_generation_stats 大模型srt文件入参
+
+
+存储模版剧标签地址
+sharpengine_bi.if_books
+
+AutoCreationTaskMaterial
+海阅
+AutoCreationSubTask 素材自动化子任务
+AutoCreationSubTaskLog 素材自动化任务日志
+AutoCreationTask 素材自动化任务   #存储海阅传输文案
+AutoCreationTaskMap 自动化创建任务与素材任务关系
+AutoCreationTaskMaterial 自动化任务素材表（子任务数量查询）--删除海阅批量上传的素材记录   AutoCreationSubTask.id = AutoCreationTaskMaterial.SubTaskId
+AutoCreationTemplate 素材自动化模板
+AutoCreationTemplateRank 自动化热门模板排行
+MaterialUploadLog  查素材报表数据库  传输列表上传数据存储-可以改值同步至报表 uploadstatus-4（上传成功）    MaterialUploadLog.OutputMaterialId = MaterialInfo.Id
+MaterialInfo 存储素材列表，记录视频地址和子任务   id-MaterialId  海阅 给素材报表taskid赋予值  审核列表 SourceMaterialData 有值代表有纯净版视频
+MaterialBurnJob  烧录任务完成表-审核列表烧录数据
+MaterialConvertCoreTask  素材转C核心任务表-c1转c4免费标签-转Core表 海阅烧录转core4表
+MaterialSyncTask 同步媒体表
+MaterialSyncSubTask 素材同步子任务表-审核同步表
+MaterialMd5Task md5值
+MaterialAutoSyncRunningTask 升阶同步
+AutomatedOrderTask 自动制作
+DynamicBackgroundSubTask AI动态视频
+AsyncJobInfo 和大模型交互表，审核裂变烧录jobid
+BurnResource 烧录资源表
+AutoCreationTaskMaterialOpen koc上传表
+BurnResourceTask 水印图自动化制作任务表
+
+BurnResource 烧录资源表，ResourceType，1.水印 2.落地页 3.免费标签
+
+
+MaterialInfo.Id = MaterialBurnJob.MaterialId = MaterialUploadLog.MaterialId #查数据id交互
+
+KOC
+AutoCreationTaskMaterial #海阅自动化烧录
+
+AutoCreationTaskMaterialOpen #自动化烧录同步KOC存储表
+
+AsyncJobInfo #大模型二次烧录交互表-海剧自动化裂变烧录表
+
+AutoCreationTaskMaterialOpen.TaskMaterialId=AsyncJobInfo.DataId
+
+
+
+海剧拉数据
+
+库sharpengine_ads_global
+SELECT * FROM  VideoInfo where VideoId = 57645322
+
+海阅拉数据
+
+库sharpengine_bi
+select * from  sharpengine_bi.if_books where bookid= 57645322 limit 10;
+
+海剧内容后台-字幕合并表
+AI_Center_test-oral_fission_log
+source_epis_subtitle_ocr（测试环境口语裂变日志表-存储ocr数据表）
+Center.tencent_subtitle_removal_task 海剧内容后台抹除任务表
+
+
+
+short_video_admin_test9（测试环境9库）-source_series（剧集表）
+
+海阅自动化
+1.海阅自动化，模版库狼人标签地区无限制，取的是欧美和东南亚的数据
+2.海阅自动化，模版库背景音乐有地区限制，取的是欧美和东南亚的数据
+3.海阅自动化，一键制作，模板不足的情况下，任务下发成功
+4.海阅自动化，有c1和c4免费标签，海阅批量上传是只有纯净版视频
+5.海阅自动化，任务列表和批量上传逻辑是不一致，传输到素材报表展示的数据不同，如测试环境需要素材报表造数据需要任务列表下发任务
+6.素材id为空的情况，检查，AssetGuid，无值，uploadStatus=4，AssetGuid设置一个guid，唯一值，MaterialInfo=taskid设置一个唯一值，上传成功给于对应id
+7.没有插入MaterialInfo的海阅素材是不能转Core的，原来素材的MaterialInfo信息，无法添加到审核列表中，所以禁止掉了，taskid为空的不展示在审核列表和传输列表
+8.海阅自动化，不需要水印图和落地页，只需要免费标签，海阅都是纯净版视频
+9.海阅转core4，taskInfo里面没媒体是通用数据，不会在审核列表具体媒体展示，检索全部展示对应数据，如果taskInfo有对应媒体可以对应检索到数据
+查询语句：
+select * from materialinfo where Id='6629298651490331722'
+select * from TaskInfo where Id=345876451382090124
+10.海阅自动化，解压视频取的模板数据是通用的
+11.素材报表tt和uac同步过的素材不可以重复同步
+12.sharpengine_bi.if_books = StoryType：0长篇，1短篇
+原自动一键制作：总制作数24，高光一半、原文一半，如果不能整除，剩下的余数使用高光文案，5个模板（滚屏图片、滚屏视频、解压视频、解压逐字、动态滚屏）循环
+
+现自动一键制作FB：总制作数24，高光一半、原文一半，如果不能整除，剩下的余数使用高光文案，6个模板（动态滚屏、多段文案、滚屏图片、滚屏视频、解压视频、解压逐字）循环
+
+TT:高光20（滚屏图片3、解压逐字5、动态滚屏4、滚屏视频1、解压视频4、多段文案3）
+原文10（多段文案1、滚屏图片2、解压逐字2、动态滚屏2、滚屏视频1、解压视频2）
+
+谷歌：总制作数20，高光一半、原文一半，如果不能整除，剩下的余数使用高光文案，6个模板（动态滚屏、多段文案、滚屏图片、滚屏视频、解压视频、解压逐字）循环
+
+KOC水印服务
+AutoCreationTaskMaterial #优先存储
+
+AutoCreationTaskMaterialOpen #同步至水印存储表
+
+`OriginPath` varchar(512) DEFAULT NULL COMMENT '原文件地址',
+`OriginCos` varchar(512) DEFAULT NULL COMMENT '原始文件COS地址',
+`PreviewPath` varchar(512) DEFAULT NULL COMMENT '预览文件地址',
+`PreviewCos` varchar(512) DEFAULT NULL COMMENT '预览文件COS地址',
+
+AsyncJobInfo #和大模型交互表
+DataId=AutoCreationTaskMaterial.Id 制作预览视频
+
+完成之后保存到`PreviewPath`
+制作完成之后上传2个`OriginCos` `PreviewCos`
+
+
+
+
+
+
+
+海剧自动化
+1.海剧转uac同步会下发三个不同转尺寸任务
+2.自动化扩语种素材文件字幕必须是英语的，如果是其他语言字幕会导致视频生成完成无字幕的情况，原因在问题2，海剧扩语种，先给大模型英语的srt文件，大模型在去拿英语的文件去做匹配，其他语种的srt文件，然后拿到匹配的srt文件进行烧录到视频上面
+传入的字幕文件有3种
+ocrSrtFile：ocr文件，这个要英文的
+enSrts：原语言文件：这个固定是英文的
+langSrts：目标语言文件，比如：西语、印地语……
+3.配音剧扩语种，口播视频或高光视频前面几秒是非本剧的视频内容需进行裁剪掉，然后在进行配音扩语种，应配音扩语种找的是首帧，如果首帧不存在传参的剧集里面，
+就会出现大模型报错，大模型处理逻辑把视频裁成一帧一帧图片然后去匹配对应剧集数据然后在去合成。字幕是目标剧源自带，音频是根据目标剧源，自动获取。
+4.
+5.字幕偏差问题排查，先去找到ocrSrtFile的本地srt文件和烧录视频做对比看是否有偏差，如果没有偏差再去找enSrts的英文srt文件和langSrts的本地srt文件做对比看是否有偏差
+
+select * from MaterialUploadLog where MaterialId in (
+select MaterialId from MaterialConvertCoreTask where ConvertType=4 and CovertId in (select Id from MaterialUploadLog where AssetGuid='1853863678551528')
+)
+5.海剧图片不需要烧录
+
+
+
+素材报表
+媒体素材id为空时需要，MaterialInfo 给素材报表taskid赋予唯一值，和MaterialUploadLog，给AssetGuid赋予唯一值
+
+
+sharpengine_ads_asset_prod-sharpengine_ads_global.VideoInfo-VideoId（剧id）#查询剧集id，查剧语种
+
+
+国剧
+VideoCnCleanMaterialInfo #国剧纯净版视频表
+VideoCnBurnResource #水印资源表
+VideoCnBurnSubTask #国剧烧录子任务表
+VideoCnBurnTask #国剧烧录资源表
+VideoCnAdxUploadVideoTask #裂变视频存储表
+VideoCnAdxUploadVideo #裂变任务表
+国剧AI复刻-- sharpengine_ads_asset_prod.AsyncJobInfo definition
+
+CREATE TABLE `AsyncJobInfo` (
+  `Id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `JobType` int NOT NULL COMMENT '作业类型',
+  `DataId` bigint NOT NULL COMMENT '关联数据主键Id',
+  `ExtendData` json DEFAULT NULL COMMENT '作业扩展数据',
+  `Status` int NOT NULL COMMENT '任务状态|0=已创建,1=执行中,2=成功,3=失败,999=异常',
+  `JobId` bigint NOT NULL COMMENT '异步作业ID',
+  `JobData` mediumtext DEFAULT NULL COMMENT '异步作业参数',
+  `JobResp` mediumtext DEFAULT NULL COMMENT '接口响应返回',
+  `Error` mediumtext DEFAULT NULL COMMENT '错误信息',
+  `CreateTime` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) COMMENT '创建时间',
+  `UpdateTime` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3) COMMENT '更新时间',
+  `CreatorUid` varchar(256) DEFAULT NULL COMMENT '创建人账号ID',
+  `ResetCount` int NOT NULL DEFAULT '0' COMMENT '重置次数',
+  PRIMARY KEY (`Id`) /*T![clustered_index] CLUSTERED */,
+  KEY `idx_JobType_DataId` (`JobType`,`DataId`),
+  KEY `idx_JobId` (`JobId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=1270000 COMMENT='异步任务';
+
+模型交互的你看这张表，JobType = 8 //剧源向量处理  9=复刻

@@ -1,0 +1,10 @@
+curl 'https://adassetserver-cn-new-test1.changdu.ltd/api/BurnResourceTask/BatchAdd' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Authorization: Bearer $API_TOKEN' \
+  -H 'Referer: https://sc-test.changdu.ltd/' \
+  -H 'sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"resourceType":1,"tgtType":2,"ratios":[916],"core":1,"tgtIds":["14583322"]}'

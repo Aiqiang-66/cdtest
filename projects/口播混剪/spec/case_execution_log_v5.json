@@ -1,0 +1,101 @@
+{
+  "test_suite": "口播混剪 v5 (ANTD适配)",
+  "test_date": "2026-05-26 10:12",
+  "total": 15,
+  "passed": 7,
+  "failed": 7,
+  "skipped": 0,
+  "warned": 1,
+  "results": [
+    {
+      "id": "TC-OM-S01",
+      "status": "PASS",
+      "detail": "触发了6个必填校验错误",
+      "time": "10:08:37"
+    },
+    {
+      "id": "TC-OM-S02",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:09:10"
+    },
+    {
+      "id": "TC-OM-S03",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:09:42"
+    },
+    {
+      "id": "TC-OM-S04",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:10:15"
+    },
+    {
+      "id": "TC-OM-S05",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:10:47"
+    },
+    {
+      "id": "TC-OM-S06",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:11:20"
+    },
+    {
+      "id": "TC-OM-S07",
+      "status": "PASS",
+      "detail": "初始disabled=True → Core1后disabled=True",
+      "time": "10:11:24"
+    },
+    {
+      "id": "TC-OM-S08",
+      "status": "PASS",
+      "detail": "男声/女声切换正常",
+      "time": "10:11:26"
+    },
+    {
+      "id": "TC-OM-S09",
+      "status": "PASS",
+      "detail": "BGM切换正常",
+      "time": "10:11:29"
+    },
+    {
+      "id": "TC-OM-S10",
+      "status": "PASS",
+      "detail": "全选/反选/取消正常",
+      "time": "10:11:33"
+    },
+    {
+      "id": "TC-OM-S11",
+      "status": "PASS",
+      "detail": "设置999, 实际值=999",
+      "time": "10:11:34"
+    },
+    {
+      "id": "TC-OM-S12",
+      "status": "FAIL",
+      "detail": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".ant-select-selection-search-input\").first\n    - locator resolved to <input",
+      "time": "10:12:07"
+    },
+    {
+      "id": "VERIFY-TASK",
+      "status": "PASS",
+      "detail": "任务行数=31",
+      "time": "10:12:12"
+    },
+    {
+      "id": "VERIFY-DB-TASK",
+      "status": "WARN",
+      "detail": "今天新增=0条(基线=0)",
+      "time": "10:12:12"
+    },
+    {
+      "id": "VERIFY-DB",
+      "status": "FAIL",
+      "detail": "(1054, \"Unknown column 'taskid' in 'field list'\")",
+      "time": "10:12:12"
+    }
+  ]
+}

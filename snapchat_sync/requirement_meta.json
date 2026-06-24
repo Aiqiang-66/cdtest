@@ -1,0 +1,21 @@
+{
+  "requirementName": "Snapchat媒体素材同步功能",
+  "system": "雷霆素材系统",
+  "businessType": "后台",
+  "requirementVersion": "2025-06-15",
+  "source": "需求文档: Snapchat媒体素材同步需求.docx",
+  "module": "素材报表",
+  "platform": "Web",
+  "testEnvironment": "内网",
+  "dbConnection": {
+    "host": "tidb-in.changdu.ltd",
+    "port": 4000,
+    "databases": ["sharpengine_ads_asset_prod"]
+  },
+  "keyTables": [
+    "MaterialUploadLog",
+    "MaterialSyncTask",
+    "MaterialSyncSubTask",
+    "MaterialInfo"
+  ]
+}

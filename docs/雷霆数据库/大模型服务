@@ -1,0 +1,38 @@
+海剧：ai-auto-short-videos
+海剧ocr：subtitles-ocr  
+oral-subtitles-ocr
+hardcode-langdingpage：海剧上传素材之后自动添加水印落地页-转core服务，国剧裂变烧录
+redis-延长是22，拼接1，高光前置7
+混剪29，
+4对应裂变，7高光前置
+31，5水印烧录，7高光前置
+PureVersionVideo   #国剧/海剧/海阅烧录
+ai-auto-chian-videos  #国剧裂变
+
+
+
+hardcode-uactt：海剧转媒体服务
+
+海阅：ai-auto-source-video   redis：MaterialDubbing  删除redis里面的任务小于自己的id就可以了，redis按照任务id存储大小得进行跑的
+
+
+
+
+hardcode-watermark : KOC水印服务
+
+redis-21（海剧烧录数据）
+
+redis-MaterialDubbing(海阅段落文案生成)  
+转媒体：uacttfb
+redis-49（koc）
+C4：大模型服务和海剧素材同一个
+53-adx国剧裂变
+
+
+服务：ai-auto-short-videos   口播
+队列：UniversalTransparent_29  口播
+
+
+国剧AI复刻：UniversalTransparent_73
+
+75 （扩语种-配音剧）

@@ -1,0 +1,89 @@
+{
+  "test_suite": "口播混剪",
+  "test_date": "2026-05-26 10:04",
+  "total": 13,
+  "passed": 12,
+  "failed": 0,
+  "skipped": 0,
+  "warned": 1,
+  "results": [
+    {
+      "id": "TC-OM-001",
+      "status": "PASS",
+      "detail": "Core1 + 男声 + 手动BGM + FB 已提交",
+      "time": "10:03:02"
+    },
+    {
+      "id": "TC-OM-002",
+      "status": "PASS",
+      "detail": "Core4 + 女声 + 随机BGM + TT 已提交",
+      "time": "10:03:10"
+    },
+    {
+      "id": "TC-OM-003",
+      "status": "PASS",
+      "detail": "Core5 + 全媒体 已提交",
+      "time": "10:03:19"
+    },
+    {
+      "id": "TC-OM-004",
+      "status": "PASS",
+      "detail": "Core18 + Snapchat 已提交",
+      "time": "10:03:26"
+    },
+    {
+      "id": "TC-OM-005",
+      "status": "PASS",
+      "detail": "生成文案已点击",
+      "time": "10:03:32"
+    },
+    {
+      "id": "TC-OM-006",
+      "status": "PASS",
+      "detail": "全选/反选/取消正常",
+      "time": "10:03:34"
+    },
+    {
+      "id": "TC-OM-007",
+      "status": "PASS",
+      "detail": "初始=False → Core1后=False",
+      "time": "10:03:38"
+    },
+    {
+      "id": "TC-OM-008",
+      "status": "PASS",
+      "detail": "男声/女声切换正常",
+      "time": "10:03:40"
+    },
+    {
+      "id": "TC-OM-009",
+      "status": "PASS",
+      "detail": "BGM切换正常",
+      "time": "10:03:42"
+    },
+    {
+      "id": "TC-OM-010",
+      "status": "PASS",
+      "detail": "已触发必填校验",
+      "time": "10:03:44"
+    },
+    {
+      "id": "TC-OM-011",
+      "status": "PASS",
+      "detail": "边界值999已设置",
+      "time": "10:03:47"
+    },
+    {
+      "id": "VERIFY-TASK",
+      "status": "PASS",
+      "detail": "任务行数=31",
+      "time": "10:03:52"
+    },
+    {
+      "id": "VERIFY-DB",
+      "status": "WARN",
+      "detail": "今天新增=0条任务(基线=0)",
+      "time": "10:04:00"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+======================================================================
+  错误片段对比 #01  |  3
+  时间轴: 00:00:00,000 --> 00:00:07,202
+======================================================================
+
+【翻译文本(参考)】
+  Cross check eight. If the cops get involved, they will dig into everything. Aurora, the business, the offshore accounts.
+
+【SRT文本(ASR识别)】
+  CrossCheck 8. "If the cops get involved, they will dig into everything, Aurora.The business. The offshore accounts.
+
+【差异词详情】(共 9 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  缺少     cross                (空)                 
+  替换     check                crosscheck          
+  替换     eight                8                   
+  多余     (空)                  aurora              
+  多余     (空)                  the                 
+  多余     (空)                  business            
+  缺少     aurora               (空)                 
+  缺少     the                  (空)                 
+  缺少     business             (空)                 

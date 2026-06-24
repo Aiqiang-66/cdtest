@@ -1,0 +1,241 @@
+======================================================================
+SRT(ASR识别) vs 翻译文本(参考) - 汇总报告
+======================================================================
+
+文件名             参考词数       SRT词数      错误       替换     删除     插入     准确率       
+----------------------------------------------------------------------
+0c93b7bf        536        534        9        5      3      1      98.32     %
+4f0bd94a        517        516        11       8      2      1      97.87     %
+6e80b239        524        524        10       8      1      1      98.09     %
+6f58e02f        533        534        12       9      1      2      97.75     %
+----------------------------------------------------------------------
+【汇总】            2110                  42                            98.01     %
+
+  文件数量: 4
+  平均词准确率: 98.01%
+  总体WER(词错误率): 1.99%
+
+======================================================================
+======================================================================
+对比报告: 0c93b7bf.srt vs 0c93b7bf.翻译文本.srt
+======================================================================
+
+【统计摘要】
+  翻译文本(参考)词数: 536
+  SRT(ASR识别)词数:  534
+  错误总数: 9
+    - 替换(Substitution): 5
+    - 删除(Deletion):     3
+    - 插入(Insertion):    1
+  词准确率: 98.32%
+  WER(词错误率): 1.68%
+
+【差异详情】(共 9 处)
+----------------------------------------------------------------------
+序号    类型     翻译文本(参考)                  SRT(ASR识别)               
+----------------------------------------------------------------------
+1     删除     twenty                    (空)                      
+2     替换     three                     23                       
+3     替换     eileen                    ilene                    
+4     插入     (空)                       multi                    
+5     替换     multimillion              million                  
+6     替换     eighteen                  18                       
+7     删除     p                         (空)                      
+8     删除     o                         (空)                      
+9     替换     v                         pov                      
+
+【差异分类分析】
+----------------------------------------------------------------------
+  1. 数字格式差异 (2处):
+     翻译文本='three' <-> SRT='23'
+     翻译文本='eighteen' <-> SRT='18'
+  2. 人名拼写差异 (1处):
+     翻译文本='eileen' <-> SRT='ilene'
+  4. 其他差异 (6处):
+     翻译文本='twenty' <-> SRT=''
+     翻译文本='' <-> SRT='multi'
+     翻译文本='multimillion' <-> SRT='million'
+     翻译文本='p' <-> SRT=''
+     翻译文本='o' <-> SRT=''
+     翻译文本='v' <-> SRT='pov'
+
+【原始文本对比】
+----------------------------------------------------------------------
+▼ 翻译文本(参考):
+Crosscheck twenty-three. She had used the chaos I created with Eileen as a smokescreen. While I was busy playing the hero for a woman who betrayed me, my wife was methodically erasing her existence. I lay back on the bed. The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her, her scent, that mix of vanilla and oil paint, was already fading. I closed my eyes. I saw her face in the van, the terror, the realization that I wasn't coming. I had been the underboss of New York. I controlled unions. I owned politicians. I decided who lived and who died. But lying in the dark of my multimillion-dollar fortress, I realized I was utterly powerless. I couldn't bring her back. I couldn't fix what I broke. For the first time in twenty years, I pulled the pillow over my face and screamed. Chapter eighteen. Ethan Bruce P.O.V. Two years, seven hundred and thirty days. That is exactly how long it takes to carve the humanity out of a man and leave a monster in his wake. I sat at the head of the table in the commission room. The air was thick with acrid cigar smoke and the metallic stench of fear. The other dons regarded me with a mixture of respect and terror. They didn't call me the underboss anymore. They had a new name for me now. They called me the butcher. Since the night Aurora left, I had expanded our territory by forty percent. I had crushed the Vance syndicate so thoroughly that Leo's name was now a ghost story whispered to scare new recruits. The shipment from the docks is secure, Capo Rossi said, his voice trembling slightly. Profits are up twelve percent this quarter. I didn't grant him the dignity of eye contact. I stared at the dark grain of the wood on the table. Good, I said, my voice devoid of inflection. Dismissed. They scrambled to leave, chairs scraping harshly against the floor in their haste. They couldn't wait to get away from me. I didn't blame them. I had become a machine cold, efficient, and utterly hollow. I stood up ...
+
+▼ SRT(ASR识别):
+CrossCheck 23. She had used the chaos I created with Ilene as a smokescreen. While I was busy playing the hero for a woman who betrayed me, my wife was methodically erasing her existence. I lay back on the bed. The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her. Her scent-that mix of vanilla and oil paint-was already fading.I closed my eyes. I saw her face in the van.The terror. The realization that I wasn't coming. I had been the Underboss of New York. I controlled unions. I owned politicians. I decided who lived and who died. But lying in the dark of my multi-million dollar fortress, I realized I was utterly powerless. I couldn't bring her back. I couldn't fix what I broke. For the first time in twenty years, I pulled the pillow over my face and screamed.Chapter 18 Ethan Bruce POV Two years.Seven hundred and thirty days. That is exactly how long it takes to carve the humanity out of a man and leave a monster in his wake. I sat at the head of the table in the Commission room. The air was thick with acrid cigar smoke and the metallic stench of fear. The other Dons regarded me with a mixture of respect and terror. They didn't call me the Underboss anymore. They had a new name for me now. They called me the Butcher. Since the night Aurora left, I had expanded our territory by forty percent. I had crushed the Vance syndicate so thoroughly that Leo's name was now a ghost story whispered to scare new recruits. "The shipment from the docks is secure," Capo Rossi said, his voice trembling slightly. "Profits are up twelve percent this quarter. " I didn't grant him the dignity of eye contact. I stared at the dark grain of the wood on the table. "Good," I said, my voice devoid of inflection."Dismissed. " They scrambled to leave, chairs scraping harshly against the floor in their haste. They couldn't wait to get away from me. I didn't blame them. I had become a machine-cold, efficient, and utterly hollow. I stood up and walked to the...
+
+======================================================================
+
+======================================================================
+对比报告: 4f0bd94a.srt vs 4f0bd94a.翻译文本.srt
+======================================================================
+
+【统计摘要】
+  翻译文本(参考)词数: 517
+  SRT(ASR识别)词数:  516
+  错误总数: 11
+    - 替换(Substitution): 8
+    - 删除(Deletion):     2
+    - 插入(Insertion):    1
+  词准确率: 97.87%
+  WER(词错误率): 2.13%
+
+【差异详情】(共 11 处)
+----------------------------------------------------------------------
+序号    类型     翻译文本(参考)                  SRT(ASR识别)               
+----------------------------------------------------------------------
+1     删除     cross                     (空)                      
+2     替换     check                     crosscheck               
+3     替换     eight                     8                        
+4     插入     (空)                       he                       
+5     替换     ethan                     said                     
+6     替换     he                        rest                     
+7     替换     asked                     aurora                   
+8     替换     six                       6                        
+9     删除     trade                     (空)                      
+10    替换     craft                     tradecraft               
+11    替换     clicked                   click                    
+
+【差异分类分析】
+----------------------------------------------------------------------
+  1. 数字格式差异 (2处):
+     翻译文本='eight' <-> SRT='8'
+     翻译文本='six' <-> SRT='6'
+  2. 人名拼写差异 (2处):
+     翻译文本='ethan' <-> SRT='said'
+     翻译文本='asked' <-> SRT='aurora'
+  4. 其他差异 (7处):
+     翻译文本='cross' <-> SRT=''
+     翻译文本='check' <-> SRT='crosscheck'
+     翻译文本='' <-> SRT='he'
+     翻译文本='he' <-> SRT='rest'
+     翻译文本='trade' <-> SRT=''
+     翻译文本='craft' <-> SRT='tradecraft'
+     翻译文本='clicked' <-> SRT='click'
+
+【原始文本对比】
+----------------------------------------------------------------------
+▼ 翻译文本(参考):
+Cross check eight. If the cops get involved, they will dig into everything. Aurora, the business, the offshore accounts. You would bring down the entire empire over a domestic accident. Domestic accident. That's what I was to him now, an inconvenience, a loose end. Give me the phone, Ethan. He didn't hand it over. Instead, he yanked the cord out of the wall, plaster dust falling to the floor. You are hysterical. It's the concussion talking. He shoved the disconnected phone into his pocket. I stared at him, trying to find the man I married. This man had killed for me before. He had once broken a man's fingers, just for looking at me the wrong way in a club. But when the threat came from inside his own house, born of his own sins, he was paralyzed. You are my husband. I whispered, the word tasting like ash. You swore to protect me. I am protecting you, Ethan. His voice flat, devoid of warmth. I have guards posted outside the door. No one gets in, except you. I said. A muscle feathered in his jaw. He flinched, just barely. I need to go. He said, straightening his jacket, adjusting his cuffs, as if this were a business transaction. The commission is asking questions about the ambulance dispatch. I have to spin this before it gets out of hand. He turned and walked to the door. Ethan. He stopped. His hand hovering over the brass knob. If you walk out that door, don't come back. He didn't turn around. He asked. We will talk when you are rational. The door clicked shut. The silence that followed was heavier than the plaster cast on my leg. It was suffocating. He chose her again, and in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died. I didn't cry. Soldiers don't weep on the battlefield, and I was at war. Chapter six. I waited three days. I waited until the fog of the pain meds lifted just enough for me to manage the crutches without falling. I waited until Ethan left for a sit down with the Russians. Once the house ...
+
+▼ SRT(ASR识别):
+CrossCheck 8. "If the cops get involved, they will dig into everything, Aurora.The business. The offshore accounts. You would bring down the entire empire over a domestic accident. " Domestic accident.That's what I was to him now.An inconvenience.A loose end. "Give me the phone, Ethan. " He didn't hand it over. Instead, he yanked the cord out of the wall, plaster dust falling to the floor. "You are hysterical. It's the concussion talking. " He shoved the disconnected phone into his pocket. I stared at him, trying to find the man I married. This man had killed for me before. He had once broken a man's fingers just for looking at me the wrong way in a club. But when the threat came from inside his own house, born of his own sins, he was paralyzed. "You are my husband," I whispered, the word tasting like ash. "You swore to protect me. " "I am protecting you," he said, his voice flat, devoid of warmth. "I have guards posted outside the door.No one gets in. " "Except you," I said. A muscle feathered in his jaw. He flinched, just barely. "I need to go," he said, straightening his jacket, adjusting his cuffs as if this were a business transaction. "The Commission is asking questions about the ambulance dispatch. I have to spin this before it gets out of hand. " He turned and walked to the door."Ethan. " He stopped, his hand hovering over the brass knob. "If you walk out that door, don't come back. " He didn't turn around."Rest, Aurora. We will talk when you are rational. " The door clicked shut. The silence that followed was heavier than the plaster cast on my leg.It was suffocating.He chose her.Again. And in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died.I didn't cry. Soldiers don't weep on the battlefield.And I was at war.Chapter 6 I waited three days. I waited until the fog of the pain meds lifted just enough for me to manage the crutches without falling. I waited until Ethan left for a sit-down with the Russia...
+
+======================================================================
+
+======================================================================
+对比报告: 6e80b239.srt vs 6e80b239.翻译文本.srt
+======================================================================
+
+【统计摘要】
+  翻译文本(参考)词数: 524
+  SRT(ASR识别)词数:  524
+  错误总数: 10
+    - 替换(Substitution): 8
+    - 删除(Deletion):     1
+    - 插入(Insertion):    1
+  词准确率: 98.09%
+  WER(词错误率): 1.91%
+
+【差异详情】(共 10 处)
+----------------------------------------------------------------------
+序号    类型     翻译文本(参考)                  SRT(ASR识别)               
+----------------------------------------------------------------------
+1     删除     cross                     (空)                      
+2     替换     check                     crosscheck               
+3     替换     five                      5                        
+4     替换     elen                      ilene                    
+5     替换     elene                     ilene                    
+6     替换     two                       2                        
+7     替换     eileen                    ilene                    
+8     替换     sinking                   syncing                  
+9     插入     (空)                       dropped                  
+10    替换     eileen                    ilene                    
+
+【差异分类分析】
+----------------------------------------------------------------------
+  1. 数字格式差异 (2处):
+     翻译文本='five' <-> SRT='5'
+     翻译文本='two' <-> SRT='2'
+  2. 人名拼写差异 (4处):
+     翻译文本='elen' <-> SRT='ilene'
+     翻译文本='elene' <-> SRT='ilene'
+     翻译文本='eileen' <-> SRT='ilene'
+     翻译文本='eileen' <-> SRT='ilene'
+  4. 其他差异 (4处):
+     翻译文本='cross' <-> SRT=''
+     翻译文本='check' <-> SRT='crosscheck'
+     翻译文本='sinking' <-> SRT='syncing'
+     翻译文本='' <-> SRT='dropped'
+
+【原始文本对比】
+----------------------------------------------------------------------
+▼ 翻译文本(参考):
+Cross check five Ethan moved, but he moved toward her, not me. He reached out to calm her. Elen swung her arm. The thick orange liquid hit me squarely in the chest. The heat was instantaneous. It seared through my silk dress, scalding the skin of my cleavage and neck. I gasped, the pain stealing the air from my lungs. I stood up, clawing at the fabric, trying to pull the burning silk away from my skin. Ethan caught Elene's wrists. He didn't look at me. He looked at her, calm down. He soothed. It's okay, I've got you. I stood there dripping with soup, my skin blistering, surrounded by staring strangers. My husband was hugging the woman who had just assaulted me. Chapter two. The sharp sting of antiseptic is the scent of my marriage. I sat on the crinkling paper of the exam table in the private clinic owned by the family. My silk dress was cut away, lying in a discarded heap on the floor. The doctor applied a cooling gel to the second degree burns across my chest. He worked in silence, his eyes fixed. Strictly on the wounds, he knew better than to ask questions. The door opened, Ethan walked in, he had removed his tuxedo jacket, his white shirt was crisp, unblemished, the chaos of the evening hadn't left a mark on him, not a drop of soup had touched him. How is she? Ethan asked the doctor. He didn't look at my face, he looked at the burns. She will heal, the doctor said, his voice low. It will scar though, the soup was boiling. Ethan nodded, as if receiving a report on a damaged shipment of guns. Leave us. The doctor slipped out of the room instantly. Ethan stepped closer. The scent of his cologne sandalwood and cold rain, mixed with the faint metallic tang of blood he always carried, it filled my nose, overpowering the sterile air. He reached out, his fingers hovering over the raw, blistered skin. I flinched. His hand dropped to his side. Eileen is sedated, he said. I didn't answer. The pain in my chest was a throbbing drumbeat, sinking with the rage building in my t...
+
+▼ SRT(ASR识别):
+CrossCheck 5. Ethan moved, but he moved toward her, not me. He reached out to calm her. Ilene swung her arm. The thick, orange liquid hit me squarely in the chest. The heat was instantaneous. It seared through my silk dress, scalding the skin of my cleavage and neck. I gasped, the pain stealing the air from my lungs. I stood up, clawing at the fabric, trying to pull the burning silk away from my skin. Ethan caught Ilene's wrists. He didn't look at me.He looked at her. "Calm down," he soothed."It's okay.I've got you. " I stood there, dripping with soup, my skin blistering, surrounded by staring strangers. My husband was hugging the woman who had just assaulted me.Chapter 2 The sharp sting of antiseptic is the scent of my marriage. I sat on the crinkling paper of the exam table in the private clinic owned by the Family. My silk dress was cut away, lying in a discarded heap on the floor. The doctor applied a cooling gel to the second-degree burns across my chest. He worked in silence, his eyes fixed strictly on the wounds. He knew better than to ask questions.The door opened.Ethan walked in. He had removed his tuxedo jacket. His white shirt was crisp, unblemished. The chaos of the evening hadn't left a mark on him. Not a drop of soup had touched him."How is she. " Ethan asked the doctor. He didn't look at my face. He looked at the burns. "She will heal," the doctor said, his voice low. "It will scar, though. The soup was boiling. " Ethan nodded, as if receiving a report on a damaged shipment of guns."Leave us. " The doctor slipped out of the room instantly. Ethan stepped closer. The scent of his cologne-sandalwood and cold rain-mixed with the faint metallic tang of blood he always carried. It filled my nose, overpowering the sterile air. He reached out, his fingers hovering over the raw, blistered skin.I flinched. His hand dropped to his side. "Ilene is sedated," he said.I didn't answer. The pain in my chest was a throbbing drumbeat, syncing with the rage building in m...
+
+======================================================================
+
+======================================================================
+对比报告: 6f58e02f.srt vs 6f58e02f.翻译文本.srt
+======================================================================
+
+【统计摘要】
+  翻译文本(参考)词数: 533
+  SRT(ASR识别)词数:  534
+  错误总数: 12
+    - 替换(Substitution): 9
+    - 删除(Deletion):     1
+    - 插入(Insertion):    2
+  词准确率: 97.75%
+  WER(词错误率): 2.25%
+
+【差异详情】(共 12 处)
+----------------------------------------------------------------------
+序号    类型     翻译文本(参考)                  SRT(ASR识别)               
+----------------------------------------------------------------------
+1     删除     cross                     (空)                      
+2     替换     check                     crosscheck               
+3     替换     six                       6                        
+4     替换     5                         five                     
+5     替换     4                         four                     
+6     替换     eileen                    ilene                    
+7     插入     (空)                       chapter                  
+8     插入     (空)                       3                        
+9     替换     dona                      donna                    
+10    替换     elaine                    ilene                    
+11    替换     elaine                    ilene                    
+12    替换     eleni                     ilene                    
+
+【差异分类分析】
+----------------------------------------------------------------------
+  1. 数字格式差异 (4处):
+     翻译文本='six' <-> SRT='6'
+     翻译文本='5' <-> SRT='five'
+     翻译文本='4' <-> SRT='four'
+     翻译文本='' <-> SRT='3'
+  2. 人名拼写差异 (4处):
+     翻译文本='eileen' <-> SRT='ilene'
+     翻译文本='elaine' <-> SRT='ilene'
+     翻译文本='elaine' <-> SRT='ilene'
+     翻译文本='eleni' <-> SRT='ilene'
+  4. 其他差异 (4处):
+     翻译文本='cross' <-> SRT=''
+     翻译文本='check' <-> SRT='crosscheck'
+     翻译文本='' <-> SRT='chapter'
+     翻译文本='dona' <-> SRT='donna'
+
+【原始文本对比】
+----------------------------------------------------------------------
+▼ 翻译文本(参考):
+Cross check six, so i am the one leaving. Again, it's for your safety, aurora. Don't use that word, i snapped. My voice cracked. Don't you dare talk to me about safety. You are the underboss. You command an army. You protect drug shipments, casinos, and politicians. But you can't protect your wife from one 5 foot 4 mental patient. Ethan grabbed my arm. His grip was iron. Watch your mouth. Eileen is family. Her father took a bullet for mine. I owe her my life. And what do you owe me? I whispered. He froze. His eyes searched mine, looking for the submissive girl he married. But she wasn't there anymore. She had burned away with the silk dress. I owe you everything, he said, his voice rough. That is why i am sending you to the penthouse downtown. You will be safe there. He let go of my arm. He checked his watch. I have to get back to her. She wakes up screaming if i'm not in the room. He turned and walked out. He left his injured wife alone in a cold clinic to go hold the hand of the woman who burned her. I looked. At the door, the lock didn't keep people out, it kept me in. Instead of going to the penthouse, i took a cab straight to the estate. It was a fortress of stone and iron, built to withstand sieges from rival families. But the true enemy was already inside. I swept through the front doors, ignoring the shocked expressions of the guards. They didn't dare stop me. I was still the dona, even if my husband treated me like a mistress. The house was quiet, too quiet. I headed toward the main staircase. At the top of the landing, the gallery wall stretched out a space that was supposed to be covered in our wedding photos. They were large, black and white prints of the day two crime families merged. Now the wall was bare. The frames lay shattered on the marble floor below, and glass crunched ominously under my heels. I looked up. Elaine stood at the top of the stairs. She was wearing one of my silk robes, looking like a wraith pale and smiling. I thought they looked b...
+
+▼ SRT(ASR识别):
+CrossCheck 6. "So I am the one leaving. Again. " "It's for your safety, Aurora. " "Don't use that word," I snapped.My voice cracked. "Don't you dare talk to me about safety. You are the Underboss. You command an army. You protect drug shipments, casinos, and politicians. But you can't protect your wife from one five-foot-four mental patient. " Ethan grabbed my arm.His grip was iron."Watch your mouth.Ilene is family. Her father took a bullet for mine. I owe her my life. " "And what do you owe me." I whispered.He froze. His eyes searched mine, looking for the submissive girl he married. But she wasn't there anymore. She had burned away with the silk dress. "I owe you everything," he said, his voice rough. "That is why I am sending you to the penthouse downtown. You will be safe there. " He let go of my arm. He checked his watch. "I have to get back to her. She wakes up screaming if I'm not in the room. " He turned and walked out. He left his injured wife alone in a cold clinic to go hold the hand of the woman who burned her. I looked at the door. The lock didn't keep people out.It kept me in.Chapter 3 Instead of going to the penthouse, I took a cab straight to the Estate. It was a fortress of stone and iron, built to withstand sieges from rival families, but the true enemy was already inside. I swept through the front doors, ignoring the shocked expressions of the guards. They didn't dare stop me. I was still the Donna, even if my husband treated me like a mistress. The house was quiet.Too quiet. I headed toward the main staircase. At the top of the landing, the gallery wall stretched out-a space that was supposed to be covered in our wedding photos. They were large, black-and-white prints of the day two crime families merged. Now, the wall was bare. The frames lay shattered on the marble floor below, and glass crunched ominously under my heels.I looked up. Ilene stood at the top of the stairs. She was wearing one of my silk robes, looking like a wraith-pale and smili...
+
+======================================================================

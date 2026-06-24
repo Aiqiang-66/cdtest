@@ -1,0 +1,69 @@
+======================================================================
+  错误片段对比 #09  |  3
+  时间轴: 00:01:25,064 --> 00:01:44,877
+======================================================================
+
+【翻译文本(参考)】
+  The door clicked shut. The silence that followed was heavier than the plaster cast on my leg. It was suffocating. He chose her again, and in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died.
+
+【SRT文本(ASR识别)】
+  " The door clicked shut. The silence that followed was heavier than the plaster cast on my leg.It was suffocating.He chose her.Again. And in that crushing silence, the last flickering ember of love I held for Ethan Bruce finally sputtered and died.I didn't cry. Soldiers don't weep on the battlefield.And I was at war.Chapter 6 I waited three days.
+
+【差异词详情】(共 54 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  it                  
+  多余     (空)                  was                 
+  多余     (空)                  suffocating         
+  多余     (空)                  he                  
+  多余     (空)                  chose               
+  多余     (空)                  her                 
+  多余     (空)                  again               
+  多余     (空)                  and                 
+  多余     (空)                  in                  
+  多余     (空)                  that                
+  多余     (空)                  crushing            
+  多余     (空)                  silence             
+  多余     (空)                  the                 
+  多余     (空)                  last                
+  多余     (空)                  flickering          
+  多余     (空)                  ember               
+  多余     (空)                  of                  
+  多余     (空)                  love                
+  多余     (空)                  i                   
+  多余     (空)                  held                
+  多余     (空)                  for                 
+  多余     (空)                  ethan               
+  多余     (空)                  bruce               
+  多余     (空)                  finally             
+  多余     (空)                  sputtered           
+  多余     (空)                  and                 
+  多余     (空)                  died                
+  多余     (空)                  i                   
+  替换     it                   didn                
+  替换     was                  t                   
+  替换     suffocating          cry                 
+  缺少     he                   (空)                 
+  缺少     chose                (空)                 
+  缺少     her                  (空)                 
+  缺少     again                (空)                 
+  替换     and                  soldiers            
+  替换     in                   don                 
+  替换     that                 t                   
+  替换     crushing             weep                
+  替换     silence              on                  
+  缺少     last                 (空)                 
+  缺少     flickering           (空)                 
+  替换     ember                battlefield         
+  替换     of                   and                 
+  替换     love                 i                   
+  替换     i                    was                 
+  替换     held                 at                  
+  替换     for                  war                 
+  替换     ethan                chapter             
+  替换     bruce                6                   
+  替换     finally              i                   
+  替换     sputtered            waited              
+  替换     and                  three               
+  替换     died                 days                

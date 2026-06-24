@@ -1,0 +1,62 @@
+======================================================================
+  错误片段对比 #02  |  2
+  时间轴: 00:00:13,168 --> 00:00:29,726
+======================================================================
+
+【翻译文本(参考)】
+  The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her, her scent, that mix of vanilla and oil paint, was already fading. I closed my eyes. I saw her face in the van, the terror, the realization that I wasn't coming. I had been the underboss of New York.
+
+【SRT文本(ASR识别)】
+  The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her. Her scent-that mix of vanilla and oil paint-was already fading.I closed my eyes. I saw her face in the van.The terror. The realization that I wasn't coming. I had been the Underboss of New York.
+
+【差异词详情】(共 47 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  缺少     her                  (空)                 
+  缺少     scent                (空)                 
+  缺少     that                 (空)                 
+  缺少     mix                  (空)                 
+  缺少     of                   (空)                 
+  缺少     vanilla              (空)                 
+  缺少     and                  (空)                 
+  缺少     oil                  (空)                 
+  缺少     paint                (空)                 
+  缺少     was                  (空)                 
+  缺少     already              (空)                 
+  缺少     fading               (空)                 
+  多余     (空)                  her                 
+  多余     (空)                  scent               
+  多余     (空)                  that                
+  多余     (空)                  mix                 
+  多余     (空)                  of                  
+  多余     (空)                  vanilla             
+  多余     (空)                  and                 
+  多余     (空)                  oil                 
+  多余     (空)                  paint               
+  多余     (空)                  was                 
+  多余     (空)                  already             
+  多余     (空)                  fading              
+  缺少     the                  (空)                 
+  缺少     realization          (空)                 
+  缺少     that                 (空)                 
+  缺少     i                    (空)                 
+  缺少     wasn                 (空)                 
+  缺少     t                    (空)                 
+  缺少     coming               (空)                 
+  缺少     i                    (空)                 
+  替换     had                  the                 
+  替换     been                 realization         
+  替换     the                  that                
+  替换     underboss            i                   
+  替换     of                   wasn                
+  替换     new                  t                   
+  替换     york                 coming              
+  多余     (空)                  i                   
+  多余     (空)                  had                 
+  多余     (空)                  been                
+  多余     (空)                  the                 
+  多余     (空)                  underboss           
+  多余     (空)                  of                  
+  多余     (空)                  new                 
+  替换     无对应                  york                

@@ -1,0 +1,389 @@
+================================================================================
+  逐段对比报告: 2
+  SRT(ASR识别) vs 翻译文本(人工参考)
+================================================================================
+
+【整体统计】
+  翻译文本词数: 536
+  SRT词数:      534
+  错误总数:     9
+  替换: 5  删除: 3  插入: 1
+  词准确率:     98.32%
+  WER:          1.68%
+
+================================================================================
+  逐段对比详情
+================================================================================
+
+图例: [=] 一致  [~] 有差异  [+] 仅翻译文本有  [-] 仅SRT有
+
+--- 段落 1 [~] 有差异 | 00:00:00,000 --> 00:00:01,509 | 本段准确率: 33.33% ---
+  【翻译文本】: Crosscheck twenty-three.
+  【SRT文本】  : CrossCheck 23.
+  差异词:
+    [缺少] 翻译文本='twenty' -> SRT=''
+    [替换] 翻译文本='three' -> SRT='23'
+
+--- 段落 2 [~] 有差异 | 00:00:01,509 --> 00:00:05,484 | 本段准确率: 91.67% ---
+  【翻译文本】: She had used the chaos I created with Eileen as a smokescreen.
+  【SRT文本】  : She had used the chaos I created with Ilene as a smokescreen.
+  差异词:
+    [替换] 翻译文本='eileen' -> SRT='ilene'
+
+--- 段落 3 [=] 一致 | 00:00:05,484 --> 00:00:11,855 ---
+  翻译文本: While I was busy playing the hero for a woman who betrayed me, my wife was methodically erasing her existence.
+  SRT文本:   While I was busy playing the hero for a woman who betrayed me, my wife was methodically erasing her existence.
+
+--- 段落 4 [=] 一致 | 00:00:11,855 --> 00:00:13,168 ---
+  翻译文本: I lay back on the bed.
+  SRT文本:   I lay back on the bed.
+
+--- 段落 5 [~] 有差异 | 00:00:13,168 --> 00:00:17,703 | 本段准确率: 57.14% ---
+  【翻译文本】: The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her, her scent, that mix of vanilla and oil paint, was already fading.
+  【SRT文本】  : The sheets smelled like laundry detergent, but underneath that, there was still a ghost of her.
+  差异词:
+    [缺少] 翻译文本='her' -> SRT=''
+    [缺少] 翻译文本='scent' -> SRT=''
+    [缺少] 翻译文本='that' -> SRT=''
+    [缺少] 翻译文本='mix' -> SRT=''
+    [缺少] 翻译文本='of' -> SRT=''
+    [缺少] 翻译文本='vanilla' -> SRT=''
+    [缺少] 翻译文本='and' -> SRT=''
+    [缺少] 翻译文本='oil' -> SRT=''
+    [缺少] 翻译文本='paint' -> SRT=''
+    [缺少] 翻译文本='was' -> SRT=''
+    [缺少] 翻译文本='already' -> SRT=''
+    [缺少] 翻译文本='fading' -> SRT=''
+
+--- 段落 6 [~] 有差异 | 00:00:17,703 --> 00:00:23,170 | 本段准确率: -200.0% ---
+  【翻译文本】: I closed my eyes.
+  【SRT文本】  : Her scent-that mix of vanilla and oil paint-was already fading.I closed my eyes.
+  差异词:
+    [多余] 翻译文本='' -> SRT='her'
+    [多余] 翻译文本='' -> SRT='scent'
+    [多余] 翻译文本='' -> SRT='that'
+    [多余] 翻译文本='' -> SRT='mix'
+    [多余] 翻译文本='' -> SRT='of'
+    [多余] 翻译文本='' -> SRT='vanilla'
+    [多余] 翻译文本='' -> SRT='and'
+    [多余] 翻译文本='' -> SRT='oil'
+    [多余] 翻译文本='' -> SRT='paint'
+    [多余] 翻译文本='' -> SRT='was'
+    [多余] 翻译文本='' -> SRT='already'
+    [多余] 翻译文本='' -> SRT='fading'
+
+--- 段落 7 [~] 有差异 | 00:00:23,170 --> 00:00:25,642 | 本段准确率: 56.25% ---
+  【翻译文本】: I saw her face in the van, the terror, the realization that I wasn't coming.
+  【SRT文本】  : I saw her face in the van.The terror.
+  差异词:
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='realization' -> SRT=''
+    [缺少] 翻译文本='that' -> SRT=''
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='wasn' -> SRT=''
+    [缺少] 翻译文本='t' -> SRT=''
+    [缺少] 翻译文本='coming' -> SRT=''
+
+--- 段落 8 [~] 有差异 | 00:00:25,642 --> 00:00:27,656 | 本段准确率: 0.0% ---
+  【翻译文本】: I had been the underboss of New York.
+  【SRT文本】  : The realization that I wasn't coming.
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [替换] 翻译文本='had' -> SRT='the'
+    [替换] 翻译文本='been' -> SRT='realization'
+    [替换] 翻译文本='the' -> SRT='that'
+    [替换] 翻译文本='underboss' -> SRT='i'
+    [替换] 翻译文本='of' -> SRT='wasn'
+    [替换] 翻译文本='new' -> SRT='t'
+    [替换] 翻译文本='york' -> SRT='coming'
+
+--- 段落 9 [~] 有差异 | 00:00:27,656 --> 00:00:29,726 | 本段准确率: -700.0% ---
+  【翻译文本】: (无对应)
+  【SRT文本】  : I had been the Underboss of New York.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='had'
+    [多余] 翻译文本='' -> SRT='been'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='underboss'
+    [多余] 翻译文本='' -> SRT='of'
+    [多余] 翻译文本='' -> SRT='new'
+    [替换] 翻译文本='无对应' -> SRT='york'
+
+--- 段落 10 [=] 一致 | 00:00:29,726 --> 00:00:31,185 ---
+  翻译文本: I controlled unions.
+  SRT文本:   I controlled unions.
+
+--- 段落 11 [=] 一致 | 00:00:31,185 --> 00:00:32,832 ---
+  翻译文本: I owned politicians.
+  SRT文本:   I owned politicians.
+
+--- 段落 12 [=] 一致 | 00:00:32,832 --> 00:00:35,083 ---
+  翻译文本: I decided who lived and who died.
+  SRT文本:   I decided who lived and who died.
+
+--- 段落 13 [~] 有差异 | 00:00:35,083 --> 00:00:40,437 | 本段准确率: 87.5% ---
+  【翻译文本】: But lying in the dark of my multimillion-dollar fortress, I realized I was utterly powerless.
+  【SRT文本】  : But lying in the dark of my multi-million dollar fortress, I realized I was utterly powerless.
+  差异词:
+    [多余] 翻译文本='' -> SRT='multi'
+    [替换] 翻译文本='multimillion' -> SRT='million'
+
+--- 段落 14 [=] 一致 | 00:00:40,437 --> 00:00:41,746 ---
+  翻译文本: I couldn't bring her back.
+  SRT文本:   I couldn't bring her back.
+
+--- 段落 15 [=] 一致 | 00:00:41,746 --> 00:00:43,310 ---
+  翻译文本: I couldn't fix what I broke.
+  SRT文本:   I couldn't fix what I broke.
+
+--- 段落 16 [~] 有差异 | 00:00:43,310 --> 00:00:48,944 | 本段准确率: 25.0% ---
+  【翻译文本】: For the first time in twenty years, I pulled the pillow over my face and screamed.
+  【SRT文本】  : For the first time in twenty years, I pulled the pillow over my face and screamed.Chapter 18 Ethan Bruce POV Two years.Seven hundred and thirty days.
+  差异词:
+    [多余] 翻译文本='' -> SRT='chapter'
+    [多余] 翻译文本='' -> SRT='18'
+    [多余] 翻译文本='' -> SRT='ethan'
+    [多余] 翻译文本='' -> SRT='bruce'
+    [多余] 翻译文本='' -> SRT='pov'
+    [多余] 翻译文本='' -> SRT='two'
+    [多余] 翻译文本='' -> SRT='years'
+    [多余] 翻译文本='' -> SRT='seven'
+    [多余] 翻译文本='' -> SRT='hundred'
+    [多余] 翻译文本='' -> SRT='and'
+    [多余] 翻译文本='' -> SRT='thirty'
+    [多余] 翻译文本='' -> SRT='days'
+
+--- 段落 17 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Chapter eighteen.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='chapter' -> SRT=''
+    [替换] 翻译文本='eighteen' -> SRT='无对应'
+
+--- 段落 18 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Ethan Bruce P.O.V.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='ethan' -> SRT=''
+    [缺少] 翻译文本='bruce' -> SRT=''
+    [缺少] 翻译文本='p' -> SRT=''
+    [缺少] 翻译文本='o' -> SRT=''
+    [替换] 翻译文本='v' -> SRT='无对应'
+
+--- 段落 19 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: Two years, seven hundred and thirty days.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='two' -> SRT=''
+    [缺少] 翻译文本='years' -> SRT=''
+    [缺少] 翻译文本='seven' -> SRT=''
+    [缺少] 翻译文本='hundred' -> SRT=''
+    [缺少] 翻译文本='and' -> SRT=''
+    [缺少] 翻译文本='thirty' -> SRT=''
+    [替换] 翻译文本='days' -> SRT='无对应'
+
+--- 段落 20 [=] 一致 | 00:00:53,276 --> 00:00:58,761 ---
+  翻译文本: That is exactly how long it takes to carve the humanity out of a man and leave a monster in his wake.
+  SRT文本:   That is exactly how long it takes to carve the humanity out of a man and leave a monster in his wake.
+
+--- 段落 21 [~] 有差异 | 00:00:58,761 --> 00:01:01,543 | 本段准确率: 100.0% ---
+  【翻译文本】: I sat at the head of the table in the commission room.
+  【SRT文本】  : I sat at the head of the table in the Commission room.
+
+--- 段落 22 [=] 一致 | 00:01:01,543 --> 00:01:06,007 ---
+  翻译文本: The air was thick with acrid cigar smoke and the metallic stench of fear.
+  SRT文本:   The air was thick with acrid cigar smoke and the metallic stench of fear.
+
+--- 段落 23 [~] 有差异 | 00:01:06,007 --> 00:01:09,584 | 本段准确率: 100.0% ---
+  【翻译文本】: The other dons regarded me with a mixture of respect and terror.
+  【SRT文本】  : The other Dons regarded me with a mixture of respect and terror.
+
+--- 段落 24 [~] 有差异 | 00:01:09,584 --> 00:01:11,931 | 本段准确率: 100.0% ---
+  【翻译文本】: They didn't call me the underboss anymore.
+  【SRT文本】  : They didn't call me the Underboss anymore.
+
+--- 段落 25 [=] 一致 | 00:01:11,931 --> 00:01:13,584 ---
+  翻译文本: They had a new name for me now.
+  SRT文本:   They had a new name for me now.
+
+--- 段落 26 [~] 有差异 | 00:01:13,584 --> 00:01:15,024 | 本段准确率: 100.0% ---
+  【翻译文本】: They called me the butcher.
+  【SRT文本】  : They called me the Butcher.
+
+--- 段落 27 [=] 一致 | 00:01:15,024 --> 00:01:19,526 ---
+  翻译文本: Since the night Aurora left, I had expanded our territory by forty percent.
+  SRT文本:   Since the night Aurora left, I had expanded our territory by forty percent.
+
+--- 段落 28 [=] 一致 | 00:01:19,526 --> 00:01:26,077 ---
+  翻译文本: I had crushed the Vance syndicate so thoroughly that Leo's name was now a ghost story whispered to scare new recruits.
+  SRT文本:   I had crushed the Vance syndicate so thoroughly that Leo's name was now a ghost story whispered to scare new recruits.
+
+--- 段落 29 [~] 有差异 | 00:01:26,077 --> 00:01:30,989 | 本段准确率: 100.0% ---
+  【翻译文本】: The shipment from the docks is secure, Capo Rossi said, his voice trembling slightly.
+  【SRT文本】  : "The shipment from the docks is secure," Capo Rossi said, his voice trembling slightly.
+
+--- 段落 30 [~] 有差异 | 00:01:30,989 --> 00:01:33,198 | 本段准确率: 100.0% ---
+  【翻译文本】: Profits are up twelve percent this quarter.
+  【SRT文本】  : "Profits are up twelve percent this quarter.
+
+--- 段落 31 [~] 有差异 | 00:01:33,198 --> 00:01:35,880 | 本段准确率: 100.0% ---
+  【翻译文本】: I didn't grant him the dignity of eye contact.
+  【SRT文本】  : " I didn't grant him the dignity of eye contact.
+
+--- 段落 32 [=] 一致 | 00:01:35,880 --> 00:01:38,555 ---
+  翻译文本: I stared at the dark grain of the wood on the table.
+  SRT文本:   I stared at the dark grain of the wood on the table.
+
+--- 段落 33 [~] 有差异 | 00:01:38,555 --> 00:01:42,178 | 本段准确率: 87.5% ---
+  【翻译文本】: Good, I said, my voice devoid of inflection.
+  【SRT文本】  : "Good," I said, my voice devoid of inflection."Dismissed.
+  差异词:
+    [多余] 翻译文本='' -> SRT='dismissed'
+
+--- 段落 34 [~] 有差异 | 00:01:42,178 --> 00:01:46,360 | 本段准确率: -1200.0% ---
+  【翻译文本】: Dismissed.
+  【SRT文本】  : " They scrambled to leave, chairs scraping harshly against the floor in their haste.
+  差异词:
+    [多余] 翻译文本='' -> SRT='they'
+    [多余] 翻译文本='' -> SRT='scrambled'
+    [多余] 翻译文本='' -> SRT='to'
+    [多余] 翻译文本='' -> SRT='leave'
+    [多余] 翻译文本='' -> SRT='chairs'
+    [多余] 翻译文本='' -> SRT='scraping'
+    [多余] 翻译文本='' -> SRT='harshly'
+    [多余] 翻译文本='' -> SRT='against'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='floor'
+    [多余] 翻译文本='' -> SRT='in'
+    [多余] 翻译文本='' -> SRT='their'
+    [替换] 翻译文本='dismissed' -> SRT='haste'
+
+--- 段落 35 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: They scrambled to leave, chairs scraping harshly against the floor in their haste.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='they' -> SRT=''
+    [缺少] 翻译文本='scrambled' -> SRT=''
+    [缺少] 翻译文本='to' -> SRT=''
+    [缺少] 翻译文本='leave' -> SRT=''
+    [缺少] 翻译文本='chairs' -> SRT=''
+    [缺少] 翻译文本='scraping' -> SRT=''
+    [缺少] 翻译文本='harshly' -> SRT=''
+    [缺少] 翻译文本='against' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='floor' -> SRT=''
+    [缺少] 翻译文本='in' -> SRT=''
+    [缺少] 翻译文本='their' -> SRT=''
+    [替换] 翻译文本='haste' -> SRT='无对应'
+
+--- 段落 36 [=] 一致 | 00:01:46,360 --> 00:01:48,281 ---
+  翻译文本: They couldn't wait to get away from me.
+  SRT文本:   They couldn't wait to get away from me.
+
+--- 段落 37 [=] 一致 | 00:01:48,281 --> 00:01:49,457 ---
+  翻译文本: I didn't blame them.
+  SRT文本:   I didn't blame them.
+
+--- 段落 38 [~] 有差异 | 00:01:49,457 --> 00:01:53,497 | 本段准确率: 100.0% ---
+  【翻译文本】: I had become a machine cold, efficient, and utterly hollow.
+  【SRT文本】  : I had become a machine-cold, efficient, and utterly hollow.
+
+--- 段落 39 [=] 一致 | 00:01:53,497 --> 00:01:55,463 ---
+  翻译文本: I stood up and walked to the window.
+  SRT文本:   I stood up and walked to the window.
+
+--- 段落 40 [~] 有差异 | 00:01:55,463 --> 00:02:00,601 | 本段准确率: 69.23% ---
+  【翻译文本】: The city sprawled out below me, a grid of glittering lights and concrete.
+  【SRT文本】  : The city sprawled out below me, a grid of glittering lights and concrete.I owned this city.
+  差异词:
+    [多余] 翻译文本='' -> SRT='i'
+    [多余] 翻译文本='' -> SRT='owned'
+    [多余] 翻译文本='' -> SRT='this'
+    [多余] 翻译文本='' -> SRT='city'
+
+--- 段落 41 [~] 有差异 | 00:02:00,601 --> 00:02:03,453 | 本段准确率: 69.23% ---
+  【翻译文本】: I owned this city, yet every night I went home to a mausoleum.
+  【SRT文本】  : Yet, every night, I went home to a mausoleum.
+  差异词:
+    [缺少] 翻译文本='i' -> SRT=''
+    [缺少] 翻译文本='owned' -> SRT=''
+    [缺少] 翻译文本='this' -> SRT=''
+    [缺少] 翻译文本='city' -> SRT=''
+
+--- 段落 42 [=] 一致 | 00:02:03,453 --> 00:02:06,017 ---
+  翻译文本: I hadn't changed a single thing in the estate.
+  SRT文本:   I hadn't changed a single thing in the estate.
+
+--- 段落 43 [~] 有差异 | 00:02:06,017 --> 00:02:12,581 | 本段准确率: 81.25% ---
+  【翻译文本】: Her clothes were still missing, but I kept her art studio exactly as she left it.
+  【SRT文本】  : Her clothes were still missing, but I kept her art studio exactly as she left it.White.Empty.Sterile.
+  差异词:
+    [多余] 翻译文本='' -> SRT='white'
+    [多余] 翻译文本='' -> SRT='empty'
+    [多余] 翻译文本='' -> SRT='sterile'
+
+--- 段落 44 [~] 有差异 | (无对应时间轴) | 本段准确率: 0.0% ---
+  【翻译文本】: White, empty, sterile.
+  【SRT文本】  : (无对应)
+  差异词:
+    [缺少] 翻译文本='white' -> SRT=''
+    [缺少] 翻译文本='empty' -> SRT=''
+    [替换] 翻译文本='sterile' -> SRT='无对应'
+
+--- 段落 45 [=] 一致 | 00:02:12,581 --> 00:02:16,325 ---
+  翻译文本: Sometimes, late at night, I would go in there and sit on the floor.
+  SRT文本:   Sometimes, late at night, I would go in there and sit on the floor.
+
+--- 段落 46 [=] 一致 | 00:02:16,325 --> 00:02:20,411 ---
+  翻译文本: I would drink scotch until the white walls started to blur into a haze.
+  SRT文本:   I would drink scotch until the white walls started to blur into a haze.
+
+--- 段落 47 [=] 一致 | 00:02:20,411 --> 00:02:27,362 ---
+  翻译文本: I would imagine I could see her standing at an easel, her hair tied up in a messy bun, a smudge of paint on her cheek.
+  SRT文本:   I would imagine I could see her standing at an easel, her hair tied up in a messy bun, a smudge of paint on her cheek.
+
+--- 段落 48 [=] 一致 | 00:02:27,362 --> 00:02:28,514 ---
+  翻译文本: I would talk to her.
+  SRT文本:   I would talk to her.
+
+--- 段落 49 [=] 一致 | 00:02:28,514 --> 00:02:30,203 ---
+  翻译文本: I would tell her about my day.
+  SRT文本:   I would tell her about my day.
+
+--- 段落 50 [=] 一致 | 00:02:30,203 --> 00:02:31,859 ---
+  翻译文本: I would tell her I was sorry.
+  SRT文本:   I would tell her I was sorry.
+
+--- 段落 51 [~] 有差异 | 00:02:31,859 --> 00:02:33,365 | 本段准确率: 58.33% ---
+  【翻译文本】: I would beg her to come back, but the walls never answered.
+  【SRT文本】  : I would beg her to come back.
+  差异词:
+    [缺少] 翻译文本='but' -> SRT=''
+    [缺少] 翻译文本='the' -> SRT=''
+    [缺少] 翻译文本='walls' -> SRT=''
+    [缺少] 翻译文本='never' -> SRT=''
+    [缺少] 翻译文本='answered' -> SRT=''
+
+--- 段落 52 [~] 有差异 | 00:02:33,365 --> 00:02:34,959 | 本段准确率: -400.0% ---
+  【翻译文本】: (无对应)
+  【SRT文本】  : But the walls never answered.
+  差异词:
+    [多余] 翻译文本='' -> SRT='but'
+    [多余] 翻译文本='' -> SRT='the'
+    [多余] 翻译文本='' -> SRT='walls'
+    [多余] 翻译文本='' -> SRT='never'
+    [替换] 翻译文本='无对应' -> SRT='answered'
+
+--- 段落 53 [=] 一致 | 00:02:34,959 --> 00:02:38,140 ---
+  翻译文本: My phone buzzed against the hardwood, shattering the silence.
+  SRT文本:   My phone buzzed against the hardwood, shattering the silence.
+
+--- 段落 54 [=] 一致 | 00:02:38,140 --> 00:02:40,021 ---
+  翻译文本: It was the private investigator.
+  SRT文本:   It was the private investigator.
+
+================================================================================
+  汇总: 共 54 段, 一致 25 段, 有差异 29 段
+  整体词准确率: 98.32%
+================================================================================

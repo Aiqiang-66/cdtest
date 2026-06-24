@@ -1,0 +1,17 @@
+======================================================================
+  错误片段对比 #03  |  2
+  时间轴: 00:00:35,083 --> 00:00:40,437
+======================================================================
+
+【翻译文本(参考)】
+  But lying in the dark of my multimillion-dollar fortress, I realized I was utterly powerless.
+
+【SRT文本(ASR识别)】
+  But lying in the dark of my multi-million dollar fortress, I realized I was utterly powerless.
+
+【差异词详情】(共 2 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  multi               
+  替换     multimillion         million             

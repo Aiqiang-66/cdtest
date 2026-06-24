@@ -1,0 +1,45 @@
+P0 Test Start: 2026-06-02 17:26:22.944092
+[17:26:22] ============================================================
+[17:26:22] P0 完整流程测试开始
+[17:26:22] ============================================================
+[17:26:29] 页面URL: https://login-test.changdu.ltd/net?callback=https%3A%2F%2Fsc-test.changdu.ltd%2Flogin&project=sc
+[17:26:29] 页面标题: 畅读统一登录
+[17:26:29] 需要登录，开始登录流程...
+[17:26:32] 点击工号登录后URL: https://keycloak.changdu.vip/auth/realms/master/protocol/openid-connect/auth?client_id=fuxi&redirect
+[17:26:42] 登录后URL: https://sc-test.changdu.ltd/automation/create-make-material
+[17:26:44] 重导航后URL: https://sc-test.changdu.ltd/automation-video/oral-montage
+[17:26:44] 收集DOM结构...
+[17:26:44] Inputs: [{"idx": 0, "ph": "", "dis": false, "type": "search", "cls": "ant-select-selection-search-input"}, {"idx": 1, "ph": "", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 2, "ph": "", "dis": false, "type": "search", "cls": "ant-select-selection-search-input"}, {"idx": 3, "ph": "请输入三级标签", "dis": false, "type": "text", "cls": "ant-input css-1j8imix"}, {"idx": 4, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 5, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 6, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 7, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 8, "ph": "开始集数", "dis": true, "type": "text", "cls": "ant-input-number-input"}, {"idx": 9, "ph": "结束集数", "dis": true, "type": "text", "cls": "ant-input-number-input"}, {"idx": 10, "ph": "最小时长", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 11, "ph": "最大时长", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 12, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 13, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 14, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 15, "ph": "", "dis": false, "type": "radio", "cls": "ant-radio-input"}, {"idx": 16, "ph": "开始集数", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 17, "ph": "结束集数", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 18, "ph": "最小时长", "dis": false, "type": "text", "cls": "ant-input-number-input"}, {"idx": 19, "ph": "最大时长", "dis": false, "type": "text", "cls": "ant-input-number-input"}]
+[17:26:44] ant-selects: [{"idx": 0, "cls": "ant-select ant-select-outlined env-Q1FUsowv css-1j8imix ant-select-single ant-se", "text": "dev", "hasInput": true}, {"idx": 1, "cls": "ant-select ant-select-outlined ant-select-in-form-item css-1j8imix ant-select-si", "text": "支持搜索", "hasInput": true}]
+[17:26:44] --- TC-OM-007 ---
+[17:26:44] 开始集数input数量: 2
+[17:26:44]   开始集数[0] disabled=True
+[17:26:44]   开始集数[1] disabled=False
+[17:26:44] + TC-OM-007: PASS | 初始disabled=True, 选Core后=True
+[17:26:44] --- 剧集选择 (Ant Design) ---
+[17:26:44] ant-select数量: 1
+[17:26:46] Dropdown: {"found": true, "itemCount": 7, "hasInput": false, "firstItemText": "dev", "placeholder": null}
+[17:26:47] 从列表中选择第一项
+[17:26:47] + TC-DRAMA: PASS | 列表选中第一项
+[17:26:47] --- TC-OM-001: Core1 ---
+[17:26:52] 确认生成 disabled=False
+[17:26:57] 提交结果: {"success": null, "error": null}
+[17:26:57] + TC-OM-001: PASS | 提交无异常提示
+[17:26:57] --- TC-OM-002: Core4 ---
+[17:27:03] 确认生成 disabled=False
+[17:27:08] 提交结果: {"success": null, "error": null}
+[17:27:08] + TC-OM-002: PASS | 提交无异常提示
+[17:27:08] --- TC-OM-003: Core5 ---
+[17:27:13] 确认生成 disabled=False
+[17:27:18] 提交结果: {"success": null, "error": null}
+[17:27:18] + TC-OM-003: PASS | 提交无异常提示
+[17:27:18] --- TC-OM-004: Core18 ---
+[17:27:23] 确认生成 disabled=False
+[17:27:28] 提交结果: {"success": null, "error": null}
+[17:27:28] + TC-OM-004: PASS | 提交无异常提示
+[17:27:28] --- TC-OM-018: 任务列表 ---
+[17:27:32] + TC-OM-018: PASS | 任务列表行数=3
+[17:27:32] 浏览器已关闭
+[17:27:32] 
+完成: 总数=7 | PASS=7 | FAIL=0
+[17:27:32] 结果: D:\python\dmx\cdtest\projects\口播混剪\spec\case_execution_log_p0.json

@@ -1,0 +1,29 @@
+======================================================================
+  错误片段对比 #09  |  2
+  时间轴: 00:01:38,555 --> 00:01:46,360
+======================================================================
+
+【翻译文本(参考)】
+  Good, I said, my voice devoid of inflection. Dismissed.
+
+【SRT文本(ASR识别)】
+  "Good," I said, my voice devoid of inflection."Dismissed. " They scrambled to leave, chairs scraping harshly against the floor in their haste.
+
+【差异词详情】(共 14 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  dismissed           
+  多余     (空)                  they                
+  多余     (空)                  scrambled           
+  多余     (空)                  to                  
+  多余     (空)                  leave               
+  多余     (空)                  chairs              
+  多余     (空)                  scraping            
+  多余     (空)                  harshly             
+  多余     (空)                  against             
+  多余     (空)                  the                 
+  多余     (空)                  floor               
+  多余     (空)                  in                  
+  多余     (空)                  their               
+  替换     dismissed            haste               

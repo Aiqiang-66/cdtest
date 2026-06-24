@@ -1,0 +1,88 @@
+# ============================================================
+# cdtest — AI-native unified test framework
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# --- Project-specific ---
+# Local settings (may contain tokens/keys)
+settings.local.json
+settings.local.yaml
+*.local.json
+
+# Claude Code session data
+.claude/
+
+# Large generated files
+_db_schema_scan.json
+*.mp3
+*.wav
+*.mp4
+
+# Whisper models (large binary files)
+whisper_models/
+
+# Test outputs and temp files
+test_output/
+test_audio/
+temp_text*.txt
+*.lock
+.locks/
+
+# Reports with potential internal data
+reports/
+screenshots/
+
+# Excel/Word binary files (unless they are templates)
+*.xlsx
+*.docx
+
+# Audio test files
+last_audio.mp3
+long_test_audio.mp3
+test_dl.mp3
+test_tone.wav
+
+# Generated JSON test results
+*_report*.json
+*_full.json
+
+# Temp scripts
+temp_sync.py
+
+# AutoHotkey scripts
+*.ahk
+
+# Batch files for internal paths
+init_link.bat
+
+# C# build artifacts (internal code references)
+用例初始化构建(2)/
+
+# Node.js
+node_modules/

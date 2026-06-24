@@ -1,0 +1,45 @@
+======================================================================
+  错误片段对比 #07  |  3
+  时间轴: 00:01:01,261 --> 00:01:11,015
+======================================================================
+
+【翻译文本(参考)】
+  I need to go. He said, straightening his jacket, adjusting his cuffs, as if this were a business transaction.
+
+【SRT文本(ASR识别)】
+  "I need to go," he said, straightening his jacket, adjusting his cuffs as if this were a business transaction. "The Commission is asking questions about the ambulance dispatch.
+
+【差异词详情】(共 30 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  he                  
+  多余     (空)                  said                
+  多余     (空)                  straightening       
+  多余     (空)                  his                 
+  多余     (空)                  jacket              
+  多余     (空)                  adjusting           
+  多余     (空)                  his                 
+  多余     (空)                  cuffs               
+  多余     (空)                  as                  
+  多余     (空)                  if                  
+  多余     (空)                  this                
+  多余     (空)                  were                
+  多余     (空)                  a                   
+  多余     (空)                  business            
+  多余     (空)                  transaction         
+  缺少     he                   (空)                 
+  缺少     said                 (空)                 
+  缺少     straightening        (空)                 
+  缺少     his                  (空)                 
+  缺少     jacket               (空)                 
+  缺少     adjusting            (空)                 
+  替换     his                  the                 
+  替换     cuffs                commission          
+  替换     as                   is                  
+  替换     if                   asking              
+  替换     this                 questions           
+  替换     were                 about               
+  替换     a                    the                 
+  替换     business             ambulance           
+  替换     transaction          dispatch            

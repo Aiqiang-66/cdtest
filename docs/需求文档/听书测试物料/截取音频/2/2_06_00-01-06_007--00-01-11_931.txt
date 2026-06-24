@@ -1,0 +1,11 @@
+======================================================================
+  错误片段对比 #06  |  2
+  时间轴: 00:01:06,007 --> 00:01:11,931
+======================================================================
+
+【翻译文本(参考)】
+  The other dons regarded me with a mixture of respect and terror. They didn't call me the underboss anymore.
+
+【SRT文本(ASR识别)】
+  The other Dons regarded me with a mixture of respect and terror. They didn't call me the Underboss anymore.
+

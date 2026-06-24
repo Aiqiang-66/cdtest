@@ -1,0 +1,47 @@
+======================================================================
+  错误片段对比 #02  |  3
+  时间轴: 00:00:10,693 --> 00:00:18,567
+======================================================================
+
+【翻译文本(参考)】
+  Domestic accident. That's what I was to him now, an inconvenience, a loose end. Give me the phone, Ethan.
+
+【SRT文本(ASR识别)】
+  " Domestic accident.That's what I was to him now.An inconvenience.A loose end. "Give me the phone, Ethan. " He didn't hand it over.
+
+【差异词详情】(共 32 处)
+--------------------------------------------------
+  类型     翻译文本                 SRT文本               
+--------------------------------------------------
+  多余     (空)                  that                
+  多余     (空)                  s                   
+  多余     (空)                  what                
+  多余     (空)                  i                   
+  多余     (空)                  was                 
+  多余     (空)                  to                  
+  多余     (空)                  him                 
+  多余     (空)                  now                 
+  多余     (空)                  an                  
+  多余     (空)                  inconvenience       
+  多余     (空)                  a                   
+  多余     (空)                  loose               
+  多余     (空)                  end                 
+  缺少     that                 (空)                 
+  缺少     s                    (空)                 
+  缺少     what                 (空)                 
+  缺少     i                    (空)                 
+  缺少     was                  (空)                 
+  缺少     to                   (空)                 
+  缺少     him                  (空)                 
+  缺少     now                  (空)                 
+  替换     an                   give                
+  替换     inconvenience        me                  
+  替换     a                    the                 
+  替换     loose                phone               
+  替换     end                  ethan               
+  多余     (空)                  he                  
+  替换     give                 didn                
+  替换     me                   t                   
+  替换     the                  hand                
+  替换     phone                it                  
+  替换     ethan                over                
