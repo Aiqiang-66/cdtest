@@ -74,14 +74,8 @@ test_tone.wav
 *_report*.json
 *_full.json
 
-# Temp scripts
-temp_sync.py
-
 # AutoHotkey scripts
 *.ahk
-
-# Batch files for internal paths
-init_link.bat
 
 # C# build artifacts (internal code references)
 用例初始化构建(2)/
