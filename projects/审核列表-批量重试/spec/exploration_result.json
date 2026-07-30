@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "审核列表-批量重试",
+    "version": "1.0",
+    "created": "2026-06-25",
+    "environment": "test1",
+    "test_url_asset_sync": "https://sc-test.changdu.ltd/task/asset-sync",
+    "test_url_burn_audit": "https://sc-test.changdu.ltd/task/burn-audit",
+    "test_account": "240017",
+    "total_cases": 13,
+    "p0": 4,
+    "p1": 4,
+    "p2": 3,
+    "p3": 2
+  },
+  "exploration": {
+    "asset_sync": {
+      "has_batch_retry_button": true,
+      "button_label": "批量重试",
+      "button_ref": "e58",
+      "batch_buttons": ["批量审核", "批量上传", "批量重试"],
+      "checkbox_all": true,
+      "status_filter_options": ["待提交","生成中","生成失败","待审核","驳回","通过","平台上传中","平台驳回","平台通过","视频烧录"],
+      "table_heading": "审核列表（ 共 2 条 ）",
+      "items_status": "待审核",
+      "has_failed_items": false
+    },
+    "burn_audit": {
+      "has_batch_retry_button": false,
+      "batch_buttons": ["审核通过(disabled)", "驳回重新生成(disabled)"],
+      "status_filter": "烧录待审核/烧录通过/烧录驳回 (radio)",
+      "layout": "split-screen (list left, video right)",
+      "note": "无独立批量重试按钮，已有驳回重新生成功能"
+    },
+    "asset_main": {
+      "has_batch_reset_button": true,
+      "button_label": "批量重置",
+      "batch_buttons": ["批量审核", "批量上传", "批量评分", "批量重置"]
+    }
+  }
+}
