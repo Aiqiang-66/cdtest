@@ -80,6 +80,7 @@ $secretPatterns = @(
     'SECRET_KEY\s*=\s*["''][^"'']{8,}["'']',            # 硬编码 SECRET_KEY
     '(?i)\b(?:secret|token|api[_-]?key|password|passwd)\s*[:=]\s*["''][^"'']{8,}["'']',
     'SECRET_KEY\s*=\s*["''][^"'']+["'']',
+    'Cd[A-Za-z]{2,8}20\d\d@',                              # 密钥家族形态（不写全量密钥）
     'Bearer\s+eyJ',
     'password\s*=\s*["''][^"'']+["'']'
 )
