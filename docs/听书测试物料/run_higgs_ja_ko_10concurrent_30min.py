@@ -77,6 +77,7 @@ def build_args():
     ap.add_argument("--minutes", type=float, default=30.0)
     ap.add_argument("--limit", type=int, default=0, help=">0 时只跑该数量任务（调试用）")
     ap.add_argument("--suffix", default="", help="批次目录后缀（如 _r2），避免覆盖历史批次")
+    ap.add_argument("--dir-name", default="", help="直接指定批次目录名（优先于 --suffix；如 Higgs_日语_稳定性10并发_2h_0924）")
     return ap.parse_args()
 
 
@@ -464,7 +465,9 @@ class Runner:
 def main():
     args = build_args()
     cfg = dict(LANGS[args.lang])
-    if args.suffix:
+    if args.dir_name:
+        cfg["run_dir"] = cfg["run_dir"].parent / args.dir_name
+    elif args.suffix:
         cfg["run_dir"] = cfg["run_dir"].with_name(cfg["run_dir"].name + args.suffix)
     Runner(cfg, args.workers, args.minutes * 60, args.limit).run()
 

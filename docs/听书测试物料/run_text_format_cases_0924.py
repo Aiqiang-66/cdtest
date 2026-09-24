@@ -277,7 +277,12 @@ def main():
     ap.add_argument("--lang", default="ja", choices=["ja", "ko"])
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--dry-run", action="store_true", help="只构造输入并打印规模，不调用接口")
+    ap.add_argument("--out-suffix", default="", help="输出目录后缀（如 _ko），避免跨语种覆盖结果")
     args = ap.parse_args()
+
+    global OUT
+    if args.out_suffix:
+        OUT = MP3 / ("文案格式用例_0924" + args.out_suffix)
 
     run_dir, lang_code, voice, cn = R3[args.lang]
     cases = build_cases(args.lang)

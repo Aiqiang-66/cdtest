@@ -92,14 +92,13 @@ def refetch_missing(run_dir, base="https://ai-main-none-dev.changdu.ltd",
                     key=None):
     """对运行期下载到非音频内容的任务，按 taskId 重新查询并重下音频。
 
+    背景：任务 status=2 且带 audio_url，但**立即**下载会命中 COS NoSuchKey
+    （对象尚未就绪的竞态）；稍后重下即可成功。此处补齐音频留证。
+    """
     if not key:
         key = os.environ.get("TTS_SECRET_KEY")
         if not key:
             raise SystemExit("缺少环境变量 TTS_SECRET_KEY")
-
-    背景：任务 status=2 且带 audio_url，但**立即**下载会命中 COS NoSuchKey
-    （对象尚未就绪的竞态）；稍后重下即可成功。此处补齐音频留证。
-    """
     import base64 as _b64
     import hashlib as _hl
     import hmac as _hmac
