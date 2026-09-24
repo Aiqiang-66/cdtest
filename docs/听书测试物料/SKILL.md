@@ -1495,14 +1495,18 @@ docs/听书测试物料/
 | **安全守卫** | 命中密钥特征（`SECRET_KEY`、`password`、`token`、`api_key` 等**赋值形式**，`Bearer` 前缀的 JWT；也可用环境变量 `TINGJU_SECRET_WATCH` 注入项目专用特征词）、>2MB 文件、音频/压缩后缀（mp3/wav/mp4/zip/pdf…）→ **直接中止**，不做任何改动 |
 | **隔离索引提交** | 用 `GIT_INDEX_FILE` 独立索引提交，**绝不触碰他人已暂存内容**；提交后把白名单文件补回真实索引，避免被误判为「待删除」 |
 | 路径兼容 | 中文路径用 `--pathspec-from-file`（UTF-8 无 BOM）传递，避免命令行编码破坏 |
-| 命令 | 预览：`powershell -NoProfile -File scripts\sync_tingju_skill_to_git.ps1 -DryRun`<br>提交：`… -Push`（`-Branch <分支>` 可指定推送目标） |
-| **脚本入库（默认关闭）** | `docs/听书测试物料/*.py` 含**硬编码 SECRET_KEY**，需先改为 `os.environ["TTS_SECRET_KEY"]`（工程规范 §1），再用 `-WithScripts` 纳入 |
+| 命令 | 预览：`powershell -NoProfile -File scripts\sync_tingju_skill_to_git.ps1 -DryRun`<br>含脚本：`… -WithScripts -DryRun`<br>提交：`… -Push`（`-Branch <分支>` 可指定推送目标） |
+| **脚本入库（白名单）** | `-WithScripts` 按 `scripts/tingju_script_allowlist.txt`（**68 个**可复用主干 + 报告引用的复现工具）纳入；一次性诊断脚本不入库。脚本**必须已改为读环境变量**（工程规范 §1），否则守卫会拦截 |
+| **运行前置（重要）** | 脚本已**不再内置密钥**：运行前必须设置环境变量 `TTS_SECRET_KEY`（PowerShell 用 `$env:` 前缀赋值，值由项目统一管理）；未设置时脚本会明确报错并提示，不会静默用错值 |
 | ⚠️ 编码 | 该 `.ps1` 含中文路径字面量，**必须保存为 UTF-8 with BOM**（Windows PowerShell 5.1 会把无 BOM 的 UTF-8 当 ANSI → 语法错误） |
 | 远程 | `origin https://github.com/Aiqiang-66/cdtest.git`，默认推送当前分支 |
-| 现状（2026-09-24） | 已入库到分支 `codex/asr-leakage-fallback`：`b72d67d`（M0 + Phase 9 + 用例 + 报告）、`3421a40`（入库流程脚本 + 历史报告 13 份 + 语言参数） |
+| 现状（2026-09-24） | 分支 `codex/asr-leakage-fallback`：`8b8c16c`（M0 + Phase 9 + 用例 + 报告 + 历史报告 13 份 + 语言参数 + 入库流程脚本）、`04e0874`（**68 个脚本脱敏入库** + 脚本白名单）。仓库树内**已无任何密钥字面量**（`git grep CdAi2024@cDaI HEAD` = 0） |
 
 > 📌 **建议**：每次新增/更新技能文档、用例清单或测试报告后跑一次 `-DryRun` 看清单，确认无误再 `-Push`；
 > 音频与批次元数据仍留在本机/网盘，不进 git。
+> ⚠️ **遗留风险提示**：本次曾误将密钥**片段**（前缀 + 主体，不含后缀）写入文档与守卫脚本并推送到远端约 10 分钟，
+> 随后已脱敏并把分支历史重写强推覆盖（旧提交已不可达，但托管平台可能仍按 SHA 保留一段时间）。
+> **建议轮换该测试环境密钥**以彻底消除风险（截至发稿，负责人选择暂不轮换）。
 
 ## 用例编号与追溯（v1.1.0 新增）
 
