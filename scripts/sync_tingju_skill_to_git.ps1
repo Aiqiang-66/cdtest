@@ -77,9 +77,9 @@ $extraFiles = @(
 $maxFileBytes = 2MB
 $blockedExt   = @('.mp3', '.wav', '.mp4', '.zip', '.pdf', '.bin', '.onnx', '.pt', '.log')
 $secretPatterns = @(
-    'SECRET_KEY\s*=\s*["''][^"'']{8,}["'']',            # 硬编码 SECRET_KEY
+    '(?<![A-Za-z_])(?<!TTS_)SECRET_KEY\s*=\s*["''][^"'']{8,}["'']',   # 硬编码 SECRET_KEY（排除环境变量名）
     '(?i)\b(?:secret|token|api[_-]?key|password|passwd)\s*[:=]\s*["''][^"'']{8,}["'']',
-    'SECRET_KEY\s*=\s*["''][^"'']+["'']',
+    '(?<![A-Za-z_])(?<!TTS_)SECRET_KEY\s*=\s*["''][^"'']+["'']',
     'Cd[A-Za-z]{2,8}20\d\d@',                              # 密钥家族形态（不写全量密钥）
     'Bearer\s+eyJ',
     'password\s*=\s*["''][^"'']+["'']'

@@ -72,3 +72,5 @@ docs/听书测试物料/test_tts_en2.py
 docs/听书测试物料/verify_higgs_zip.py
 docs/听书测试物料/gen_report_cases_0924.py
 docs/听书测试物料/gen_report_stability_0924.py
+docs/听书测试物料/gen_report_round2_summary_0924.py
+docs/听书测试物料/export_dev_pack_round2_0924.py
