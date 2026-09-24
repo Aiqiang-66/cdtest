@@ -65,11 +65,12 @@ $allowFiles = @(
     "$tingju/测试用例",          # 目录：仅收 *.md
     "$tingju/测试报告"           # 目录：仅收 *.md（不收 pdf）
 )
-$allowScriptDirs = @("$tingju")  # -WithScripts 时纳入该目录下 *.py
+$allowScriptListFile = 'scripts/tingju_script_allowlist.txt'   # -WithScripts 时按此白名单纳入脚本（避免把一次性脚本与含密钥脚本带进来）
 
 # 永久流程脚本自身也纳入版本管理（非听书目录，但属于本流程的一部分）
 $extraFiles = @(
-    'scripts/sync_tingju_skill_to_git.ps1'
+    'scripts/sync_tingju_skill_to_git.ps1',
+    'scripts/tingju_script_allowlist.txt'
 )
 
 # ── 守卫参数 ──────────────────────────────────────────────────────
@@ -102,11 +103,17 @@ foreach ($rel in $allowFiles) {
     }
 }
 if ($WithScripts) {
-    foreach ($d in $allowScriptDirs) {
-        $abs = Join-Path $repoRoot ($d -replace '/', '\')
-        Get-ChildItem -LiteralPath $abs -File -Filter *.py |
-            ForEach-Object { $candidates.Add($_.FullName) }
+    $listFile = Join-Path $repoRoot ($allowScriptListFile -replace '/', '\')
+    if (-not (Test-Path -LiteralPath $listFile)) { throw "缺少脚本白名单文件：$allowScriptListFile" }
+    $n = 0
+    foreach ($line in (Get-Content -LiteralPath $listFile -Encoding UTF8)) {
+        $rel = $line.Trim()
+        if (-not $rel -or $rel.StartsWith('#')) { continue }
+        $abs = Join-Path $repoRoot ($rel -replace '/', '\')
+        if (Test-Path -LiteralPath $abs) { $candidates.Add($abs); $n++ }
+        else { Write-Warn2 "白名单脚本不存在，跳过：$rel" }
     }
+    Write-Ok "按白名单纳入脚本 $n 个"
 }
 $candidates = @($candidates | Sort-Object -Unique)
 foreach ($rel in $extraFiles) {
