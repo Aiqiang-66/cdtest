@@ -61,6 +61,34 @@ def cut(src: Path, dst: Path, start_s: float, dur_s: float) -> bool:
 
 
 def main():
+    # ── 数据前置校验：主批次缺失就报错，禁止生成全 0 报告（对照批次缺失只告警）──
+    def _require_batches(pairs):
+        miss = {k: Path(v) for k, v in pairs.items() if not (Path(v) / "tasks.jsonl").exists()}
+        if miss:
+            raise SystemExit("以下批次数据不存在，无法继续：\n" +
+                             "\n".join(f"  - {k}: {v}" for k, v in miss.items()) +
+                             "\n→ 先跑一批，或用 --ja/--ko 指向你自己的批次。")
+    _need, _opt = {}, {}
+    for _n in ("RUNS", "CASES", "STAB", "BATCH", "BASELINE"):
+        _v = globals().get(_n)
+        if isinstance(_v, dict):
+            for _k, _pv in _v.items():
+                _p = _pv[1] if isinstance(_pv, (tuple, list)) else _pv
+                (_opt if _n == "BASELINE" else _need)[f"{_n}.{_k}"] = _p
+    if _need:
+        _require_batches(_need)
+    for _k, _p in _opt.items():
+        if not (Path(_p) / "tasks.jsonl").exists():
+            print(f"[提示] 对照批次缺失，对照列将为占位：{_k} → {_p}")
+    import argparse as _ap
+    from pathlib import Path as _P
+    _pr = _ap.ArgumentParser(add_help=True)
+    _pr.add_argument("--ja", default=""); _pr.add_argument("--ko", default="")
+    _a = _pr.parse_args()
+    if _a.ja:
+        RUNS["ja"] = (RUNS["ja"][0], _P(_a.ja).resolve())
+    if _a.ko:
+        RUNS["ko"] = (RUNS["ko"][0], _P(_a.ko).resolve())
     pack = ensure(PACK)
     readme = []
     A = readme.append
