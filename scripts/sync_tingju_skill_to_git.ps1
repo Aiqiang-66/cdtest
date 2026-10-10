@@ -63,7 +63,8 @@ $allowFiles = @(
     "$tingju/SKILL.md",
     "$tingju/语言参数",
     "$tingju/测试用例",          # 目录：仅收 *.md
-    "$tingju/测试报告"           # 目录：仅收 *.md（不收 pdf）
+    "$tingju/测试报告",          # 目录：仅收 *.md（不收 pdf）
+    "$tingju/交接_TTS测试新人熟悉计划_一周.md"   # 交接/熟悉计划（纯文档）
 )
 $allowScriptListFile = 'scripts/tingju_script_allowlist.txt'   # -WithScripts 时按此白名单纳入脚本（避免把一次性脚本与含密钥脚本带进来）
 
