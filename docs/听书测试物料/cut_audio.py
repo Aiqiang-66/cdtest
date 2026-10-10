@@ -256,6 +256,11 @@ def process_all(base_path, output_base):
     print(f"输出目录: {output_base}")
 
 if __name__ == '__main__':
-    base_path = r'd:\python\dmx\cdtest\docs\需求文档\听书测试物料\mp3'
-    output_base = os.path.join(base_path, '..', '截取音频')
+    # 位置无关：默认处理本脚本同级目录下的 mp3\，输出到同级 截取音频\
+    # 也可显式指定：python cut_audio.py <批次目录> <输出目录>
+    import sys
+    from pathlib import Path
+    here = Path(__file__).resolve().parent
+    base_path = sys.argv[1] if len(sys.argv) > 1 else str(here / 'mp3')
+    output_base = sys.argv[2] if len(sys.argv) > 2 else str(here / '截取音频')
     process_all(base_path, output_base)

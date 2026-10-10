@@ -74,3 +74,6 @@ docs/听书测试物料/gen_report_cases_0924.py
 docs/听书测试物料/gen_report_stability_0924.py
 docs/听书测试物料/gen_report_round2_summary_0924.py
 docs/听书测试物料/export_dev_pack_round2_0924.py
+docs/听书测试物料/_query_task_status_0924.py
+docs/听书测试物料/_repro_cos_race_0924.py
+docs/听书测试物料/_locate_audio_missing_0924.py

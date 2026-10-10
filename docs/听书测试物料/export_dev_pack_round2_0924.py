@@ -325,6 +325,29 @@ def main():
 
     (pack / "00_README.md").write_text("\n".join(readme), encoding="utf-8")
 
+    # ── 08 复现脚本（让开发包自包含）──
+    d8 = ensure(pack / "08_复现脚本")
+    for nm in ("_repro_cos_race_0924.py", "_query_task_status_0924.py",
+               "run_text_format_cases_0924.py", "run_higgs_ja_ko_10concurrent_30min.py",
+               "analyze_ja_ko_perf_0924.py", "audio_quality_ja_ko_0924.py",
+               "gen_report_round2_summary_0924.py", "gen_report_stability_0924.py",
+               "gen_report_cases_0924.py"):
+        src = D / nm
+        if src.exists():
+            shutil.copy2(src, d8 / nm)
+    (d8 / "00_脚本说明.md").write_text(
+        "# 复现脚本\n\n"
+        "| 脚本 | 用途 |\n|---|---|\n"
+        "| `_repro_cos_race_0924.py` | 产物可获取性竞态定向复现（成功后立刻抓 audio_url，抓到即留证） |\n"
+        "| `_query_task_status_0924.py` | 卡死任务复查（重新查询状态 + 产物 HEAD 探测） |\n"
+        "| `run_text_format_cases_0924.py` | 接口正/逆向用例执行器（19 条，自动判定） |\n"
+        "| `run_higgs_ja_ko_10concurrent_30min.py` | 稳定性跑批（并发/时长/批次目录可配） |\n"
+        "| `analyze_ja_ko_perf_0924.py` | 性能 + M1 文案 + M5 字幕分析 |\n"
+        "| `audio_quality_ja_ko_0924.py` | M2 客观音质（削波/响度/静默空洞/非音频补齐） |\n"
+        "| `gen_report_*.py` | 报告生成（可重跑） |\n\n"
+        "**运行前置**：脚本从环境变量读取密钥，需先 `$env:TTS_SECRET_KEY = '<测试环境密钥>'`（脚本内不含任何密钥）。\n",
+        encoding="utf-8")
+
     # ── 证据摘要（随文档入库；音频片段不入 git）──
     ev = ["# 开发分析包 —— 证据摘要（0924 轮）", "",
           "> 本摘要随技能文档入库；完整证据（含音频片段、逐任务台账、COS 错误样本）见 "
@@ -338,6 +361,12 @@ def main():
                 ev.append(f.read_text(encoding="utf-8").strip())
                 ev.append("")
                 break
+    f_stuck2 = pack / "03_稳定性台账" / "卡死任务_二次核查.md"
+    if f_stuck2.exists():
+        ev.append("## 卡死任务二次核查")
+        ev.append("")
+        ev.append(f_stuck2.read_text(encoding="utf-8").strip())
+        ev.append("")
     f4 = pack / "04_产物可获取性" / "首轮非音频响应清单.md"
     if f4.exists():
         ev.append("## 首轮非音频响应清单（两语种）")

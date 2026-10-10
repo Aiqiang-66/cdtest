@@ -9,6 +9,7 @@ r"""生成「本轮总报告」：日/韩 接口用例 + 10 并发稳定性（�
   docs/听书测试物料/测试报告/日韩_接口与稳定性_总报告_20260924.md
 """
 import json
+import os
 from collections import Counter
 from pathlib import Path
 
@@ -108,7 +109,8 @@ def main():
     A("| 1 | **P1** | **参数校验缺失**：`read_content` 为空/纯空白、`lang=999` 均返回成功并产出音频 | 接口用例 A04a/A04b/A10（两语种一致） | 建任务前做参数白名单校验，非法返回明确错误码 |")
     A(f"| 2 | **P1** | **任务卡死在 `status=67`** | 日语 {len(stab['ja']['stuck'])} 个 / 韩语 {len(stab['ko']['stuck'])} 个；"
       f"直到收尾 drain 上限仍未收敛，成功率降至 {stab['ja']['summary'].get('success_rate',0)*100:.2f}% / "
-      f"{stab['ko']['summary'].get('success_rate',0)*100:.2f}% | 处理中任务需超时收敛 + 队列/槽位可观测 |")
+      f"{stab['ko']['summary'].get('success_rate',0)*100:.2f}%；**二次核查（1~9 小时后）仍为 67、data 为空、"
+      f"errorCode=0、产物 404** → 孤儿任务，非排队慢 | 处理中任务需超时收敛（置失败并写原因）+ 队列/槽位可观测 |")
     A(f"| 3 | **P1** | **产物立即可获取性**：任务成功但立即拉取 `audio_url` 得到 COS 错误页 | 首轮日语 {stab['ja']['non_audio_refetched']} / "
       f"韩语 {stab['ko']['non_audio_refetched']} 个；**重下 100% 成功** → 对象可见性竞态 | 置成功前做对象可读性校验（HEAD） |")
     A(f"| 4 | **P1** | **日语静默空洞**（metadata 有文本、音频近乎无声） | 日语 {stab['ja']['m2'].get('files_long_gap_with_text')} 个文件、"
@@ -117,6 +119,17 @@ def main():
       f"（最坏 69 字只给 0.56s）；ASR 定点核查显示该窗口音频内容与 metadata 错位 | 时间轴应基于实际音频生成；偏差超阈值告警 |")
     A(f"| 6 | P2 | **日语削波/响度越界** | 日语 M2 触顶 {stab['ja']['m2'].get('files_peak_fail')}/{stab['ja']['m2'].get('analyzed')}"
       f"（峰值 max {stab['ja']['m2'].get('peak_max')}）、RMS {stab['ja']['m2'].get('rms_avg')} dBFS | 输出前真峰值限幅/响度归一 |")
+    A("")
+    A("### 缺陷 2 补充：卡死任务二次核查（跨小时复查）")
+    A("")
+    A("| taskId | 来源 | 当前 taskStatus | data | errorCode | comment | 产物对象 |")
+    A("|---|---|---:|---|---|---|---|")
+    for r in (jload(Path(os.environ.get("TEMP", ".")) / "stuck_status_check.json") or []):
+        A(f"| {r['taskId']} | — | **{r['taskStatus']}**（处理中） | 空 | **0** | null | **{r['cos_head']}** |")
+    A("")
+    A("> 说明：**跨小时重新查询仍为 67**，且 `errorCode=0`、无 `comment`、产物 404 → 属**状态未收敛的孤儿任务**"
+      "（最久一个来自 0924 批，已约 9 小时），不是排队慢；调用方若按契约一直轮询会永久挂住。"
+      "详见开发包 `03_稳定性台账/卡死任务_二次核查.md`。")
     A("")
     A("## 四、必测项结论（M0~M5）")
     A("")
