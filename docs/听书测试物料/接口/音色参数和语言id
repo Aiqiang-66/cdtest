@@ -1,0 +1,75 @@
+音色参数 与 语言 ID（海阅 / 听书 TTS）
+更新时间：2026-09-23
+langid 口径：ELEVENLABS 编码（与本文件原有的 日语=9 / 韩语=14 一致）
+
+
+━━━ 一、语种 → 音色 / langid ━━━
+voice 命名规律：<语种英文名>_female
+
+【已验证】音色名在实测中真实使用过
+
+英语：English_female          langid:3
+西语：Spanish_female          langid:4
+葡语：Portuguese_female       langid:5
+法语：French_female           langid:6
+俄语：Russian_female          langid:7
+德语：German_female           langid:16
+日语：Japanese_female         langid:9
+韩语：Korean_female           langid:14
+
+【推测】langid 有依据，但音色名是按命名规律推的，尚未实拉验证
+
+意大利语：Italian_female      langid:8
+阿拉伯语：Arabic_female       langid:10
+印尼语：Indonesian_female     langid:11
+泰语：Thai_female             langid:12
+越南语：Vietnamese_female     langid:13
+菲律宾语：Filipino_female     langid:15
+印地语：Hindi_female          langid:17
+马来语：Malay_female          langid:21
+土耳其语：Turkish_female      langid:22
+波兰语：Polish_female         langid:23
+
+【未知】音色名无任何依据
+
+中文：待确认                  langid:1 或 2
+中文（海阅实测有书）：待确认    langid:19（简体）/ 20（简繁混）
+  说明：海阅书库中 langid=1 为 0 本；中文书只挂在非标准编号 19/20 下，共 4 本，仅 2 本能取到正文
+
+
+━━━ 二、默认 / 通用音色 ━━━
+
+audiobook_female_2    跨语种默认音色（f5tts / higgs 的预配置音色名）
+                      英语探活、F5 探活默认使用；不需要特定语种音色时可直接用
+
+
+━━━ 三、必须注意（易踩） ━━━
+
+1) 存在两套 lang 编码，不要混用
+   · 本文件 langid = ELEVENLABS 编码：1/2=中文，3=英语，4=西语，5=葡语，
+     6=法语，7=俄语，8=意大利语，9=日语，10=阿拉伯语，11=印尼语，12=泰语，
+     13=越南语，14=韩语，15=菲律宾语，16=德语，17=印地语，21=马来语，
+     22=土耳其语，23=波兰语
+   · 大模型接口文档口径：1/2=中文，3=英文，4-17=其他语言
+   · TTS 任务链路（taskType=74）历史实测：英语 / 德语 / 俄语均用 lang=1，
+     西语=4，葡语=5，法语=6，可正常合成
+   → 语音/发音语种主要由 voice 决定；lang 与 voice 对【文案一致性】无影响
+     （Higgs_lang对照实验_0910 四组 A/B/C/D 全部 0 缺失）；
+     但 lang 对【合成语言/发音】的影响尚未做对照验证，换语种请以音频听测为准
+
+2) voice 与引擎相关，格式不同
+   · f5tts / higgs  → 预配置音色名（如 English_female、audiobook_female_2）
+   · minimax / elevenlabs → 平台 voice_id，需向管理员获取
+
+3) langid 18 在 ELEVENLABS 映射与海阅书库中均未出现（疑似未使用）
+
+4) voice 是接口必填参数，缺失会返回 422
+
+
+━━━ 四、来源 ━━━
+· 切句接口文件内的 ELEVENLABS_LANG_MAP
+· 海阅书库实测（GetTgtCodeInfo，44,033 本）确认 2/3/4/5/6/7/8/9/10/11/12/13/
+  14/15/16/17/21/22/23 均有书；19/20 为中文书
+· Higgs_lang对照实验_0910（lang×voice 2×2 对照）
+· XR3 六语种整章测试（英语/德语/法语/西语/葡语/俄语）
+· docs\听书测试物料\语言参数（西语/葡语/法语/德语/俄语的 lang 与 voice）

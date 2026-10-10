@@ -1,0 +1,23 @@
+curl 'https://adassetserver-cn-new-test1.changdu.ltd/api/AutoCreation/Task/GetBookChapter' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Authorization: Bearer <JWT-已脱敏：请用依赖技能 scripts/get_token.py 获取>' \
+  -H 'Referer: https://sc-test.changdu.ltd/' \
+  -H 'sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"bookId":"44756322","top":1}'
+
+
+
+  curl 'https://adassetserver-cn-new-test1.changdu.ltd/api/AutoCreation/Task/GetBookChapter' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Authorization: Bearer <JWT-已脱敏：请用依赖技能 scripts/get_token.py 获取>' \
+  -H 'Referer: https://sc-test.changdu.ltd/' \
+  -H 'sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"bookId":"44756322","to":10,"from":1}'

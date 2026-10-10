@@ -64,15 +64,32 @@ $allowFiles = @(
     "$tingju/语言参数",
     "$tingju/测试用例",          # 目录：仅收 *.md
     "$tingju/测试报告",          # 目录：仅收 *.md（不收 pdf）
-    "$tingju/交接_TTS测试新人熟悉计划_一周.md"   # 交接/熟悉计划（纯文档）
+    "$tingju/交接_TTS测试新人熟悉计划_一周.md",  # 交接/熟悉计划（纯文档）
     "$tingju/项目架构文档.md"                    # 项目架构文档（纯文档）
 )
 $allowScriptListFile = 'scripts/tingju_script_allowlist.txt'   # -WithScripts 时按此白名单纳入脚本（避免把一次性脚本与含密钥脚本带进来）
 
 # 永久流程脚本自身也纳入版本管理（非听书目录，但属于本流程的一部分）
 $extraFiles = @(
+    # 永久流程脚本自身
     'scripts/sync_tingju_skill_to_git.ps1',
-    'scripts/tingju_script_allowlist.txt'
+    'scripts/tingju_script_allowlist.txt',
+    # 执行与工程规范技能（skills\ 下的正式技能包）
+    'skills/audiobook-tts-execution-standards/SKILL.md',
+    # 听书测试依赖：接口文档 6 份（含已脱敏的调用示例库）
+    'docs/听书测试物料/接口/后端接口',
+    'docs/听书测试物料/接口/切句接口',
+    'docs/听书测试物料/接口/大模型接口文档.md',
+    'docs/听书测试物料/接口/获取海阅接口文档',
+    'docs/听书测试物料/接口/音色参数和语言id',
+    'docs/听书测试物料/接口/test_redis_send-异步py.py',
+    # 听书测试依赖：拉语料技能包（6 文件）
+    'skills/haiyue-book-text-fetch/SKILL.md',
+    'skills/haiyue-book-text-fetch/agents/openai.yaml',
+    'skills/haiyue-book-text-fetch/references/interface-reference.md',
+    'skills/haiyue-book-text-fetch/scripts/get_token.py',
+    'skills/haiyue-book-text-fetch/scripts/fetch_book_text.py',
+    'skills/haiyue-book-text-fetch/.secrets.example.json'
 )
 
 # ── 守卫参数 ──────────────────────────────────────────────────────

@@ -1,0 +1,19 @@
+curl --location --request POST 'http://cos-upload-none-new-dev.changdu.ltd/api/audio/post-process' \
+--header 'User-Agent: Apifox/1.0.0 (https://apifox.com)' \
+--header 'Content-Type: application/json' \
+--header 'Accept: */*' \
+--header 'Host: cos-upload-none-new-dev.changdu.ltd' \
+--header 'Connection: keep-alive' \
+--data-raw '{
+    "audioPath": "/data/audiobook/645782.mp3",
+    "metadataPath": "/data/audiobook/645782.json",
+    "cosKey": "site-322(new)/0/65282/645782.mp3",
+    "callbackUrl": "site-322(new)/0/65282/178508161338847430005.mp3",
+    "taskId": 645782,
+    "audioLength": 1067613
+}'
+
+
+测试域名：cos-upload-none-new-dev.changdu.ltd
+stage域名：aicos-upload-stage.changdu.vip
+正式域名：aicos-upload.changdu.vip

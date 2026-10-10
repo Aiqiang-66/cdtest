@@ -1,0 +1,48 @@
+SENTENCE_SPLITTER_URL = "https://cuda-merge-server-audiobook.changdu.vip/sentence_spliter"
+
+
+resp = requests.post(
+            SENTENCE_SPLITTER_URL,
+            json={"text": body, "language_code": "en"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        sentences: list = resp.json()["sentences"]
+
+
+语言类型：
+ELEVENLABS_LANG_MAP = {
+    1: "zh", 2: "zh", 3: "en", 4: "es", 5: "pt", 6: "fr", 7: "ru",
+    8: "it", 9: "ja", 10: "ar", 11: "id", 12: "th", 13: "vi",
+    14: "ko", 15: "fil", 16: "de", 17: "hi", 22: "tr",
+}
+
+from pysbd import Segmenter
+ 
+segmenter = Segmenter(language="en", clean=False)
+text = "你好，世界！这是个测试。希望你喜欢。"
+sentences = segmenter.segment(text)
+print(sentences)#这个是示例demo
+
+
+from pyset import TokenBoundaryDetector
+
+detector = TokenBoundaryDetector(language="en")
+
+# Simple usage
+text = "Hello world. How are you? I'm doing great!"
+sentences = detector.split(text)
+
+print(sentences)
+# ['Hello world.', 'How are you?', "I'm doing great!"]
+
+
+环境需要python3.14及以上, 这个需要重点评估一下质量，速度是很快
+pip install pysentence-extraction-toolkit
+
+
+1、api请求切句 
+2、换行符切句 
+3、pysdb切句 不支持葡语
+4、pyset切句 目前只支持英语
+耗时、语义完整性（分句质量）

@@ -1,0 +1,4 @@
+interface:
+  display_name: "海阅书籍正文拉取"
+  short_description: "按语种从海阅自动化接口拉取书籍章节正文，落盘为多语种测试语料"
+  default_prompt: "Use haiyue-book-text-fetch to pull a book's chapter text from the AdAssetServer interface and save it as a corpus file."
